@@ -1,0 +1,96 @@
+10/11/2023 - r2.0.0.1 had been released to Public with following collection of scripts:
+
+trace11xx.sh    traceAAM.sh      traceASM.sh     traceBRIA.sh   traceD200.sh   traceMCU.sh     traceSBC.sh
+trace1XCES.sh   traceAAWG.sh     traceATTD.sh    traceCBA.sh    traceEP.sh     traceMEGA.sh    traceSES.sh
+trace96x1.sh    traceACME.sh     traceB169.sh    traceCC.sh     traceIPO.sh    traceMX.sh      traceSIPP.sh
+traceB179.sh    traceCIE.sh      traceIVIEW.sh   tracePCAP.sh   traceVDIC.sh   traceAAC.sh	   traceADA.sh
+traceB199.sh    traceCM.sh       traceIXM.sh     tracePhoner.sh traceWP.sh	   traceAAFD.sh    traceAMS.sh
+traceBREEZE.sh  traceCU360.sh    traceK1xx.sh    traceRC.sh     traceXT.sh
+
+New features:
+	added support for compressed files
+	added more types of input such as folders, phonereports, debugreports, LogReports and Logarchives	
+	added -A option to explore all logfiles in the provided input let it be a folder or a LogReport
+	added -C option to concatenate all files in chronological order into a single .asm file
+	This feature has been triggered by the fact that traceSM is not displaying multiple files in chronological order
+	traceVDIC.sh and trace96x1.sh now supporting 1x Agent's EndpointLog.txt (special SIPMESSAGE format: "End of inbound/outbound SIP message")
+	added Konftel 300IP/300IPx into traceB179.sh (introduced vsyslog=30 when there is no 'konfsip' string)
+	added Konftel 800 into traceB199.sh (introduced vsyslog=30 in case there was no 'konfsip' string found)
+	created traceD200.sh for D200 DECT gateways    
+	created traceACME.sh for ACME SBC
+	traceAAC.sh now supports logs from AS5300 server
+
+Enhancements:
+	alternative distribution link introduced: http://toolsa.sd.avaya.com/~lgyalog/SIPlog2traceSM.tgz
+	some linux environment includes 'base64' program which does not accept "--version" option
+		1-liner added to workaround this with existing '-b' option
+	improved destination file name assignment
+	detect if input is a .asm file created by this tool	
+	allow new input type such as folder or compressed files (.tgz/.tar/.gz/.zip)
+	failsafe sipmsg_header() against missing sipdate, siptime or IP
+	safeguard missing 'tshark'
+	allow ignoring INFO SIP messages
+	accept compressed logfiles (eg sipmcDebug.txt.gz)
+	longest SIP msg statistics now shows SIP REQUEST strings
+	on statistics report screen, show timestamp of first/last SIP message
+	added exception management to the 'date' command
+	present 'Server:' info in addition to 'User-Agent:' on statistics screen
+	display averege SIP msg conversion rate as well as total time spent on statistics screen
+
+- traceAMS.sh    
+    BugFix: missing '[' in start_sipmsg()]    
+    BugFix: date/time conversion was omitted for vsyslog=20 scenario
+    BugFix: direction was not identified for vsyslog=19 scenario
+    Enhancement: improved conversion logic with re-written semaphore states
+    Enhancement: accept compressed logfiles (eg. sipmcDebug.txt.gz)
+- traceCM.sh
+    Enhancement: let raw MST get converted into all three supported output formats 
+	Enhancement: accept CM logfile, extrace MST similar to 'logmst' script
+    BugFix: replace 'cut' with 'awk' to properly grab timestamp, ipaddr and ip port
+- trace96x1.sh
+    BugFix: replace 'cut' with 'awk' in get_sip_datatime() for tftpd64 (8) syslog
+	Enhancement: display LOGGING related configuration from phone report if no SIP messages were found
+    Enhancement: detect reversed syslog (eg VisualSyslog or Interactive Syslog) and convert it using 'tac' command
+- traceB179.sh:
+    BugFix: replaced '} with }' for couple of awk commands
+	BugFix: strip off whitespace from end of $sipword
+- traceB199.sh:
+    BugFix: corrected siplength, siptime and IP address calculation
+    BugFix: sipstream was undefined in sip_direction
+- tracePCAP.sh
+    Enhancement: provide tips if found syslog, based on User-Agent strings, which other traceXXX.sh script could be utilized with this input file
+    Enhancement: a packet can include multiple SIP messages (eg. Continuation)
+- traceVDI.sh:
+    Enhancement: display the Workplace VDI firmware version string on the statistics screen
+    Enhancement: adding to message number indicator if SIP msg was split
+- traceAAfD.sh:
+    Enhancement: implement -A and -C options (convert All files found in logreport and Concatenate outputfiles)
+    Enhancement process AvayaAgentLogs.zip including LogsFromUserDir.zip and LogsFromDefaultDir.zip	
+    BugFix: correct SIPmessage filter from DBH \[.*\] SIGNAL" into "DBH \[.*SIGNAL"
+- traceAAC.sh
+    Enhancement: modified script to convert AS5300 SIP logfiles (vsyslog=7)
+    BugFix: improve detection of SIP msg ending + get rid of bogus ^SIP/2.0 lines at end of messages
+- traceIPO.sh:
+    BugFix: universal time was not extracted properly from message header
+    Enhancement: assigned last 3 digits of 3309492437mS to msec variable in timestamp, instead of currently using "000"
+- traceCBA.sh:
+	Bugfix: two types of timestamps existed
+- traceEP.sh:
+	Bugfix: SIP message filter correction: |SIP|.*|FileName=sip/
+- traceMEGA.sh:
+	BugFix: complete_sipmsg exclude >>>>>>>
+	Enhancement: vsyslog=43 TFS logtype
+- traceXT.sh/traceCU360.sh:
+	Bugfix: calculate $rec correctly, ignore sent/recv H323 lines
+- traceMCU.sh:
+	Bugfix: sipmsec extracted via 'cut' command results in garbage, replaced 'cut' with 'awk'
+
+11/09/2022 - r1.0.2 had been released to Public with following collection of scripts:
+
+trace11xx.sh   traceADA.sh   traceBREEZE.sh  traceEP.sh     traceMX.sh      traceVDIC.sh
+trace1XCES.sh  traceAMS.sh   traceBRIA.sh    traceIPO.sh    tracePCAP.sh    traceWP.sh
+trace96x1.sh   traceASM.sh   traceCBA.sh     traceIVIEW.sh  tracePhoner.sh  traceXT.sh
+traceAAC.sh    traceATTD.sh  traceCC.sh      traceIXM.sh    traceRC.sh
+traceAAFD.sh   traceB169.sh  traceCIE.sh     traceK1xx.sh   traceSBC.sh
+traceAAM.sh    traceB179.sh  traceCM.sh      traceMCU.sh    traceSES.sh
+traceAAWG.sh   traceB199.sh  traceCU360.sh   traceMEGA.sh   traceSIPP.sh
