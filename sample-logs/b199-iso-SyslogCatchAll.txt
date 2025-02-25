@@ -1,0 +1,571 @@
+2022-02-07 19:01:40	Daemon.Info	135.105.129.203	Feb  7 19:01:40 phoneapp[1088]: pjsip: 19:01:40.586    pjsua_aud.c !Conf connect: 6 --> 2
+2022-02-07 19:01:40	Daemon.Info	135.105.129.203	Feb  7 19:01:40 phoneapp[1088]: pjsip: 19:01:40.598   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:40	Daemon.Info	135.105.129.203	Feb  7 19:01:40 phoneapp[1088]: pjsip: 19:01:40.709   wav_player.c !File port /usr/share/sounds/alsa/KonftelKeyTone.wav EOF
+2022-02-07 19:01:40	Daemon.Info	135.105.129.203	Feb  7 19:01:40 phoneapp[1088]: pjsip: 19:01:40.710    pjsua_aud.c  Conf disconnect: 6 -x- 2
+2022-02-07 19:01:40	Daemon.Info	135.105.129.203	Feb  7 19:01:40 phoneapp[1088]: pjsip: 19:01:40.710   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) stop transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:41	Daemon.Info	135.105.129.203	Feb  7 19:01:41 phoneapp[1088]: pjsip: 19:01:41.821    pjsua_aud.c !Conf connect: 6 --> 2
+2022-02-07 19:01:41	Daemon.Info	135.105.129.203	Feb  7 19:01:41 phoneapp[1088]: pjsip: 19:01:41.824   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:41	Daemon.Info	135.105.129.203	Feb  7 19:01:41 ktconfig[856]: SocketServer: Changes were not found, no need to update config
+2022-02-07 19:01:41	Daemon.Info	135.105.129.203	Feb  7 19:01:41 ktconfig[856]: Settings: Unexpected element:  1 ; err= "Premature end of document."
+2022-02-07 19:01:41	Daemon.Info	135.105.129.203	Feb  7 19:01:41 ktconfig[856]: Settings: Failed to convert xml stream
+2022-02-07 19:01:41	Daemon.Info	135.105.129.203	Feb  7 19:01:41 phoneapp[1088]: pjsip: 19:01:41.929   wav_player.c !File port /usr/share/sounds/alsa/KonftelKeyTone.wav EOF
+2022-02-07 19:01:41	Daemon.Info	135.105.129.203	Feb  7 19:01:41 phoneapp[1088]: pjsip: 19:01:41.930    pjsua_aud.c  Conf disconnect: 6 -x- 2
+2022-02-07 19:01:41	Daemon.Info	135.105.129.203	Feb  7 19:01:41 phoneapp[1088]: pjsip: 19:01:41.930   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) stop transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:43	Daemon.Info	135.105.129.203	Feb  7 19:01:43 phoneapp[1088]: pjsip: 19:01:43.359    pjsua_aud.c !Conf connect: 6 --> 2
+2022-02-07 19:01:43	Daemon.Info	135.105.129.203	Feb  7 19:01:43 phoneapp[1088]: pjsip: 19:01:43.361   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:43	Daemon.Info	135.105.129.203	Feb  7 19:01:43 phoneapp[1088]: pjsip: 19:01:43.469   wav_player.c !File port /usr/share/sounds/alsa/KonftelKeyTone.wav EOF
+2022-02-07 19:01:43	Daemon.Info	135.105.129.203	Feb  7 19:01:43 phoneapp[1088]: pjsip: 19:01:43.470    pjsua_aud.c  Conf disconnect: 6 -x- 2
+2022-02-07 19:01:43	Daemon.Info	135.105.129.203	Feb  7 19:01:43 phoneapp[1088]: pjsip: 19:01:43.470   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) stop transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:45	Daemon.Info	135.105.129.203	Feb  7 19:01:45 phoneapp[1088]: pjsip: 19:01:45.134    pjsua_aud.c !Conf connect: 6 --> 2
+2022-02-07 19:01:45	Daemon.Info	135.105.129.203	Feb  7 19:01:45 phoneapp[1088]: pjsip: 19:01:45.136   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:45	Daemon.Info	135.105.129.203	Feb  7 19:01:45 phoneapp[1088]: pjsip: 19:01:45.249   wav_player.c !File port /usr/share/sounds/alsa/KonftelKeyTone.wav EOF
+2022-02-07 19:01:45	Daemon.Info	135.105.129.203	Feb  7 19:01:45 phoneapp[1088]: pjsip: 19:01:45.250    pjsua_aud.c  Conf disconnect: 6 -x- 2
+2022-02-07 19:01:45	Daemon.Info	135.105.129.203	Feb  7 19:01:45 phoneapp[1088]: pjsip: 19:01:45.250   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) stop transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:45	Daemon.Info	135.105.129.203	Feb  7 19:01:45 phoneapp[1088]: pjsip: 19:01:45.362    pjsua_aud.c !Conf connect: 6 --> 2
+2022-02-07 19:01:45	Daemon.Info	135.105.129.203	Feb  7 19:01:45 phoneapp[1088]: pjsip: 19:01:45.362   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:45	Daemon.Info	135.105.129.203	Feb  7 19:01:45 phoneapp[1088]: pjsip: 19:01:45.469   wav_player.c !File port /usr/share/sounds/alsa/KonftelKeyTone.wav EOF
+2022-02-07 19:01:45	Daemon.Info	135.105.129.203	Feb  7 19:01:45 phoneapp[1088]: pjsip: 19:01:45.470    pjsua_aud.c  Conf disconnect: 6 -x- 2
+2022-02-07 19:01:45	Daemon.Info	135.105.129.203	Feb  7 19:01:45 phoneapp[1088]: pjsip: 19:01:45.470   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) stop transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:45	Daemon.Info	135.105.129.203	Feb  7 19:01:45 phoneapp[1088]: pjsip: 19:01:45.786    pjsua_aud.c !Conf connect: 6 --> 2
+2022-02-07 19:01:45	Daemon.Info	135.105.129.203	Feb  7 19:01:45 phoneapp[1088]: pjsip: 19:01:45.794   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:45	Daemon.Info	135.105.129.203	Feb  7 19:01:45 phoneapp[1088]: pjsip: 19:01:45.909   wav_player.c !File port /usr/share/sounds/alsa/KonftelKeyTone.wav EOF
+2022-02-07 19:01:45	Daemon.Info	135.105.129.203	Feb  7 19:01:45 phoneapp[1088]: pjsip: 19:01:45.910    pjsua_aud.c  Conf disconnect: 6 -x- 2
+2022-02-07 19:01:45	Daemon.Info	135.105.129.203	Feb  7 19:01:45 phoneapp[1088]: pjsip: 19:01:45.910   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) stop transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:45	Daemon.Info	135.105.129.203	Feb  7 19:01:45 phoneapp[1088]: pjsip: 19:01:45.957    pjsua_aud.c !Conf connect: 6 --> 2
+2022-02-07 19:01:45	Daemon.Info	135.105.129.203	Feb  7 19:01:45 phoneapp[1088]: pjsip: 19:01:45.957   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.069   wav_player.c !File port /usr/share/sounds/alsa/KonftelKeyTone.wav EOF
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.070    pjsua_aud.c  Conf disconnect: 6 -x- 2
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.070   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) stop transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.316    pjsua_aud.c !Conf connect: 6 --> 2
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.319   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.398   pjsua_call.c  Making call with acc #0 to sip:1200@135.64.253.72;transport=tls
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.401   dlg0x53caecc  .UAC dialog created
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.403   dlg0x53caecc  ..Session count inc to 2 by mod-pjsua
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.405  pjsua_media.c  .Call 0: initializing media..
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.406  pjsua_media.c  ..RTP socket reachable at 135.105.129.203:4008
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.409  pjsua_media.c  ..RTCP socket reachable at 135.105.129.203:4009
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.413  srtp0x53f1d18  ..SRTP keying SDES created
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.413  pjsua_media.c  ..Media index 0 selected for audio call 0
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.413  pjsua_media.c  ..Call 0: media transport initialization complete: Success
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.413   dlg0x53caecc  ..Session count dec to 2 by mod-pjsua
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.413         ilbc.c  .ilbc_default_attr, rtp packet type=104
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.414   dlg0x53caecc  .Module mod-invite added as dialog usage, data=0x5256d64
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.416   dlg0x53caecc  ..Session count inc to 4 by mod-invite
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.416   dlg0x53caecc  .Module mod-100rel added as dialog usage, data=0x13355d8
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.416   dlg0x53caecc  .100rel module attached
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.416   inv0x53caecc  .UAC invite session created for dialog dlg0x53caecc
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.417       endpoint  .Request msg INVITE/cseq=15119 (tdta0x53f345c) created.
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.417   inv0x53caecc  ..Sending Request msg INVITE/cseq=15119 (tdta0x53f345c)
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.417   dlg0x53caecc  ...Sending Request msg INVITE/cseq=15119 (tdta0x53f345c)
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.417   tsx0x53f540c  ....Transaction created for Request msg INVITE/cseq=15118 (tdta0x53f345c)
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.417   tsx0x53f540c  ...Sending Request msg INVITE/cseq=15118 (tdta0x53f345c) in state Null
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.418  sip_resolve.c  ....Target '135.64.253.72:0' type=TLS resolved to '135.64.253.72:5061' type=TLS (TLS transport)
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.418   pjsua_core.c  ....TX 1350 bytes Request msg INVITE/cseq=15118 (tdta0x53f345c) to TLS 135.64.253.72:5061:
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: INVITE sip:1200@135.64.253.72;transport=tls SIP/2.0
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: Via: SIP/2.0/TLS 135.105.129.203:43447;rport;branch=z9hG4bKPj94b045dc-acd9-4d0f-9229-ecbb6d72dfb5;alias
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: Max-Forwards: 70
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: From: sip:1009@135.64.253.72;tag=93d6d677-4f17-482e-9cd7-663ea270d8f6
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: To: sip:1200@135.64.253.72
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: Contact: <sip:1009@135.105.129.203:43447;transport=TLS;ob>;+av.mac-address=c81feaa88dde
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: Call-ID: 86a3fdd6-1341-4a06-9026-e1afb08b9fc7
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: CSeq: 15118 INVITE
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: Route: <sip:135.64.253.72;transport=tls;lr>
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: Supported: replaces, 100rel, norefersub
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: User-Agent: Avaya B199 1.0.6.0.2
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: Content-Type: application/sdp
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: Content-Length:   645
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]:
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: v=0
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: o=- 3853245706 3853245706 IN IP4 135.105.129.203
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: s=pjmedia
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: b=AS:84
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: t=0 0
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: a=X-nat:0
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: m=audio 4008 RTP/SAVP 9 8 0 18 104 125 101
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: c=IN IP4 135.105.129.203
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: b=TIAS:64000
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: a=rtcp:4009 IN IP4 135.105.129.203
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: a=sendrecv
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: a=rtpmap:9 G722/8000
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: a=rtpmap:8 PCMA/8000
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: a=rtpmap:0 PCMU/8000
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: a=rtpmap:18 G729/8000
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: a=rtpmap:104 iLBC/8000
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: a=fmtp:104 mode=20
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: a=rtpmap:125 opus/48000/2
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: a=fmtp:125 maxplaybackrate=16000;sprop-maxcapturerate=16000;maxaveragebitrate=20000;useinbandfec=1
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: a=rtpmap:101 telephone-event/8000
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: a=fmtp:101 0-15
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: a=crypto:1 AES_256_CM_HMAC_SHA1_80 inline:YNucbkzF5Hw8iS9C8bwrWlKTfH7+pbs8HhvoCJ3s/cA4zQzPB6+c/W55OCYNVw==
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: --end msg--
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.422   tsx0x53f540c  ....State changed from Null to Calling, event=TX_MSG
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.424   dlg0x53caecc  .....Transaction tsx0x53f540c state changed to Calling
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.429   wav_player.c !File port /usr/share/sounds/alsa/KonftelKeyTone.wav EOF
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.430    pjsua_aud.c  Conf disconnect: 6 -x- 2
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.430   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) stop transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.742 sip_endpoint.c !Processing incoming message: Response msg 100/INVITE/cseq=15118 (rdata0xd50060)
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.743   pjsua_core.c  .RX 322 bytes Response msg 100/INVITE/cseq=15118 (rdata0xd50060) from TLS 135.64.253.72:5061:
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: SIP/2.0 100 Trying
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: Call-ID: 86a3fdd6-1341-4a06-9026-e1afb08b9fc7
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: CSeq: 15118 INVITE
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: From: <sip:1009@135.64.253.72>;tag=93d6d677-4f17-482e-9cd7-663ea270d8f6
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: To: <sip:1200@135.64.253.72>
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: Via: SIP/2.0/TLS 135.105.129.203:43447;rport=43447;branch=z9hG4bKPj94b045dc-acd9-4d0f-9229-ecbb6d72dfb5;alias
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: Content-Length: 0
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]:
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: --end msg--
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.743   tsx0x53f540c  .Incoming Response msg 100/INVITE/cseq=15118 (rdata0xd50060) in state Calling
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.743   tsx0x53f540c  ..State changed from Calling to Proceeding, event=RX_MSG
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.743   dlg0x53caecc  ...Received Response msg 100/INVITE/cseq=15118 (rdata0xd50060)
+2022-02-07 19:01:46	Daemon.Info	135.105.129.203	Feb  7 19:01:46 phoneapp[1088]: pjsip: 19:01:46.743   dlg0x53caecc  ...Transaction tsx0x53f540c state changed to Proceeding
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: pjsip: 19:01:47.059 sip_endpoint.c  Processing incoming message: Response msg 407/INVITE/cseq=15118 (rdata0xd50060)
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: pjsip: 19:01:47.061   pjsua_core.c  .RX 655 bytes Response msg 407/INVITE/cseq=15118 (rdata0xd50060) from TLS 135.64.253.72:5061:
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: SIP/2.0 407 Proxy Authentication Required
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: Proxy-Authenticate: Digest realm="vsip.com",qop="auth",opaque="1234567890abcedef",nonce="17ed5594d5555141dbaeb00825b55e7acef39adb145",algorithm=MD5,stale=false
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: Call-ID: 86a3fdd6-1341-4a06-9026-e1afb08b9fc7
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: CSeq: 15118 INVITE
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: From: <sip:1009@135.64.253.72>;tag=93d6d677-4f17-482e-9cd7-663ea270d8f6
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: To: <sip:1200@135.64.253.72>;tag=848422366106611_local.1633940736155_7439256_7439951
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: Via: SIP/2.0/TLS 135.105.129.203:43447;rport=43447;branch=z9hG4bKPj94b045dc-acd9-4d0f-9229-ecbb6d72dfb5;alias
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: Av-Global-Session-ID: 03dde140-8840-11ec-b726-005056b53f5d
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: Server: AVAYA-SM-7.0.1.2.701230
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: Content-Length: 0
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]:
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: --end msg--
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: pjsip: 19:01:47.063   tsx0x53f540c  .Incoming Response msg 407/INVITE/cseq=15118 (rdata0xd50060) in state Proceeding
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: pjsip: 19:01:47.063       endpoint  ..Request msg ACK/cseq=15118 (tdta0x53f8afc) created.
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: pjsip: 19:01:47.064   pjsua_core.c  ..TX 459 bytes Request msg ACK/cseq=15118 (tdta0x53f8afc) to TLS 135.64.253.72:5061:
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: ACK sip:1200@135.64.253.72;transport=tls SIP/2.0
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: Via: SIP/2.0/TLS 135.105.129.203:43447;rport;branch=z9hG4bKPj94b045dc-acd9-4d0f-9229-ecbb6d72dfb5;alias
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: Max-Forwards: 70
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: From: sip:1009@135.64.253.72;tag=93d6d677-4f17-482e-9cd7-663ea270d8f6
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: To: sip:1200@135.64.253.72;tag=848422366106611_local.1633940736155_7439256_7439951
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: Call-ID: 86a3fdd6-1341-4a06-9026-e1afb08b9fc7
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: CSeq: 15118 ACK
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: Route: <sip:135.64.253.72;transport=tls;lr>
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: Content-Length:  0
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]:
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: --end msg--
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: pjsip: 19:01:47.064   tsx0x53f540c  ..State changed from Proceeding to Completed, event=RX_MSG
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: pjsip: 19:01:47.064   dlg0x53caecc  ...Received Response msg 407/INVITE/cseq=15118 (rdata0xd50060)
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: pjsip: 19:01:47.064   dlg0x53caecc  ...Transaction tsx0x53f540c state changed to Completed
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: pjsip: 19:01:47.065   inv0x53caecc  .....Sending Request msg INVITE/cseq=15118 (tdta0x53f345c)
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: pjsip: 19:01:47.065   dlg0x53caecc  ......Sending Request msg INVITE/cseq=15118 (tdta0x53f345c)
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: pjsip: 19:01:47.065   tsx0x53f9b04  .......Transaction created for Request msg INVITE/cseq=15119 (tdta0x53f345c)
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: pjsip: 19:01:47.065   tsx0x53f9b04  ......Sending Request msg INVITE/cseq=15119 (tdta0x53f345c) in state Null
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: pjsip: 19:01:47.065       endpoint  .......Request msg INVITE/cseq=15119 (tdta0x53f345c): skipping target resolution because address is already set
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: pjsip: 19:01:47.066   pjsua_core.c  .......TX 1664 bytes Request msg INVITE/cseq=15119 (tdta0x53f345c) to TLS 135.64.253.72:5061:
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: INVITE sip:1200@135.64.253.72;transport=tls SIP/2.0
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: Via: SIP/2.0/TLS 135.105.129.203:43447;rport;branch=z9hG4bKPjb055c3a0-af69-45ab-a7af-9f2c51ccb02d;alias
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: Max-Forwards: 70
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: From: sip:1009@135.64.253.72;tag=93d6d677-4f17-482e-9cd7-663ea270d8f6
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: To: sip:1200@135.64.253.72
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: Contact: <sip:1009@135.105.129.203:43447;transport=TLS;ob>;+av.mac-address=c81feaa88dde
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: Call-ID: 86a3fdd6-1341-4a06-9026-e1afb08b9fc7
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: CSeq: 15119 INVITE
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: Route: <sip:135.64.253.72;transport=tls;lr>
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: Supported: replaces, 100rel, norefersub
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: User-Agent: Avaya B199 1.0.6.0.2
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: Proxy-Authorization: Digest username="1009", realm="vsip.com", nonce="17ed5594d5555141dbaeb00825b55e7acef39adb145", uri="sip:1200@135.64.253.72;transport=tls", response="364f0cd3416d7393069aebf8523112af", algorithm=MD5,
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: Content-Type: application/sdp
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: Content-Length:   645
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]:
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: v=0
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: o=- 3853245706 3853245706 IN IP4 135.105.129.203
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: s=pjmedia
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: b=AS:84
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: t=0 0
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: a=X-nat:0
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: m=audio 4008 RTP/SAVP 9 8 0 18 104 125 101
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: c=IN IP4 135.105.129.203
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: b=TIAS:64000
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: a=rtcp:4009 IN IP4 135.105.129.203
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: a=sendrecv
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: a=rtpmap:9 G722/8000
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: a=rtpmap:8 PCMA/8000
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: a=rtpmap:0 PCMU/8000
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: a=rtpmap:18 G729/8000
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: a=rtpmap:104 iLBC/8000
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: a=fmtp:104 mode=20
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: a=rtpmap:125 opus/48000/2
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: a=fmtp:125 maxplaybackrate=16000;sprop-maxcapturerate=16000;maxaveragebitrate=20000;useinbandfec=1
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: a=rtpmap:101 telephone-event/8000
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: a=fmtp:101 0-15
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: a=crypto:1 AES_256_CM_HMAC_SHA1_80 inline:YNucbkzF5Hw8iS9C8bwrWlKTfH7+pbs8HhvoCJ3s/cA4zQzPB6+c/W55OCYNVw==
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: --end msg--
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: pjsip: 19:01:47.074   tsx0x53f9b04  .......State changed from Null to Calling, event=TX_MSG
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: pjsip: 19:01:47.075   dlg0x53caecc  ........Transaction tsx0x53f9b04 state changed to Calling
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: pjsip: 19:01:47.075   tsx0x53f540c  Timeout timer event
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: pjsip: 19:01:47.075   tsx0x53f540c  .State changed from Completed to Terminated, event=TIMER
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: pjsip: 19:01:47.075   dlg0x53caecc  ..Transaction tsx0x53f540c state changed to Terminated
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: pjsip: 19:01:47.077   tsx0x53f540c  Timeout timer event
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: pjsip: 19:01:47.078   tsx0x53f540c  .State changed from Terminated to Destroyed, event=TIMER
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: pjsip: 19:01:47.078  tdta0x53f8afc  ..Destroying txdata Request msg ACK/cseq=15118 (tdta0x53f8afc)
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: pjsip: 19:01:47.078   tsx0x53f540c  Transaction destroyed!
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: pjsip: 19:01:47.703 sip_endpoint.c  Processing incoming message: Response msg 100/INVITE/cseq=15119 (rdata0xd50060)
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: pjsip: 19:01:47.705   pjsua_core.c  .RX 322 bytes Response msg 100/INVITE/cseq=15119 (rdata0xd50060) from TLS 135.64.253.72:5061:
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: SIP/2.0 100 Trying
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: Call-ID: 86a3fdd6-1341-4a06-9026-e1afb08b9fc7
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: CSeq: 15119 INVITE
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: From: <sip:1009@135.64.253.72>;tag=93d6d677-4f17-482e-9cd7-663ea270d8f6
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: To: <sip:1200@135.64.253.72>
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: Via: SIP/2.0/TLS 135.105.129.203:43447;rport=43447;branch=z9hG4bKPjb055c3a0-af69-45ab-a7af-9f2c51ccb02d;alias
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: Content-Length: 0
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]:
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: --end msg--
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: pjsip: 19:01:47.706   tsx0x53f9b04  .Incoming Response msg 100/INVITE/cseq=15119 (rdata0xd50060) in state Calling
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: pjsip: 19:01:47.706   tsx0x53f9b04  ..State changed from Calling to Proceeding, event=RX_MSG
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: pjsip: 19:01:47.706   dlg0x53caecc  ...Received Response msg 100/INVITE/cseq=15119 (rdata0xd50060)
+2022-02-07 19:01:47	Daemon.Info	135.105.129.203	Feb  7 19:01:47 phoneapp[1088]: pjsip: 19:01:47.706   dlg0x53caecc  ...Transaction tsx0x53f9b04 state changed to Proceeding
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: pjsip: 19:01:48.057 sip_endpoint.c  Processing incoming message: Response msg 488/INVITE/cseq=15119 (rdata0xd50060)
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: pjsip: 19:01:48.058   pjsua_core.c  .RX 674 bytes Response msg 488/INVITE/cseq=15119 (rdata0xd50060) from TLS 135.64.253.72:5061:
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: SIP/2.0 488 Not Acceptable Here (No Matching Codec or Encryption Algo)
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: Av-Secure-Indication: unsecured
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: P-Location: SM;origlocname="Budapest";origmedialocname="Budapest";orighomelocname="Budapest";smaccounting="true"
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: Server: Avaya CM/R017x.00.0.441.0 AVAYA-SM-7.0.1.2.701230
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: Av-Global-Session-ID: 04703630-8840-11ec-b726-005056b53f5d
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: To: <sip:1200@135.64.253.72>;tag=4716276884041ec93e05056b5a71b
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: From: <sip:1009@135.64.253.72>;tag=93d6d677-4f17-482e-9cd7-663ea270d8f6
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: Call-ID: 86a3fdd6-1341-4a06-9026-e1afb08b9fc7
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: CSeq: 15119 INVITE
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: Via: SIP/2.0/TLS 135.105.129.203:43447;rport=43447;branch=z9hG4bKPjb055c3a0-af69-45ab-a7af-9f2c51ccb02d;alias
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: Content-Length: 0
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]:
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: --end msg--
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: pjsip: 19:01:48.058   tsx0x53f9b04  .Incoming Response msg 488/INVITE/cseq=15119 (rdata0xd50060) in state Proceeding
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: pjsip: 19:01:48.058       endpoint  ..Request msg ACK/cseq=15119 (tdta0x53f8afc) created.
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: pjsip: 19:01:48.058   pjsua_core.c  ..TX 437 bytes Request msg ACK/cseq=15119 (tdta0x53f8afc) to TLS 135.64.253.72:5061:
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: ACK sip:1200@135.64.253.72;transport=tls SIP/2.0
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: Via: SIP/2.0/TLS 135.105.129.203:43447;rport;branch=z9hG4bKPjb055c3a0-af69-45ab-a7af-9f2c51ccb02d;alias
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: Max-Forwards: 70
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: From: sip:1009@135.64.253.72;tag=93d6d677-4f17-482e-9cd7-663ea270d8f6
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: To: sip:1200@135.64.253.72;tag=4716276884041ec93e05056b5a71b
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: Call-ID: 86a3fdd6-1341-4a06-9026-e1afb08b9fc7
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: CSeq: 15119 ACK
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: Route: <sip:135.64.253.72;transport=tls;lr>
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: Content-Length:  0
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]:
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: --end msg--
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: pjsip: 19:01:48.059   tsx0x53f9b04  ..State changed from Proceeding to Completed, event=RX_MSG
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: pjsip: 19:01:48.059   dlg0x53caecc  ...Received Response msg 488/INVITE/cseq=15119 (rdata0xd50060)
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: pjsip: 19:01:48.059   dlg0x53caecc  ...Transaction tsx0x53f9b04 state changed to Completed
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: SIPCall: onCallState  PJSIP_INV_STATE_DISCONNECTED callId: 0
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: CallServiceSIP: onKCallStateChanged lineID= 5 ,Disconnect Reason= "Some aspect of the session description or the Request-URI is not acceptable, or Codec issue" ,Notify user  true
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: CallServiceSIP: deleteCall call  SIPCall(0x1300ff8)  id =  0
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: CallServiceSIP: deleteCall destroyedCalls array:
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: CallServiceSIP: [ 0 ]  SIPCall(0x5390ef8)  id =  0
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: CallServiceSIP: [ 1 ]  SIPCall(0x5244f28)  id =  1
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: CallServiceSIP: [ 2 ]  SIPCall(0x12796a8)  id =  2
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: CallServiceSIP: [ 3 ]  SIPCall(0x53ca1a0)  id =  3
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: CallServiceSIP: deleteCall destroyedCalls array after:
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: CallServiceSIP: deleteCall [ 0 ]  SIPCall(0x5244f28)  id =  1
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: CallServiceSIP: deleteCall [ 1 ]  SIPCall(0x12796a8)  id =  2
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: CallServiceSIP: deleteCall [ 2 ]  SIPCall(0x53ca1a0)  id =  3
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: CallServiceSIP: deleteCall [ 3 ]  SIPCall(0x1300ff8)  id =  0
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: pjsip: 19:01:48.073  pjsua_media.c  .....Call 0: deinitializing media..
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: pjsip: 19:01:48.073  pjsua_media.c  ......Call 0: cleaning up provisional media, prov_med_cnt=1, med_cnt=0
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: pjsip: 19:01:48.073   dlg0x53caecc  .....Session count dec to 1 by mod-invite
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: pjsip: 19:01:48.073  tdta0x53f345c  ..Destroying txdata Request msg INVITE/cseq=15119 (tdta0x53f345c)
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: pjsip: 19:01:48.073   tsx0x53f9b04  Timeout timer event
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: pjsip: 19:01:48.076   tsx0x53f9b04  .State changed from Completed to Terminated, event=TIMER
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: pjsip: 19:01:48.076   dlg0x53caecc  ..Transaction tsx0x53f9b04 state changed to Terminated
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: pjsip: 19:01:48.076   dlg0x53caecc  ...Dialog destroyed
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: pjsip: 19:01:48.079   tsx0x53f9b04  Timeout timer event
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: pjsip: 19:01:48.080   tsx0x53f9b04  .State changed from Terminated to Destroyed, event=TIMER
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: pjsip: 19:01:48.080  tdta0x53f8afc  ..Destroying txdata Request msg ACK/cseq=15119 (tdta0x53f8afc)
+2022-02-07 19:01:48	Daemon.Info	135.105.129.203	Feb  7 19:01:48 phoneapp[1088]: pjsip: 19:01:48.080   tsx0x53f9b04  Transaction destroyed!
+2022-02-07 19:01:50	Daemon.Info	135.105.129.203	Feb  7 19:01:50 phoneapp[1088]: pjsip: 19:01:50.177    pjsua_aud.c !Conf connect: 6 --> 2
+2022-02-07 19:01:50	Daemon.Info	135.105.129.203	Feb  7 19:01:50 phoneapp[1088]: pjsip: 19:01:50.180   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:50	Daemon.Info	135.105.129.203	Feb  7 19:01:50 phoneapp[1088]: pjsip: 19:01:50.289   wav_player.c !File port /usr/share/sounds/alsa/KonftelKeyTone.wav EOF
+2022-02-07 19:01:50	Daemon.Info	135.105.129.203	Feb  7 19:01:50 phoneapp[1088]: pjsip: 19:01:50.290    pjsua_aud.c  Conf disconnect: 6 -x- 2
+2022-02-07 19:01:50	Daemon.Info	135.105.129.203	Feb  7 19:01:50 phoneapp[1088]: pjsip: 19:01:50.290   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) stop transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:52	Daemon.Info	135.105.129.203	Feb  7 19:01:52 phoneapp[1088]: pjsip: 19:01:52.764    pjsua_aud.c !Conf connect: 6 --> 2
+2022-02-07 19:01:52	Daemon.Info	135.105.129.203	Feb  7 19:01:52 phoneapp[1088]: pjsip: 19:01:52.767   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:52	Daemon.Info	135.105.129.203	Feb  7 19:01:52 phoneapp[1088]: pjsip: 19:01:52.869   wav_player.c !File port /usr/share/sounds/alsa/KonftelKeyTone.wav EOF
+2022-02-07 19:01:52	Daemon.Info	135.105.129.203	Feb  7 19:01:52 phoneapp[1088]: pjsip: 19:01:52.870    pjsua_aud.c  Conf disconnect: 6 -x- 2
+2022-02-07 19:01:52	Daemon.Info	135.105.129.203	Feb  7 19:01:52 phoneapp[1088]: pjsip: 19:01:52.870   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) stop transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:53	Daemon.Info	135.105.129.203	Feb  7 19:01:53 phoneapp[1088]: pjsip: 19:01:53.877    pjsua_aud.c !Conf connect: 6 --> 2
+2022-02-07 19:01:53	Daemon.Info	135.105.129.203	Feb  7 19:01:53 phoneapp[1088]: pjsip: 19:01:53.880   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:54	Daemon.Info	135.105.129.203	Feb  7 19:01:53 phoneapp[1088]: pjsip: 19:01:53.989   wav_player.c !File port /usr/share/sounds/alsa/KonftelKeyTone.wav EOF
+2022-02-07 19:01:54	Daemon.Info	135.105.129.203	Feb  7 19:01:53 phoneapp[1088]: pjsip: 19:01:53.990    pjsua_aud.c  Conf disconnect: 6 -x- 2
+2022-02-07 19:01:54	Daemon.Info	135.105.129.203	Feb  7 19:01:54 phoneapp[1088]: pjsip: 19:01:53.990   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) stop transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:55	Daemon.Info	135.105.129.203	Feb  7 19:01:55 phoneapp[1088]: pjsip: 19:01:55.457    pjsua_aud.c !Conf connect: 6 --> 2
+2022-02-07 19:01:55	Daemon.Info	135.105.129.203	Feb  7 19:01:55 phoneapp[1088]: pjsip: 19:01:55.460   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:55	Daemon.Info	135.105.129.203	Feb  7 19:01:55 ktconfig[856]: SocketServer: Changes were not found, no need to update config
+2022-02-07 19:01:55	Daemon.Info	135.105.129.203	Feb  7 19:01:55 ktconfig[856]: Settings: Unexpected element:  1 ; err= "Premature end of document."
+2022-02-07 19:01:55	Daemon.Info	135.105.129.203	Feb  7 19:01:55 ktconfig[856]: Settings: Failed to convert xml stream
+2022-02-07 19:01:55	Daemon.Info	135.105.129.203	Feb  7 19:01:55 phoneapp[1088]: pjsip: 19:01:55.569   wav_player.c !File port /usr/share/sounds/alsa/KonftelKeyTone.wav EOF
+2022-02-07 19:01:55	Daemon.Info	135.105.129.203	Feb  7 19:01:55 phoneapp[1088]: pjsip: 19:01:55.570    pjsua_aud.c  Conf disconnect: 6 -x- 2
+2022-02-07 19:01:55	Daemon.Info	135.105.129.203	Feb  7 19:01:55 phoneapp[1088]: pjsip: 19:01:55.570   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) stop transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:56	Daemon.Info	135.105.129.203	Feb  7 19:01:56 phoneapp[1088]: pjsip: 19:01:56.782    pjsua_aud.c !Conf connect: 6 --> 2
+2022-02-07 19:01:56	Daemon.Info	135.105.129.203	Feb  7 19:01:56 phoneapp[1088]: pjsip: 19:01:56.784   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:56	Daemon.Info	135.105.129.203	Feb  7 19:01:56 phoneapp[1088]: pjsip: 19:01:56.889   wav_player.c !File port /usr/share/sounds/alsa/KonftelKeyTone.wav EOF
+2022-02-07 19:01:56	Daemon.Info	135.105.129.203	Feb  7 19:01:56 phoneapp[1088]: pjsip: 19:01:56.890    pjsua_aud.c  Conf disconnect: 6 -x- 2
+2022-02-07 19:01:56	Daemon.Info	135.105.129.203	Feb  7 19:01:56 phoneapp[1088]: pjsip: 19:01:56.890   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) stop transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:57	Daemon.Info	135.105.129.203	Feb  7 19:01:57 phoneapp[1088]: pjsip: 19:01:57.635    pjsua_aud.c !Conf connect: 6 --> 2
+2022-02-07 19:01:57	Daemon.Info	135.105.129.203	Feb  7 19:01:57 phoneapp[1088]: pjsip: 19:01:57.638   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:57	Daemon.Info	135.105.129.203	Feb  7 19:01:57 phoneapp[1088]: pjsip: 19:01:57.749   wav_player.c !File port /usr/share/sounds/alsa/KonftelKeyTone.wav EOF
+2022-02-07 19:01:57	Daemon.Info	135.105.129.203	Feb  7 19:01:57 phoneapp[1088]: pjsip: 19:01:57.750    pjsua_aud.c  Conf disconnect: 6 -x- 2
+2022-02-07 19:01:57	Daemon.Info	135.105.129.203	Feb  7 19:01:57 phoneapp[1088]: pjsip: 19:01:57.750   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) stop transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:57	Daemon.Info	135.105.129.203	Feb  7 19:01:57 phoneapp[1088]: pjsip: 19:01:57.959    pjsua_aud.c !Conf connect: 6 --> 2
+2022-02-07 19:01:57	Daemon.Info	135.105.129.203	Feb  7 19:01:57 phoneapp[1088]: pjsip: 19:01:57.962   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:58	Daemon.Info	135.105.129.203	Feb  7 19:01:58 phoneapp[1088]: pjsip: 19:01:58.069   wav_player.c !File port /usr/share/sounds/alsa/KonftelKeyTone.wav EOF
+2022-02-07 19:01:58	Daemon.Info	135.105.129.203	Feb  7 19:01:58 phoneapp[1088]: pjsip: 19:01:58.070    pjsua_aud.c  Conf disconnect: 6 -x- 2
+2022-02-07 19:01:58	Daemon.Info	135.105.129.203	Feb  7 19:01:58 phoneapp[1088]: pjsip: 19:01:58.070   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) stop transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:58	Daemon.Info	135.105.129.203	Feb  7 19:01:58 phoneapp[1088]: pjsip: 19:01:58.736    pjsua_aud.c !Conf connect: 6 --> 2
+2022-02-07 19:01:58	Daemon.Info	135.105.129.203	Feb  7 19:01:58 phoneapp[1088]: pjsip: 19:01:58.739   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:58	Daemon.Info	135.105.129.203	Feb  7 19:01:58 phoneapp[1088]: pjsip: 19:01:58.849   wav_player.c !File port /usr/share/sounds/alsa/KonftelKeyTone.wav EOF
+2022-02-07 19:01:58	Daemon.Info	135.105.129.203	Feb  7 19:01:58 phoneapp[1088]: pjsip: 19:01:58.850    pjsua_aud.c  Conf disconnect: 6 -x- 2
+2022-02-07 19:01:58	Daemon.Info	135.105.129.203	Feb  7 19:01:58 phoneapp[1088]: pjsip: 19:01:58.850   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) stop transmitting to port 2 (frost_ch_2)
+2022-02-07 19:01:59	Daemon.Info	135.105.129.203	Feb  7 19:01:59 phoneapp[1088]: pjsip: 19:01:59.899    pjsua_aud.c !Conf connect: 6 --> 2
+2022-02-07 19:01:59	Daemon.Info	135.105.129.203	Feb  7 19:01:59 phoneapp[1088]: pjsip: 19:01:59.902   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) transmitting to port 2 (frost_ch_2)
+2022-02-07 19:02:00	Daemon.Info	135.105.129.203	Feb  7 19:02:00 phoneapp[1088]: pjsip: 19:02:00.009   wav_player.c !File port /usr/share/sounds/alsa/KonftelKeyTone.wav EOF
+2022-02-07 19:02:00	Daemon.Info	135.105.129.203	Feb  7 19:02:00 phoneapp[1088]: pjsip: 19:02:00.010    pjsua_aud.c  Conf disconnect: 6 -x- 2
+2022-02-07 19:02:00	Daemon.Info	135.105.129.203	Feb  7 19:02:00 phoneapp[1088]: pjsip: 19:02:00.010   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) stop transmitting to port 2 (frost_ch_2)
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.341    pjsua_aud.c !Conf connect: 6 --> 2
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.343   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) transmitting to port 2 (frost_ch_2)
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.422   pjsua_call.c  Making call with acc #0 to sip:1201@135.64.253.72;transport=tls
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.425   dlg0x53faf3c  .UAC dialog created
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.427   dlg0x53faf3c  ..Session count inc to 2 by mod-pjsua
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.429  pjsua_media.c  .Call 1: initializing media..
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.433  pjsua_media.c  ..RTP socket reachable at 135.105.129.203:4010
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.436  pjsua_media.c  ..RTCP socket reachable at 135.105.129.203:4011
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.436  srtp0x53e0290  ..SRTP keying SDES created
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.436  pjsua_media.c  ..Media index 0 selected for audio call 1
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.439  pjsua_media.c  ..Call 1: media transport initialization complete: Success
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.439   dlg0x53faf3c  ..Session count dec to 2 by mod-pjsua
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.441         ilbc.c  .ilbc_default_attr, rtp packet type=104
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.441   dlg0x53faf3c  .Module mod-invite added as dialog usage, data=0x53e187c
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.441   dlg0x53faf3c  ..Session count inc to 4 by mod-invite
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.443   dlg0x53faf3c  .Module mod-100rel added as dialog usage, data=0x53f9078
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.443   dlg0x53faf3c  .100rel module attached
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.443   inv0x53faf3c  .UAC invite session created for dialog dlg0x53faf3c
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.443       endpoint  .Request msg INVITE/cseq=31926 (tdta0x540c84c) created.
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.443   inv0x53faf3c  ..Sending Request msg INVITE/cseq=31926 (tdta0x540c84c)
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.443   dlg0x53faf3c  ...Sending Request msg INVITE/cseq=31926 (tdta0x540c84c)
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.444   tsx0x540e7fc  ....Transaction created for Request msg INVITE/cseq=31925 (tdta0x540c84c)
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.444   tsx0x540e7fc  ...Sending Request msg INVITE/cseq=31925 (tdta0x540c84c) in state Null
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.444  sip_resolve.c  ....Target '135.64.253.72:0' type=TLS resolved to '135.64.253.72:5061' type=TLS (TLS transport)
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.444   pjsua_core.c  ....TX 1350 bytes Request msg INVITE/cseq=31925 (tdta0x540c84c) to TLS 135.64.253.72:5061:
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: INVITE sip:1201@135.64.253.72;transport=tls SIP/2.0
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: Via: SIP/2.0/TLS 135.105.129.203:43447;rport;branch=z9hG4bKPj7f0a6026-39ac-4c1c-96d3-bd61854c7e9a;alias
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: Max-Forwards: 70
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: From: sip:1009@135.64.253.72;tag=ecdf1326-8d6f-4a59-91e2-fff27b6a9a9b
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: To: sip:1201@135.64.253.72
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: Contact: <sip:1009@135.105.129.203:43447;transport=TLS;ob>;+av.mac-address=c81feaa88dde
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: Call-ID: 2d284583-bf36-496c-bca5-dd567e138fef
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: CSeq: 31925 INVITE
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: Route: <sip:135.64.253.72;transport=tls;lr>
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: Supported: replaces, 100rel, norefersub
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: User-Agent: Avaya B199 1.0.6.0.2
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: Content-Type: application/sdp
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: Content-Length:   645
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]:
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: v=0
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: o=- 3853245721 3853245721 IN IP4 135.105.129.203
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: s=pjmedia
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: b=AS:84
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: t=0 0
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: a=X-nat:0
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: m=audio 4010 RTP/SAVP 9 8 0 18 104 125 101
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: c=IN IP4 135.105.129.203
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: b=TIAS:64000
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: a=rtcp:4011 IN IP4 135.105.129.203
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: a=sendrecv
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: a=rtpmap:9 G722/8000
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: a=rtpmap:8 PCMA/8000
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: a=rtpmap:0 PCMU/8000
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: a=rtpmap:18 G729/8000
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: a=rtpmap:104 iLBC/8000
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: a=fmtp:104 mode=20
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: a=rtpmap:125 opus/48000/2
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: a=fmtp:125 maxplaybackrate=16000;sprop-maxcapturerate=16000;maxaveragebitrate=20000;useinbandfec=1
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: a=rtpmap:101 telephone-event/8000
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: a=fmtp:101 0-15
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: a=crypto:1 AES_256_CM_HMAC_SHA1_80 inline:8heIN1pj+AaMYDe4QZZmpxO0cusbb5C2h2uw2Isc0opRpVIQJ3iL4hNTNtCMhg==
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: --end msg--
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.449   wav_player.c !File port /usr/share/sounds/alsa/KonftelKeyTone.wav EOF
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.450    pjsua_aud.c  Conf disconnect: 6 -x- 2
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.450   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) stop transmitting to port 2 (frost_ch_2)
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.450   tsx0x540e7fc !....State changed from Null to Calling, event=TX_MSG
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.450   dlg0x53faf3c  .....Transaction tsx0x540e7fc state changed to Calling
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.769 sip_endpoint.c !Processing incoming message: Response msg 100/INVITE/cseq=31925 (rdata0xd50060)
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.769   pjsua_core.c  .RX 322 bytes Response msg 100/INVITE/cseq=31925 (rdata0xd50060) from TLS 135.64.253.72:5061:
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: SIP/2.0 100 Trying
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: Call-ID: 2d284583-bf36-496c-bca5-dd567e138fef
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: CSeq: 31925 INVITE
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: From: <sip:1009@135.64.253.72>;tag=ecdf1326-8d6f-4a59-91e2-fff27b6a9a9b
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: To: <sip:1201@135.64.253.72>
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: Via: SIP/2.0/TLS 135.105.129.203:43447;rport=43447;branch=z9hG4bKPj7f0a6026-39ac-4c1c-96d3-bd61854c7e9a;alias
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: Content-Length: 0
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]:
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: --end msg--
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.769   tsx0x540e7fc  .Incoming Response msg 100/INVITE/cseq=31925 (rdata0xd50060) in state Calling
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.770   tsx0x540e7fc  ..State changed from Calling to Proceeding, event=RX_MSG
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.770   dlg0x53faf3c  ...Received Response msg 100/INVITE/cseq=31925 (rdata0xd50060)
+2022-02-07 19:02:01	Daemon.Info	135.105.129.203	Feb  7 19:02:01 phoneapp[1088]: pjsip: 19:02:01.770   dlg0x53faf3c  ...Transaction tsx0x540e7fc state changed to Proceeding
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: pjsip: 19:02:02.132 sip_endpoint.c  Processing incoming message: Response msg 407/INVITE/cseq=31925 (rdata0xd50060)
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: pjsip: 19:02:02.135   pjsua_core.c  .RX 656 bytes Response msg 407/INVITE/cseq=31925 (rdata0xd50060) from TLS 135.64.253.72:5061:
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: SIP/2.0 407 Proxy Authentication Required
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: Proxy-Authenticate: Digest realm="vsip.com",qop="auth",opaque="1234567890abcedef",nonce="17ed55988088e01186ffe9d1c9a9a62f3e9370339ad",algorithm=MD5,stale=false
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: Call-ID: 2d284583-bf36-496c-bca5-dd567e138fef
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: CSeq: 31925 INVITE
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: From: <sip:1009@135.64.253.72>;tag=ecdf1326-8d6f-4a59-91e2-fff27b6a9a9b
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: To: <sip:1201@135.64.253.72>;tag=5691073724721695_local.1633940736155_7439274_7439969
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: Via: SIP/2.0/TLS 135.105.129.203:43447;rport=43447;branch=z9hG4bKPj7f0a6026-39ac-4c1c-96d3-bd61854c7e9a;alias
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: Av-Global-Session-ID: 0cd2aa60-8840-11ec-b726-005056b53f5d
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: Server: AVAYA-SM-7.0.1.2.701230
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: Content-Length: 0
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]:
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: --end msg--
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: pjsip: 19:02:02.138   tsx0x540e7fc  .Incoming Response msg 407/INVITE/cseq=31925 (rdata0xd50060) in state Proceeding
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: pjsip: 19:02:02.139       endpoint  ..Request msg ACK/cseq=31925 (tdta0x5412a04) created.
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: pjsip: 19:02:02.139   pjsua_core.c  ..TX 460 bytes Request msg ACK/cseq=31925 (tdta0x5412a04) to TLS 135.64.253.72:5061:
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: ACK sip:1201@135.64.253.72;transport=tls SIP/2.0
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: Via: SIP/2.0/TLS 135.105.129.203:43447;rport;branch=z9hG4bKPj7f0a6026-39ac-4c1c-96d3-bd61854c7e9a;alias
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: Max-Forwards: 70
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: From: sip:1009@135.64.253.72;tag=ecdf1326-8d6f-4a59-91e2-fff27b6a9a9b
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: To: sip:1201@135.64.253.72;tag=5691073724721695_local.1633940736155_7439274_7439969
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: Call-ID: 2d284583-bf36-496c-bca5-dd567e138fef
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: CSeq: 31925 ACK
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: Route: <sip:135.64.253.72;transport=tls;lr>
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: Content-Length:  0
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]:
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: --end msg--
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: pjsip: 19:02:02.139   tsx0x540e7fc  ..State changed from Proceeding to Completed, event=RX_MSG
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: pjsip: 19:02:02.140   dlg0x53faf3c  ...Received Response msg 407/INVITE/cseq=31925 (rdata0xd50060)
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: pjsip: 19:02:02.140   dlg0x53faf3c  ...Transaction tsx0x540e7fc state changed to Completed
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: pjsip: 19:02:02.140   inv0x53faf3c  .....Sending Request msg INVITE/cseq=31925 (tdta0x540c84c)
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: pjsip: 19:02:02.140   dlg0x53faf3c  ......Sending Request msg INVITE/cseq=31925 (tdta0x540c84c)
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: pjsip: 19:02:02.140   tsx0x5413a0c  .......Transaction created for Request msg INVITE/cseq=31926 (tdta0x540c84c)
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: pjsip: 19:02:02.141   tsx0x5413a0c  ......Sending Request msg INVITE/cseq=31926 (tdta0x540c84c) in state Null
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: pjsip: 19:02:02.141       endpoint  .......Request msg INVITE/cseq=31926 (tdta0x540c84c): skipping target resolution because address is already set
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: pjsip: 19:02:02.141   pjsua_core.c  .......TX 1664 bytes Request msg INVITE/cseq=31926 (tdta0x540c84c) to TLS 135.64.253.72:5061:
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: INVITE sip:1201@135.64.253.72;transport=tls SIP/2.0
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: Via: SIP/2.0/TLS 135.105.129.203:43447;rport;branch=z9hG4bKPj26f8e07c-e539-47fc-a2af-5ed419c9f9f3;alias
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: Max-Forwards: 70
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: From: sip:1009@135.64.253.72;tag=ecdf1326-8d6f-4a59-91e2-fff27b6a9a9b
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: To: sip:1201@135.64.253.72
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: Contact: <sip:1009@135.105.129.203:43447;transport=TLS;ob>;+av.mac-address=c81feaa88dde
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: Call-ID: 2d284583-bf36-496c-bca5-dd567e138fef
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: CSeq: 31926 INVITE
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: Route: <sip:135.64.253.72;transport=tls;lr>
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: Supported: replaces, 100rel, norefersub
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: User-Agent: Avaya B199 1.0.6.0.2
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: Proxy-Authorization: Digest username="1009", realm="vsip.com", nonce="17ed55988088e01186ffe9d1c9a9a62f3e9370339ad", uri="sip:1201@135.64.253.72;transport=tls", response="58e539b8931a3e39c162ff1fe1b979ac", algorithm=MD5,
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: Content-Type: application/sdp
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: Content-Length:   645
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]:
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: v=0
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: o=- 3853245721 3853245721 IN IP4 135.105.129.203
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: s=pjmedia
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: b=AS:84
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: t=0 0
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: a=X-nat:0
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: m=audio 4010 RTP/SAVP 9 8 0 18 104 125 101
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: c=IN IP4 135.105.129.203
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: b=TIAS:64000
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: a=rtcp:4011 IN IP4 135.105.129.203
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: a=sendrecv
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: a=rtpmap:9 G722/8000
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: a=rtpmap:8 PCMA/8000
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: a=rtpmap:0 PCMU/8000
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: a=rtpmap:18 G729/8000
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: a=rtpmap:104 iLBC/8000
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: a=fmtp:104 mode=20
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: a=rtpmap:125 opus/48000/2
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: a=fmtp:125 maxplaybackrate=16000;sprop-maxcapturerate=16000;maxaveragebitrate=20000;useinbandfec=1
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: a=rtpmap:101 telephone-event/8000
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: a=fmtp:101 0-15
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: a=crypto:1 AES_256_CM_HMAC_SHA1_80 inline:8heIN1pj+AaMYDe4QZZmpxO0cusbb5C2h2uw2Isc0opRpVIQJ3iL4hNTNtCMhg==
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: --end msg--
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: pjsip: 19:02:02.146   tsx0x5413a0c  .......State changed from Null to Calling, event=TX_MSG
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: pjsip: 19:02:02.147   dlg0x53faf3c  ........Transaction tsx0x5413a0c state changed to Calling
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: pjsip: 19:02:02.147   tsx0x540e7fc  Timeout timer event
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: pjsip: 19:02:02.148   tsx0x540e7fc  .State changed from Completed to Terminated, event=TIMER
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: pjsip: 19:02:02.148   dlg0x53faf3c  ..Transaction tsx0x540e7fc state changed to Terminated
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: pjsip: 19:02:02.153   tsx0x540e7fc  Timeout timer event
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: pjsip: 19:02:02.153   tsx0x540e7fc  .State changed from Terminated to Destroyed, event=TIMER
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: pjsip: 19:02:02.153  tdta0x5412a04  ..Destroying txdata Request msg ACK/cseq=31925 (tdta0x5412a04)
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: pjsip: 19:02:02.153   tsx0x540e7fc  Transaction destroyed!
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: pjsip: 19:02:02.782 sip_endpoint.c  Processing incoming message: Response msg 100/INVITE/cseq=31926 (rdata0xd50060)
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: pjsip: 19:02:02.782   pjsua_core.c  .RX 322 bytes Response msg 100/INVITE/cseq=31926 (rdata0xd50060) from TLS 135.64.253.72:5061:
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: SIP/2.0 100 Trying
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: Call-ID: 2d284583-bf36-496c-bca5-dd567e138fef
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: CSeq: 31926 INVITE
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: From: <sip:1009@135.64.253.72>;tag=ecdf1326-8d6f-4a59-91e2-fff27b6a9a9b
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: To: <sip:1201@135.64.253.72>
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: Via: SIP/2.0/TLS 135.105.129.203:43447;rport=43447;branch=z9hG4bKPj26f8e07c-e539-47fc-a2af-5ed419c9f9f3;alias
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: Content-Length: 0
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]:
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: --end msg--
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: pjsip: 19:02:02.782   tsx0x5413a0c  .Incoming Response msg 100/INVITE/cseq=31926 (rdata0xd50060) in state Calling
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: pjsip: 19:02:02.782   tsx0x5413a0c  ..State changed from Calling to Proceeding, event=RX_MSG
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: pjsip: 19:02:02.782   dlg0x53faf3c  ...Received Response msg 100/INVITE/cseq=31926 (rdata0xd50060)
+2022-02-07 19:02:02	Daemon.Info	135.105.129.203	Feb  7 19:02:02 phoneapp[1088]: pjsip: 19:02:02.783   dlg0x53faf3c  ...Transaction tsx0x5413a0c state changed to Proceeding
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: pjsip: 19:02:03.461 sip_endpoint.c  Processing incoming message: Response msg 488/INVITE/cseq=31926 (rdata0xd50060)
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: pjsip: 19:02:03.463   pjsua_core.c  .RX 675 bytes Response msg 488/INVITE/cseq=31926 (rdata0xd50060) from TLS 135.64.253.72:5061:
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: SIP/2.0 488 Not Acceptable Here (No Matching Codec or Encryption Algo)
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: Av-Secure-Indication: unsecured
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: P-Location: SM;origlocname="Budapest";origmedialocname="Budapest";orighomelocname="Budapest";smaccounting="true"
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: Server: Avaya CM/R017x.00.0.441.0 AVAYA-SM-7.0.1.2.701230
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: Av-Global-Session-ID: 0d6d3cb0-8840-11ec-b726-005056b53f5d
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: To: <sip:1201@135.64.253.72>;tag=d6e45c4884041ec932a05056b5a71b
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: From: <sip:1009@135.64.253.72>;tag=ecdf1326-8d6f-4a59-91e2-fff27b6a9a9b
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: Call-ID: 2d284583-bf36-496c-bca5-dd567e138fef
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: CSeq: 31926 INVITE
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: Via: SIP/2.0/TLS 135.105.129.203:43447;rport=43447;branch=z9hG4bKPj26f8e07c-e539-47fc-a2af-5ed419c9f9f3;alias
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: Content-Length: 0
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]:
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: --end msg--
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: pjsip: 19:02:03.465   tsx0x5413a0c  .Incoming Response msg 488/INVITE/cseq=31926 (rdata0xd50060) in state Proceeding
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: pjsip: 19:02:03.466       endpoint  ..Request msg ACK/cseq=31926 (tdta0x5412a04) created.
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: pjsip: 19:02:03.466   pjsua_core.c  ..TX 438 bytes Request msg ACK/cseq=31926 (tdta0x5412a04) to TLS 135.64.253.72:5061:
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: ACK sip:1201@135.64.253.72;transport=tls SIP/2.0
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: Via: SIP/2.0/TLS 135.105.129.203:43447;rport;branch=z9hG4bKPj26f8e07c-e539-47fc-a2af-5ed419c9f9f3;alias
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: Max-Forwards: 70
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: From: sip:1009@135.64.253.72;tag=ecdf1326-8d6f-4a59-91e2-fff27b6a9a9b
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: To: sip:1201@135.64.253.72;tag=d6e45c4884041ec932a05056b5a71b
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: Call-ID: 2d284583-bf36-496c-bca5-dd567e138fef
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: CSeq: 31926 ACK
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: Route: <sip:135.64.253.72;transport=tls;lr>
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: Content-Length:  0
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]:
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: --end msg--
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: pjsip: 19:02:03.467   tsx0x5413a0c  ..State changed from Proceeding to Completed, event=RX_MSG
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: pjsip: 19:02:03.467   dlg0x53faf3c  ...Received Response msg 488/INVITE/cseq=31926 (rdata0xd50060)
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: pjsip: 19:02:03.467   dlg0x53faf3c  ...Transaction tsx0x5413a0c state changed to Completed
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: SIPCall: onCallState  PJSIP_INV_STATE_DISCONNECTED callId: 1
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: CallServiceSIP: onKCallStateChanged lineID= 6 ,Disconnect Reason= "Some aspect of the session description or the Request-URI is not acceptable, or Codec issue" ,Notify user  true
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: CallServiceSIP: deleteCall call  SIPCall(0x5256a38)  id =  1
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: CallServiceSIP: deleteCall destroyedCalls array:
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: CallServiceSIP: [ 0 ]  SIPCall(0x5244f28)  id =  1
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: CallServiceSIP: [ 1 ]  SIPCall(0x12796a8)  id =  2
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: CallServiceSIP: [ 2 ]  SIPCall(0x53ca1a0)  id =  3
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: CallServiceSIP: [ 3 ]  SIPCall(0x1300ff8)  id =  0
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: CallServiceSIP: deleteCall destroyedCalls array after:
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: CallServiceSIP: deleteCall [ 0 ]  SIPCall(0x12796a8)  id =  2
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: CallServiceSIP: deleteCall [ 1 ]  SIPCall(0x53ca1a0)  id =  3
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: CallServiceSIP: deleteCall [ 2 ]  SIPCall(0x1300ff8)  id =  0
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: CallServiceSIP: deleteCall [ 3 ]  SIPCall(0x5256a38)  id =  1
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: pjsip: 19:02:03.479  pjsua_media.c  .....Call 1: deinitializing media..
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: pjsip: 19:02:03.479  pjsua_media.c  ......Call 1: cleaning up provisional media, prov_med_cnt=1, med_cnt=0
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: pjsip: 19:02:03.479   dlg0x53faf3c  .....Session count dec to 1 by mod-invite
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: pjsip: 19:02:03.479  tdta0x540c84c  ..Destroying txdata Request msg INVITE/cseq=31926 (tdta0x540c84c)
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: pjsip: 19:02:03.484   tsx0x5413a0c  Timeout timer event
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: pjsip: 19:02:03.484   tsx0x5413a0c  .State changed from Completed to Terminated, event=TIMER
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: pjsip: 19:02:03.484   dlg0x53faf3c  ..Transaction tsx0x5413a0c state changed to Terminated
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: pjsip: 19:02:03.484   dlg0x53faf3c  ...Dialog destroyed
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: pjsip: 19:02:03.484   tsx0x5413a0c  Timeout timer event
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: pjsip: 19:02:03.484   tsx0x5413a0c  .State changed from Terminated to Destroyed, event=TIMER
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: pjsip: 19:02:03.484  tdta0x5412a04  ..Destroying txdata Request msg ACK/cseq=31926 (tdta0x5412a04)
+2022-02-07 19:02:03	Daemon.Info	135.105.129.203	Feb  7 19:02:03 phoneapp[1088]: pjsip: 19:02:03.485   tsx0x5413a0c  Transaction destroyed!
+2022-02-07 19:02:05	Daemon.Info	135.105.129.203	Feb  7 19:02:05 phoneapp[1088]: pjsip: 19:02:05.156    pjsua_aud.c !Conf connect: 6 --> 2
+2022-02-07 19:02:05	Daemon.Info	135.105.129.203	Feb  7 19:02:05 phoneapp[1088]: pjsip: 19:02:05.159   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) transmitting to port 2 (frost_ch_2)
+2022-02-07 19:02:05	Daemon.Info	135.105.129.203	Feb  7 19:02:05 phoneapp[1088]: pjsip: 19:02:05.270   wav_player.c !File port /usr/share/sounds/alsa/KonftelKeyTone.wav EOF
+2022-02-07 19:02:05	Daemon.Info	135.105.129.203	Feb  7 19:02:05 phoneapp[1088]: pjsip: 19:02:05.270    pjsua_aud.c  Conf disconnect: 6 -x- 2
+2022-02-07 19:02:05	Daemon.Info	135.105.129.203	Feb  7 19:02:05 phoneapp[1088]: pjsip: 19:02:05.270   conference.c  .Port 6 (/usr/share/sounds/alsa/KonftelKeyTone.wav) stop transmitting to port 2 (frost_ch_2)

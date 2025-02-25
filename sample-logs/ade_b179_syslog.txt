@@ -1,0 +1,1142 @@
+<135>Jan  1 01:05:23 konfsip[1028:1150]: DBG: File player '/usr/lib/konfsip/click16k.wav' created: samp.rate=16000, ch=1, bufsize=0KB, filesize=1KB
+<135>Jan  1 01:05:23 konfsip[1028:1150]: DBG: Port 6 (/usr/lib/konfsip/click16k.wav) transmitting to port 1 (ks_splitcomb-ch)
+<135>Jan  1 01:05:23 konfsip[1028:1148]: DBG: Port 6 (/usr/lib/konfsip/click16k.wav) stop transmitting to port 1 (ks_splitcomb-ch)
+<135>Jan  1 01:05:24 konfsip[1028:1150]: DBG: File player '/usr/lib/konfsip/click16k.wav' created: samp.rate=16000, ch=1, bufsize=0KB, filesize=1KB
+<135>Jan  1 01:05:24 konfsip[1028:1150]: DBG: Port 6 (/usr/lib/konfsip/click16k.wav) transmitting to port 1 (ks_splitcomb-ch)
+<135>Jan  1 01:05:24 konfsip[1028:1148]: DBG: Port 6 (/usr/lib/konfsip/click16k.wav) stop transmitting to port 1 (ks_splitcomb-ch)
+<135>Jan  1 01:05:25 konfsip[1028:1150]: DBG: File player '/usr/lib/konfsip/click16k.wav' created: samp.rate=16000, ch=1, bufsize=0KB, filesize=1KB
+<135>Jan  1 01:05:25 konfsip[1028:1150]: DBG: Port 6 (/usr/lib/konfsip/click16k.wav) transmitting to port 1 (ks_splitcomb-ch)
+<135>Jan  1 01:05:25 konfsip[1028:1148]: DBG: Port 6 (/usr/lib/konfsip/click16k.wav) stop transmitting to port 1 (ks_splitcomb-ch)
+<135>Jan  1 01:05:25 konfsip[1028:1150]: DBG: File player '/usr/lib/konfsip/click16k.wav' created: samp.rate=16000, ch=1, bufsize=0KB, filesize=1KB
+<135>Jan  1 01:05:25 konfsip[1028:1150]: DBG: Port 6 (/usr/lib/konfsip/click16k.wav) transmitting to port 1 (ks_splitcomb-ch)
+<135>Jan  1 01:05:25 konfsip[1028:1148]: DBG: Port 6 (/usr/lib/konfsip/click16k.wav) stop transmitting to port 1 (ks_splitcomb-ch)
+<135>Jan  1 01:05:26 konfsip[1028:1150]: DBG: File player '/usr/lib/konfsip/click16k.wav' created: samp.rate=16000, ch=1, bufsize=0KB, filesize=1KB
+<135>Jan  1 01:05:26 konfsip[1028:1150]: DBG: Port 6 (/usr/lib/konfsip/click16k.wav) transmitting to port 1 (ks_splitcomb-ch)
+<135>Jan  1 01:05:26 konfsip[1028:1148]: DBG: Port 6 (/usr/lib/konfsip/click16k.wav) stop transmitting to port 1 (ks_splitcomb-ch)
+<135>Jan  1 01:05:26 konfsip[1028:1028]: DBG: Making call with acc #2 to <sip:6011;transport=tls>
+<135>Jan  1 01:05:26 konfsip[1028:1028]: TRA: UAC dialog created
+<135>Jan  1 01:05:26 konfsip[1028:1028]: DBG: Media index 0 selected for call 0
+<135>Jan  1 01:05:26 konfsip[1028:1028]: TRA: Module mod-invite added as dialog usage, data=0x33ba58
+<135>Jan  1 01:05:26 konfsip[1028:1028]: TRA: Session count inc to 2 by mod-invite
+<135>Jan  1 01:05:26 konfsip[1028:1028]: TRA: Module mod-100rel added as dialog usage, data=0x33c740
+<135>Jan  1 01:05:26 konfsip[1028:1028]: TRA: 100rel module attached
+<135>Jan  1 01:05:26 konfsip[1028:1028]: TRA: UAC invite session created for dialog dlg0x336e94
+<135>Jan  1 01:05:26 konfsip[1028:1028]: TRA: Request msg INVITE/cseq=32488 (tdta0x347568) created.
+<135>Jan  1 01:05:26 konfsip[1028:1028]: TRA: Sending Request msg INVITE/cseq=32488 (tdta0x347568)
+<135>Jan  1 01:05:26 konfsip[1028:1028]: TRA: Sending Request msg INVITE/cseq=32488 (tdta0x347568)
+<135>Jan  1 01:05:26 konfsip[1028:1028]: TRA: Transaction created for Request msg INVITE/cseq=32487 (tdta0x347568)
+<135>Jan  1 01:05:26 konfsip[1028:1028]: TRA: Sending Request msg INVITE/cseq=32487 (tdta0x347568) in state Null
+<135>Jan  1 01:05:26 konfsip[1028:1028]: TRA: Target '6011:0' type=TLS resolved to '0.0.23.123:5061' type=TLS (TLS transport)
+<135>Jan  1 01:05:26 konfsip[1028:1028]: DBG: TLS client transport created
+<135>Jan  1 01:05:26 konfsip[1028:1028]: DBG: TLS transport destroyed with reason 120022: Invalid argument
+<132>Jan  1 01:05:26 konfsip[1028:1028]: WAR: Failed to send Request msg INVITE/cseq=32487 (tdta0x347568)! err=120022 (Invalid argument)
+<135>Jan  1 01:05:26 konfsip[1028:1028]: TRA: State changed from Null to Terminated, event=TRANSPORT_ERROR
+<135>Jan  1 01:05:26 konfsip[1028:1028]: TRA: Transaction tsx0x3487f4 state changed to Terminated
+<135>Jan  1 01:05:26 konfsip[1028:1028]: TRA: sip_manager: on_call_state
+<132>Jan  1 01:05:26 konfsip[1028:1028]: WAR: sip_manager: Call failed on secondary account
+<134>Jan  1 01:05:26 konfsip[1028:1028]: INF: sip_manager: Re-register secondary account
+<132>Jan  1 01:05:26 run.konfsip.sh: Unknown exit code 139
+<135>Jan  1 01:05:27 konfsip[1166:1166]: DBG: event_queue: src/event_queue.c:62: Initializing
+<135>Jan  1 01:05:27 konfsip[1166:1166]: DBG: config: Initializing
+<135>Jan  1 01:05:31 konfsip[1166:1166]: DBG: sip_manager: src/sip.c:473: Initializing
+<135>Jan  1 01:05:31 konfsip[1166:1166]: DBG: sip_manager: src/sip.c:499: Max 3 concurrent G729 codec's allowed
+<135>Jan  1 01:05:31 konfsip[1166:1166]: DBG: pjlib 1.0-trunk for POSIX initialized
+<135>Jan  1 01:05:31 konfsip[1166:1166]: TRA: Creating endpoint instance...
+<135>Jan  1 01:05:31 konfsip[1166:1166]: DBG: select() I/O Queue created (0x2ebecc)
+<135>Jan  1 01:05:31 konfsip[1166:1166]: DBG: Module "mod-msg-print" registered
+<135>Jan  1 01:05:31 konfsip[1166:1166]: TRA: Transport manager created.
+<134>Jan  1 01:05:31 konfsip[1166:1166]: INF: sip_manager: ua_cfg.nameserver_count = 2
+<134>Jan  1 01:05:31 konfsip[1166:1166]: INF: sip_manager: ua_cfg.nameserver[0] = 135.11.66.59
+<134>Jan  1 01:05:31 konfsip[1166:1166]: INF: sip_manager: ua_cfg.nameserver[1] = 135.9.9.180
+<134>Jan  1 01:05:31 konfsip[1166:1166]: INF: sip_manager: ua_cfg.outbound_proxy_cnt = 0
+<134>Jan  1 01:05:31 konfsip[1166:1166]: INF: lldp_functions: Got vlan prio -1 from lldp
+<134>Jan  1 01:05:31 konfsip[1166:1166]: INF: lldp_functions: Got dscp -1 from lldp
+<135>Jan  1 01:05:31 konfsip[1166:1166]: DBG: Nameserver 135.11.66.59 added
+<135>Jan  1 01:05:31 konfsip[1166:1166]: DBG: Nameserver 135.9.9.180 added
+<135>Jan  1 01:05:31 konfsip[1166:1166]: DBG: Module "mod-tsx-layer" registered
+<135>Jan  1 01:05:31 konfsip[1166:1166]: DBG: Module "mod-stateful-util" registered
+<135>Jan  1 01:05:31 konfsip[1166:1166]: DBG: Module "mod-ua" registered
+<135>Jan  1 01:05:31 konfsip[1166:1166]: DBG: Module "mod-100rel" registered
+<135>Jan  1 01:05:31 konfsip[1166:1166]: DBG: Module "mod-pjsua" registered
+<135>Jan  1 01:05:31 konfsip[1166:1166]: DBG: Module "mod-invite" registered
+<135>Jan  1 01:05:31 konfsip[1166:1166]: DBG: select() I/O Queue created (0x313d64)
+<135>Jan  1 01:05:31 konfsip[1166:1166]: TRA: Creating conference bridge with 15 ports
+<135>Jan  1 01:05:31 konfsip[1166:1166]: TRA: Sound device successfully created for port 0
+<135>Jan  1 01:05:31 konfsip[1166:1166]: DBG: Module "mod-evsub" registered
+<135>Jan  1 01:05:31 konfsip[1166:1166]: DBG: Module "mod-refer" registered
+<135>Jan  1 01:05:31 konfsip[1166:1166]: TRA: Event pkg "refer" registered by mod-refer
+<135>Jan  1 01:05:31 konfsip[1166:1166]: DBG: Module "mod-pjsua-pres" registered
+<135>Jan  1 01:05:31 konfsip[1166:1166]: DBG: Module "mod-pjsua-im" registered
+<135>Jan  1 01:05:31 konfsip[1166:1166]: DBG: Module "mod-pjsua-options" registered
+<135>Jan  1 01:05:31 konfsip[1166:1166]: DBG: 1 SIP worker threads created
+<134>Jan  1 01:05:31 konfsip[1166:1166]: INF: pjsua version 1.0-trunk for arm-926-linux-gnu initialized
+<135>Jan  1 01:05:31 konfsip[1166:1166]: DBG: sip_manager: Open the sound device
+<135>Jan  1 01:05:32 konfsip[1166:1166]: TRA: open_playback: set format SND_PCM_FORMAT_S16_LE
+<135>Jan  1 01:05:32 konfsip[1166:1166]: TRA: open_playback: set channels: 12
+<135>Jan  1 01:05:32 konfsip[1166:1166]: TRA: open_playback: set clock rate: 16000
+<135>Jan  1 01:05:32 konfsip[1166:1166]: TRA: open_playback: clock rate set to: 16000
+<135>Jan  1 01:05:32 konfsip[1166:1166]: TRA: open_playback: set period size: 160
+<135>Jan  1 01:05:32 konfsip[1166:1166]: TRA: open_playback: period size set to: 160
+<135>Jan  1 01:05:32 konfsip[1166:1166]: TRA: open_playback: buffer size set to: 320
+<135>Jan  1 01:05:32 konfsip[1166:1166]: TRA: Opened device alsa(hw:0,0) for playing, sample rate=16000, ch=12, bits=16, period size=160 frames
+<135>Jan  1 01:05:32 konfsip[1166:1166]: TRA: open_capture: set format SND_PCM_FORMAT_S16_LE
+<135>Jan  1 01:05:32 konfsip[1166:1166]: TRA: open_capture: set channels: 12
+<135>Jan  1 01:05:32 konfsip[1166:1166]: TRA: open_capture: set clock rate: 16000
+<135>Jan  1 01:05:32 konfsip[1166:1166]: TRA: open_capture: clock rate set to: 16000
+<135>Jan  1 01:05:32 konfsip[1166:1166]: TRA: open_capture: set period size: 160
+<135>Jan  1 01:05:32 konfsip[1166:1166]: TRA: open_capture: period size set to: 160
+<135>Jan  1 01:05:32 konfsip[1166:1166]: TRA: open_capture: buffer size set to: 320
+<135>Jan  1 01:05:32 konfsip[1166:1166]: TRA: Opened device alsa(hw:0,0) for capture, sample rate=16000, ch=12, bits=16, period size=160 frames
+<135>Jan  1 01:05:32 konfsip[1166:1226]: TRA: pb_thread_func: Started
+<135>Jan  1 01:05:32 konfsip[1166:1166]: DBG: Echo canceller is now disabled in the sound port
+<135>Jan  1 01:05:32 konfsip[1166:1227]: TRA: ca_thread_func: Started
+<135>Jan  1 01:05:32 konfsip[1166:1166]: DBG: SIP UDP socket reachable at 135.105.129.137:5060
+<135>Jan  1 01:05:32 konfsip[1166:1166]: DBG: SIP UDP transport started, published address is 135.105.129.137:5060
+<135>Jan  1 01:05:32 konfsip[1166:1166]: DBG: Account <sip:135.105.129.137:5060> added with id 0
+<135>Jan  1 01:05:32 konfsip[1166:1166]: DBG: SIP TCP listener ready for incoming connections at 135.105.129.137:5060
+<135>Jan  1 01:05:32 konfsip[1166:1166]: DBG: Account <sip:135.105.129.137:5060;transport=TCP> added with id 1
+<135>Jan  1 01:05:32 konfsip[1166:1166]: TRA: TLS verification mode set to 0
+<135>Jan  1 01:05:32 konfsip[1166:1166]: DBG: SIP TLS listener ready for incoming connections at 135.105.129.137:5061
+<135>Jan  1 01:05:32 konfsip[1166:1166]: DBG: Account <sip:135.105.129.137:5061;transport=TLS> added with id 2
+<135>Jan  1 01:05:32 konfsip[1166:1166]: DBG: Module "mod-pjsua-log" registered
+<135>Jan  1 01:05:32 konfsip[1166:1166]: DBG: Module "mod-pjsua-opt" registered
+<135>Jan  1 01:05:32 konfsip[1166:1166]: DBG: Module "codec_limit" registered
+<135>Jan  1 01:05:32 konfsip[1166:1166]: DBG: Module "check_sync" registered
+<135>Jan  1 01:05:32 konfsip[1166:1166]: DBG: Account <sip:6111@135.124.168.107;transport=tls> added with id 3
+<135>Jan  1 01:05:32 konfsip[1166:1166]: DBG: Contact for acc 3 updated for SIP outbound: <sip:6111@135.105.129.137:5061;transport=TLS;ob>;reg-id=1;+sip.instance="<urn:uuid:00000000-0000-0000-0000-0000d55b02c6>"
+<135>Jan  1 01:05:32 konfsip[1166:1166]: TRA: Request msg REGISTER/cseq=37598 (tdta0x335f08) created.
+<135>Jan  1 01:05:32 konfsip[1166:1166]: TRA: Transaction created for Request msg REGISTER/cseq=37599 (tdta0x335f08)
+<135>Jan  1 01:05:32 konfsip[1166:1166]: TRA: Sending Request msg REGISTER/cseq=37599 (tdta0x335f08) in state Null
+<135>Jan  1 01:05:32 konfsip[1166:1166]: TRA: Target '135.124.168.107:0' type=TLS resolved to '135.124.168.107:5061' type=TLS (TLS transport)
+<135>Jan  1 01:05:32 konfsip[1166:1166]: DBG: TLS client transport created
+<135>Jan  1 01:05:32 konfsip[1166:1166]: DBG: TLS transport destroyed with reason 120099: Cannot assign requested address
+<132>Jan  1 01:05:32 konfsip[1166:1166]: WAR: Failed to send Request msg REGISTER/cseq=37599 (tdta0x335f08)! err=120099 (Cannot assign requested address)
+<135>Jan  1 01:05:32 konfsip[1166:1166]: TRA: State changed from Null to Terminated, event=TRANSPORT_ERROR
+<132>Jan  1 01:05:32 konfsip[1166:1166]: WAR: SIP registration failed, status=503 (Service Unavailable)
+<135>Jan  1 01:05:32 konfsip[1166:1166]: DBG: Error sending request, status=120099
+<131>Jan  1 01:05:32 konfsip[1166:1166]: ERR: Unable to create/send REGISTER: Cannot assign requested address [status=120099]
+<135>Jan  1 01:05:32 konfsip[1166:1225]: TRA: Timeout timer event
+<135>Jan  1 01:05:32 konfsip[1166:1225]: TRA: State changed from Terminated to Destroyed, event=TIMER
+<135>Jan  1 01:05:32 konfsip[1166:1225]: TRA: Destroying txdata Request msg REGISTER/cseq=37599 (tdta0x335f08)
+<135>Jan  1 01:05:32 konfsip[1166:1225]: TRA: Transaction destroyed!
+<135>Jan  1 01:05:32 konfsip[1166:1166]: DBG: RTP socket reachable at 135.105.129.137:4000
+<135>Jan  1 01:05:32 konfsip[1166:1166]: DBG: RTCP socket reachable at 135.105.129.137:4001
+<135>Jan  1 01:05:32 konfsip[1166:1166]: DBG: RTP socket reachable at 135.105.129.137:4002
+<135>Jan  1 01:05:32 konfsip[1166:1166]: DBG: RTCP socket reachable at 135.105.129.137:4003
+<135>Jan  1 01:05:32 konfsip[1166:1166]: DBG: RTP socket reachable at 135.105.129.137:4004
+<135>Jan  1 01:05:32 konfsip[1166:1166]: DBG: RTCP socket reachable at 135.105.129.137:4005
+<135>Jan  1 01:05:32 konfsip[1166:1166]: DBG: RTP socket reachable at 135.105.129.137:4006
+<135>Jan  1 01:05:32 konfsip[1166:1166]: DBG: RTCP socket reachable at 135.105.129.137:4007
+<134>Jan  1 01:05:32 konfsip[1166:1166]: INF: sip_manager: Setting codec G722, prio 0
+<134>Jan  1 01:05:32 konfsip[1166:1166]: INF: sip_manager: Setting codec PCMA, prio 3
+<134>Jan  1 01:05:32 konfsip[1166:1166]: INF: sip_manager: Setting codec PCMU, prio 0
+<134>Jan  1 01:05:32 konfsip[1166:1166]: INF: sip_manager: Setting codec G729, prio 0
+<135>Jan  1 01:05:42 konfsip[1166:1227]: DBG: ca_thread_func: overrun!
+<135>Jan  1 01:05:47 konfsip[1166:1227]: DBG: ca_thread_func: overrun!
+<135>Jan  1 01:05:47 konfsip[1166:1226]: DBG: pb_thread_func: underrun!
+<135>Jan  1 01:05:47 konfsip[1166:1227]: DBG: ca_thread_func: overrun!
+<135>Jan  1 01:05:48 konfsip[1166:1226]: DBG: pb_thread_func: underrun!
+<135>Jan  1 01:05:48 konfsip[1166:1227]: DBG: ca_thread_func: overrun!
+<135>Jan  1 01:05:53 konfsip[1166:1227]: DBG: ca_thread_func: overrun!
+<135>Jan  1 01:05:54 konfsip[1166:1227]: DBG: ca_thread_func: overrun!
+<135>Jan  1 01:05:55 konfsip[1166:1227]: DBG: ca_thread_func: overrun!
+<135>Jan  1 01:05:55 konfsip[1166:1227]: DBG: ca_thread_func: overrun!
+<135>Jan  1 01:05:55 konfsip[1166:1226]: DBG: pb_thread_func: underrun!
+<135>Jan  1 01:06:02 konfsip[1166:1166]: DBG: Contact for acc 3 updated for SIP outbound: <sip:6111@135.105.129.137:5061;transport=TLS;ob>;reg-id=1;+sip.instance="<urn:uuid:00000000-0000-0000-0000-0000d55b02c6>"
+<135>Jan  1 01:06:02 konfsip[1166:1166]: TRA: Request msg REGISTER/cseq=31563 (tdta0x341fb8) created.
+<135>Jan  1 01:06:02 konfsip[1166:1166]: TRA: Transaction created for Request msg REGISTER/cseq=31564 (tdta0x341fb8)
+<135>Jan  1 01:06:02 konfsip[1166:1166]: TRA: Sending Request msg REGISTER/cseq=31564 (tdta0x341fb8) in state Null
+<135>Jan  1 01:06:02 konfsip[1166:1166]: TRA: Target '135.124.168.107:0' type=TLS resolved to '135.124.168.107:5061' type=TLS (TLS transport)
+<135>Jan  1 01:06:02 konfsip[1166:1166]: DBG: TLS client transport created
+<135>Jan  1 01:06:02 konfsip[1166:1166]: DBG: TLS transport 135.105.129.137:16386 is connecting to 135.124.168.107:5061...
+<142>Jan  1 01:06:02 konfsip[1166:1166]: TX 713 bytes Request msg REGISTER/cseq=31564 (tdta0x341fb8) to tls 135.124.168.107:5061:
+REGISTER sip:135.124.168.107;transport=tls SIP/2.0
+Via: SIP/2.0/tls 135.105.129.137:16386;rport;branch=z9hG4bKPjmin4b6Tn628pnVbOpjGzapq51pXIQjO0;alias
+Route: <sip:135.124.168.107;transport=tls;lr>
+Max-Forwards: 70
+From: <sip:6111@135.124.168.107>;tag=NGnyiW6BVBxRZ3DGaa1eWvsnVC-ZwzU3
+To: <sip:6111@135.124.168.107>
+Call-ID: 7GZvMjs8H2CaLZYmuD5NlvU7-11PPrsu
+CSeq: 31564 REGISTER
+User-Agent: Avaya B179 2.4.0.23
+Supported: outbound, path
+Contact: <sip:6111@135.105.129.137:5061;transport=TLS;ob>;reg-id=1;+sip.instance="<urn:uuid:00000000-0000-0000-0000-0000d55b02c6>"
+Expires: 1800
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Content-Length:  0
+
+
+---------------------------------------------------------------------------------
+<135>Jan  1 01:06:02 konfsip[1166:1226]: DBG: pb_thread_func: underrun!
+<135>Jan  1 01:06:02 konfsip[1166:1166]: TRA: State changed from Null to Calling, event=TX_MSG
+<134>Jan  1 01:06:02 konfsip[1166:1166]: INF: Registration sent
+<135>Jan  1 01:06:02 konfsip[1166:1225]: DBG: TCP transport 135.105.129.137:16386 is connected to 135.124.168.107:5061
+<135>Jan  1 01:06:02 konfsip[1166:1225]: TRA: Starting SSL_connect() negotiation
+<135>Jan  1 01:06:02 konfsip[1166:1227]: DBG: ca_thread_func: overrun!
+<135>Jan  1 01:06:02 konfsip[1166:1226]: DBG: pb_thread_func: underrun!
+<135>Jan  1 01:06:03 konfsip[1166:1225]: TRA: SSL_connect() negotiation completes successfully
+<135>Jan  1 01:06:04 konfsip[1166:1225]: TRA: Processing incoming message: Response msg 401/REGISTER/cseq=31564 (rdata0x342af4)
+<142>Jan  1 01:06:04 konfsip[1166:1225]: RX 640 bytes Response msg 401/REGISTER/cseq=31564 (rdata0x342af4) from tls 135.124.168.107:5061:
+SIP/2.0 401 Unauthorized
+WWW-Authenticate: Digest realm="avayasip.com",qop="auth",opaque="1234567890abcedef",nonce="154f1ac07a9ed06946dcf5570f18a631833d395ed94",algorithm=MD5,stale=false
+Call-ID: 7GZvMjs8H2CaLZYmuD5NlvU7-11PPrsu
+CSeq: 31564 REGISTER
+From: <sip:6111@135.124.168.107>;tag=NGnyiW6BVBxRZ3DGaa1eWvsnVC-ZwzU3
+To: <sip:6111@135.124.168.107>;tag=037119790708430966_local.1447742356205_10001489_10011661
+Via: SIP/2.0/TLS 135.105.129.137:16386;rport=16386;branch=z9hG4bKPjmin4b6Tn628pnVbOpjGzapq51pXIQjO0;alias
+Av-Global-Session-ID: 636c7990-23f2-11e6-ba06-842b2bfcf567
+Server: AVAYA-SM-6.3.14.0.631402
+Content-Length: 0
+
+---------------------------------------------------------------------------------
+<135>Jan  1 01:06:04 konfsip[1166:1225]: TRA: Incoming Response msg 401/REGISTER/cseq=31564 (rdata0x342af4) in state Calling
+<135>Jan  1 01:06:04 konfsip[1166:1225]: TRA: State changed from Calling to Completed, event=RX_MSG
+<135>Jan  1 01:06:04 konfsip[1166:1225]: TRA: Transaction created for Request msg REGISTER/cseq=31565 (tdta0x341fb8)
+<135>Jan  1 01:06:04 konfsip[1166:1225]: TRA: Sending Request msg REGISTER/cseq=31565 (tdta0x341fb8) in state Null
+<135>Jan  1 01:06:04 konfsip[1166:1225]: TRA: Target '135.124.168.107:0' type=TLS resolved to '135.124.168.107:5061' type=TLS (TLS transport)
+<142>Jan  1 01:06:04 konfsip[1166:1225]: TX 1022 bytes Request msg REGISTER/cseq=31565 (tdta0x341fb8) to tls 135.124.168.107:5061:
+REGISTER sip:135.124.168.107;transport=tls SIP/2.0
+Via: SIP/2.0/tls 135.105.129.137:16386;rport;branch=z9hG4bKPjEtLYSPHuqMfkNHe.rIt1Z4R3PjPLf36u;alias
+Route: <sip:135.124.168.107;transport=tls;lr>
+Max-Forwards: 70
+From: <sip:6111@135.124.168.107>;tag=NGnyiW6BVBxRZ3DGaa1eWvsnVC-ZwzU3
+To: <sip:6111@135.124.168.107>
+Call-ID: 7GZvMjs8H2CaLZYmuD5NlvU7-11PPrsu
+CSeq: 31565 REGISTER
+User-Agent: Avaya B179 2.4.0.23
+Supported: outbound, path
+Contact: <sip:6111@135.105.129.137:5061;transport=TLS;ob>;reg-id=1;+sip.instance="<urn:uuid:00000000-0000-0000-0000-0000d55b02c6>"
+Expires: 1800
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Authorization: Digest username="6111", realm="avayasip.com", nonce="154f1ac07a9ed06946dcf5570f18a631833d395ed94", uri="sip:135.124.168.107;transport=tls", response="3b0d887f40fdbda8b142131a8d5cb390", algorithm=MD5, cnonce="JF6ERBem.0QdnX9ArmjsxSLTIQsQFV-5", opaque="1234567890abcedef", qop=auth, nc=00000001
+Content-Length:  0
+
+
+---------------------------------------------------------------------------------
+<135>Jan  1 01:06:04 konfsip[1166:1225]: TRA: State changed from Null to Calling, event=TX_MSG
+<135>Jan  1 01:06:04 konfsip[1166:1225]: TRA: Processing incoming message: Response msg 403/REGISTER/cseq=31565 (rdata0x342af4)
+<142>Jan  1 01:06:04 konfsip[1166:1225]: RX 495 bytes Response msg 403/REGISTER/cseq=31565 (rdata0x342af4) from tls 135.124.168.107:5061:
+SIP/2.0 403 Forbidden (Authorization Failed)
+Call-ID: 7GZvMjs8H2CaLZYmuD5NlvU7-11PPrsu
+CSeq: 31565 REGISTER
+From: <sip:6111@135.124.168.107>;tag=NGnyiW6BVBxRZ3DGaa1eWvsnVC-ZwzU3
+To: <sip:6111@135.124.168.107>;tag=9871037034387217_local.1447742356205_10001490_10011662
+Via: SIP/2.0/TLS 135.105.129.137:16386;rport=16386;branch=z9hG4bKPjEtLYSPHuqMfkNHe.rIt1Z4R3PjPLf36u;alias
+Av-Global-Session-ID: 63a0a8f0-23f2-11e6-ba06-842b2bfcf567
+Server: AVAYA-SM-6.3.14.0.631402
+Content-Length: 0
+
+---------------------------------------------------------------------------------
+<135>Jan  1 01:06:04 konfsip[1166:1225]: TRA: Incoming Response msg 403/REGISTER/cseq=31565 (rdata0x342af4) in state Calling
+<135>Jan  1 01:06:04 konfsip[1166:1225]: TRA: State changed from Calling to Completed, event=RX_MSG
+<132>Jan  1 01:06:04 konfsip[1166:1225]: WAR: SIP registration failed, status=403 (Forbidden (Authorization Failed))
+<135>Jan  1 01:06:09 konfsip[1166:1225]: TRA: Timeout timer event
+<135>Jan  1 01:06:09 konfsip[1166:1225]: TRA: State changed from Completed to Terminated, event=TIMER
+<135>Jan  1 01:06:09 konfsip[1166:1225]: TRA: Timeout timer event
+<135>Jan  1 01:06:09 konfsip[1166:1225]: TRA: State changed from Terminated to Destroyed, event=TIMER
+<135>Jan  1 01:06:09 konfsip[1166:1225]: TRA: Transaction destroyed!
+<135>Jan  1 01:06:09 konfsip[1166:1225]: TRA: Timeout timer event
+<135>Jan  1 01:06:09 konfsip[1166:1225]: TRA: State changed from Completed to Terminated, event=TIMER
+<135>Jan  1 01:06:09 konfsip[1166:1225]: TRA: Timeout timer event
+<135>Jan  1 01:06:09 konfsip[1166:1225]: TRA: State changed from Terminated to Destroyed, event=TIMER
+<135>Jan  1 01:06:09 konfsip[1166:1225]: TRA: Destroying txdata Request msg REGISTER/cseq=31565 (tdta0x341fb8)
+<135>Jan  1 01:06:09 konfsip[1166:1225]: TRA: Transaction destroyed!
+<135>Jan  1 01:06:17 konfsip[1166:1227]: DBG: ca_thread_func: overrun!
+<135>Jan  1 01:06:17 konfsip[1166:1226]: DBG: pb_thread_func: underrun!
+<135>Jan  1 01:06:17 konfsip[1166:1227]: DBG: ca_thread_func: overrun!
+<135>Jan  1 01:06:17 konfsip[1166:1226]: DBG: pb_thread_func: underrun!
+<135>Jan  1 01:06:17 konfsip[1166:1227]: DBG: ca_thread_func: overrun!
+<135>Jan  1 01:06:17 konfsip[1166:1226]: DBG: pb_thread_func: underrun!
+<135>Jan  1 01:06:18 konfsip[1166:1227]: DBG: ca_thread_func: overrun!
+<135>Jan  1 01:06:18 konfsip[1166:1226]: DBG: pb_thread_func: underrun!
+<135>Jan  1 01:06:18 webif: Requesting restart
+<134>Jan  1 01:06:18 konfsip[1166:1229]: INF: ctl: Exit request
+<134>Jan  1 01:06:18 konfsip[1166:1166]: INF: mmi: Exit request
+<135>Jan  1 01:06:18 konfsip[1166:1226]: DBG: pb_thread_func: underrun!
+<135>Jan  1 01:06:18 konfsip[1166:1226]: DBG: pb_thread_func: underrun!
+<135>Jan  1 01:06:18 konfsip[1166:1227]: DBG: ca_thread_func: overrun!
+<134>Jan  1 01:06:18 konfsip[1166:1166]: INF: sip_manager: Shutting down the SIP stack
+<135>Jan  1 01:06:18 konfsip[1166:1166]: DBG: Shutting down...
+<135>Jan  1 01:06:20 konfsip[1166:1166]: DBG: Destroying...
+<135>Jan  1 01:06:20 konfsip[1166:1166]: TRA: Destroying endpoing instance..
+<135>Jan  1 01:06:20 konfsip[1166:1166]: DBG: Stopping transaction layer module
+<135>Jan  1 01:06:20 konfsip[1166:1166]: DBG: Module "mod-pjsua-opt" unregistered
+<135>Jan  1 01:06:20 konfsip[1166:1166]: DBG: Module "mod-pjsua-options" unregistered
+<135>Jan  1 01:06:20 konfsip[1166:1166]: DBG: Module "mod-pjsua-im" unregistered
+<135>Jan  1 01:06:20 konfsip[1166:1166]: DBG: Module "mod-pjsua-pres" unregistered
+<135>Jan  1 01:06:20 konfsip[1166:1166]: DBG: Module "mod-pjsua" unregistered
+<135>Jan  1 01:06:20 konfsip[1166:1166]: DBG: Module "mod-stateful-util" unregistered
+<135>Jan  1 01:06:20 konfsip[1166:1166]: DBG: Module "mod-refer" unregistered
+<135>Jan  1 01:06:20 konfsip[1166:1166]: DBG: Module "mod-evsub" unregistered
+<135>Jan  1 01:06:20 konfsip[1166:1166]: DBG: Module "mod-invite" unregistered
+<135>Jan  1 01:06:20 konfsip[1166:1166]: DBG: Module "mod-100rel" unregistered
+<135>Jan  1 01:06:20 konfsip[1166:1166]: DBG: Module "mod-ua" unregistered
+<135>Jan  1 01:06:20 konfsip[1166:1166]: DBG: Transaction layer module destroyed
+<135>Jan  1 01:06:20 konfsip[1166:1166]: DBG: Module "mod-tsx-layer" unregistered
+<135>Jan  1 01:06:20 konfsip[1166:1166]: DBG: Module "mod-msg-print" unregistered
+<135>Jan  1 01:06:20 konfsip[1166:1166]: DBG: Module "check_sync" unregistered
+<135>Jan  1 01:06:20 konfsip[1166:1166]: DBG: Module "mod-pjsua-log" unregistered
+<135>Jan  1 01:06:20 konfsip[1166:1166]: DBG: Module "codec_limit" unregistered
+<135>Jan  1 01:06:20 konfsip[1166:1166]: TRA: Destroying transport manager
+<135>Jan  1 01:06:20 konfsip[1166:1166]: DBG: TLS transport destroyed normally
+<135>Jan  1 01:06:20 konfsip[1166:1166]: DBG: SIP TCP listener destroyed
+<135>Jan  1 01:06:20 konfsip[1166:1166]: DBG: SIP TLS listener destroyed
+<135>Jan  1 01:06:20 konfsip[1166:1166]: DBG: Endpoint 0x2eadf4 destroyed
+<135>Jan  1 01:06:20 konfsip[1166:1166]: DBG: Pool is not released by application, releasing now
+<135>Jan  1 01:06:20 konfsip[1166:1166]: DBG: Pool is not released by application, releasing now
+<135>Jan  1 01:06:20 konfsip[1166:1166]: DBG: Pool is not released by application, releasing now
+<135>Jan  1 01:06:20 konfsip[1166:1166]: DBG: Pool is not released by application, releasing now
+<135>Jan  1 01:06:20 konfsip[1166:1166]: DBG: Pool is not released by application, releasing now
+<135>Jan  1 01:06:20 konfsip[1166:1166]: DBG: Pool is not released by application, releasing now
+<135>Jan  1 01:06:20 konfsip[1166:1166]: DBG: PJSUA destroyed...
+<134>Jan  1 01:06:20 konfsip[1166:1166]: INF: main: exit 1
+<132>Jan  1 01:06:20 run.konfsip.sh: Need Restart
+<135>Jan  1 01:06:21 konfsip[1276:1276]: DBG: event_queue: src/event_queue.c:62: Initializing
+<135>Jan  1 01:06:21 konfsip[1276:1276]: DBG: config: Initializing
+<135>Jan  1 01:06:24 konfsip[1276:1276]: DBG: sip_manager: src/sip.c:473: Initializing
+<135>Jan  1 01:06:25 konfsip[1276:1276]: DBG: sip_manager: src/sip.c:499: Max 3 concurrent G729 codec's allowed
+<135>Jan  1 01:06:25 konfsip[1276:1276]: DBG: pjlib 1.0-trunk for POSIX initialized
+<135>Jan  1 01:06:25 konfsip[1276:1276]: TRA: Creating endpoint instance...
+<135>Jan  1 01:06:25 konfsip[1276:1276]: DBG: select() I/O Queue created (0x2ebedc)
+<135>Jan  1 01:06:25 konfsip[1276:1276]: DBG: Module "mod-msg-print" registered
+<135>Jan  1 01:06:25 konfsip[1276:1276]: TRA: Transport manager created.
+<134>Jan  1 01:06:25 konfsip[1276:1276]: INF: sip_manager: ua_cfg.nameserver_count = 2
+<134>Jan  1 01:06:25 konfsip[1276:1276]: INF: sip_manager: ua_cfg.nameserver[0] = 135.11.66.59
+<134>Jan  1 01:06:25 konfsip[1276:1276]: INF: sip_manager: ua_cfg.nameserver[1] = 135.9.9.180
+<134>Jan  1 01:06:25 konfsip[1276:1276]: INF: sip_manager: ua_cfg.outbound_proxy_cnt = 0
+<134>Jan  1 01:06:25 konfsip[1276:1276]: INF: lldp_functions: Got vlan prio -1 from lldp
+<134>Jan  1 01:06:25 konfsip[1276:1276]: INF: lldp_functions: Got dscp -1 from lldp
+<135>Jan  1 01:06:25 konfsip[1276:1276]: DBG: Nameserver 135.11.66.59 added
+<135>Jan  1 01:06:25 konfsip[1276:1276]: DBG: Nameserver 135.9.9.180 added
+<135>Jan  1 01:06:25 konfsip[1276:1276]: DBG: Module "mod-tsx-layer" registered
+<135>Jan  1 01:06:25 konfsip[1276:1276]: DBG: Module "mod-stateful-util" registered
+<135>Jan  1 01:06:25 konfsip[1276:1276]: DBG: Module "mod-ua" registered
+<135>Jan  1 01:06:25 konfsip[1276:1276]: DBG: Module "mod-100rel" registered
+<135>Jan  1 01:06:25 konfsip[1276:1276]: DBG: Module "mod-pjsua" registered
+<135>Jan  1 01:06:25 konfsip[1276:1276]: DBG: Module "mod-invite" registered
+<135>Jan  1 01:06:25 konfsip[1276:1276]: DBG: select() I/O Queue created (0x313e2c)
+<135>Jan  1 01:06:25 konfsip[1276:1276]: TRA: Creating conference bridge with 15 ports
+<135>Jan  1 01:06:25 konfsip[1276:1276]: TRA: Sound device successfully created for port 0
+<135>Jan  1 01:06:25 konfsip[1276:1276]: DBG: Module "mod-evsub" registered
+<135>Jan  1 01:06:25 konfsip[1276:1276]: DBG: Module "mod-refer" registered
+<135>Jan  1 01:06:25 konfsip[1276:1276]: TRA: Event pkg "refer" registered by mod-refer
+<135>Jan  1 01:06:25 konfsip[1276:1276]: DBG: Module "mod-pjsua-pres" registered
+<135>Jan  1 01:06:25 konfsip[1276:1276]: DBG: Module "mod-pjsua-im" registered
+<135>Jan  1 01:06:25 konfsip[1276:1276]: DBG: Module "mod-pjsua-options" registered
+<135>Jan  1 01:06:25 konfsip[1276:1276]: DBG: 1 SIP worker threads created
+<134>Jan  1 01:06:25 konfsip[1276:1276]: INF: pjsua version 1.0-trunk for arm-926-linux-gnu initialized
+<135>Jan  1 01:06:25 konfsip[1276:1276]: DBG: sip_manager: Open the sound device
+<135>Jan  1 01:06:25 konfsip[1276:1276]: TRA: open_playback: set format SND_PCM_FORMAT_S16_LE
+<135>Jan  1 01:06:25 konfsip[1276:1276]: TRA: open_playback: set channels: 12
+<135>Jan  1 01:06:25 konfsip[1276:1276]: TRA: open_playback: set clock rate: 16000
+<135>Jan  1 01:06:25 konfsip[1276:1276]: TRA: open_playback: clock rate set to: 16000
+<135>Jan  1 01:06:25 konfsip[1276:1276]: TRA: open_playback: set period size: 160
+<135>Jan  1 01:06:25 konfsip[1276:1276]: TRA: open_playback: period size set to: 160
+<135>Jan  1 01:06:25 konfsip[1276:1276]: TRA: open_playback: buffer size set to: 320
+<135>Jan  1 01:06:25 konfsip[1276:1276]: TRA: Opened device alsa(hw:0,0) for playing, sample rate=16000, ch=12, bits=16, period size=160 frames
+<135>Jan  1 01:06:25 konfsip[1276:1276]: TRA: open_capture: set format SND_PCM_FORMAT_S16_LE
+<135>Jan  1 01:06:25 konfsip[1276:1276]: TRA: open_capture: set channels: 12
+<135>Jan  1 01:06:25 konfsip[1276:1276]: TRA: open_capture: set clock rate: 16000
+<135>Jan  1 01:06:25 konfsip[1276:1276]: TRA: open_capture: clock rate set to: 16000
+<135>Jan  1 01:06:25 konfsip[1276:1276]: TRA: open_capture: set period size: 160
+<135>Jan  1 01:06:25 konfsip[1276:1276]: TRA: open_capture: period size set to: 160
+<135>Jan  1 01:06:25 konfsip[1276:1276]: TRA: open_capture: buffer size set to: 320
+<135>Jan  1 01:06:25 konfsip[1276:1276]: TRA: Opened device alsa(hw:0,0) for capture, sample rate=16000, ch=12, bits=16, period size=160 frames
+<135>Jan  1 01:06:25 konfsip[1276:1336]: TRA: pb_thread_func: Started
+<135>Jan  1 01:06:25 konfsip[1276:1337]: TRA: ca_thread_func: Started
+<135>Jan  1 01:06:25 konfsip[1276:1276]: DBG: Echo canceller is now disabled in the sound port
+<135>Jan  1 01:06:26 konfsip[1276:1276]: DBG: SIP UDP socket reachable at 135.105.129.137:5060
+<135>Jan  1 01:06:26 konfsip[1276:1276]: DBG: SIP UDP transport started, published address is 135.105.129.137:5060
+<135>Jan  1 01:06:26 konfsip[1276:1276]: DBG: Account <sip:135.105.129.137:5060> added with id 0
+<135>Jan  1 01:06:26 konfsip[1276:1276]: DBG: SIP TCP listener ready for incoming connections at 135.105.129.137:5060
+<135>Jan  1 01:06:26 konfsip[1276:1276]: DBG: Account <sip:135.105.129.137:5060;transport=TCP> added with id 1
+<135>Jan  1 01:06:26 konfsip[1276:1276]: TRA: TLS verification mode set to 0
+<135>Jan  1 01:06:26 konfsip[1276:1276]: DBG: SIP TLS listener ready for incoming connections at 135.105.129.137:5061
+<135>Jan  1 01:06:26 konfsip[1276:1276]: DBG: Account <sip:135.105.129.137:5061;transport=TLS> added with id 2
+<135>Jan  1 01:06:26 konfsip[1276:1276]: DBG: Module "mod-pjsua-log" registered
+<135>Jan  1 01:06:26 konfsip[1276:1276]: DBG: Module "mod-pjsua-opt" registered
+<135>Jan  1 01:06:26 konfsip[1276:1276]: DBG: Module "codec_limit" registered
+<135>Jan  1 01:06:26 konfsip[1276:1276]: DBG: Module "check_sync" registered
+<135>Jan  1 01:06:26 konfsip[1276:1276]: DBG: Account <sip:6111@135.124.168.107;transport=tls> added with id 3
+<135>Jan  1 01:06:26 konfsip[1276:1276]: DBG: Contact for acc 3 updated for SIP outbound: <sip:6111@135.105.129.137:5061;transport=TLS;ob>;reg-id=1;+sip.instance="<urn:uuid:00000000-0000-0000-0000-0000d55b02c6>"
+<135>Jan  1 01:06:26 konfsip[1276:1276]: TRA: Request msg REGISTER/cseq=2884 (tdta0x335f10) created.
+<135>Jan  1 01:06:26 konfsip[1276:1276]: TRA: Transaction created for Request msg REGISTER/cseq=2885 (tdta0x335f10)
+<135>Jan  1 01:06:26 konfsip[1276:1276]: TRA: Sending Request msg REGISTER/cseq=2885 (tdta0x335f10) in state Null
+<135>Jan  1 01:06:26 konfsip[1276:1276]: TRA: Target '135.124.168.107:0' type=TLS resolved to '135.124.168.107:5061' type=TLS (TLS transport)
+<135>Jan  1 01:06:26 konfsip[1276:1276]: DBG: TLS client transport created
+<135>Jan  1 01:06:26 konfsip[1276:1276]: DBG: TLS transport destroyed with reason 120099: Cannot assign requested address
+<132>Jan  1 01:06:26 konfsip[1276:1276]: WAR: Failed to send Request msg REGISTER/cseq=2885 (tdta0x335f10)! err=120099 (Cannot assign requested address)
+<135>Jan  1 01:06:26 konfsip[1276:1276]: TRA: State changed from Null to Terminated, event=TRANSPORT_ERROR
+<132>Jan  1 01:06:26 konfsip[1276:1276]: WAR: SIP registration failed, status=503 (Service Unavailable)
+<135>Jan  1 01:06:26 konfsip[1276:1276]: DBG: Error sending request, status=120099
+<131>Jan  1 01:06:26 konfsip[1276:1276]: ERR: Unable to create/send REGISTER: Cannot assign requested address [status=120099]
+<135>Jan  1 01:06:26 konfsip[1276:1335]: TRA: Timeout timer event
+<135>Jan  1 01:06:26 konfsip[1276:1335]: TRA: State changed from Terminated to Destroyed, event=TIMER
+<135>Jan  1 01:06:26 konfsip[1276:1335]: TRA: Destroying txdata Request msg REGISTER/cseq=2885 (tdta0x335f10)
+<135>Jan  1 01:06:26 konfsip[1276:1335]: TRA: Transaction destroyed!
+<135>Jan  1 01:06:26 konfsip[1276:1276]: DBG: RTP socket reachable at 135.105.129.137:4000
+<135>Jan  1 01:06:26 konfsip[1276:1276]: DBG: RTCP socket reachable at 135.105.129.137:4001
+<135>Jan  1 01:06:26 konfsip[1276:1276]: DBG: RTP socket reachable at 135.105.129.137:4002
+<135>Jan  1 01:06:26 konfsip[1276:1276]: DBG: RTCP socket reachable at 135.105.129.137:4003
+<135>Jan  1 01:06:26 konfsip[1276:1276]: DBG: RTP socket reachable at 135.105.129.137:4004
+<135>Jan  1 01:06:26 konfsip[1276:1276]: DBG: RTCP socket reachable at 135.105.129.137:4005
+<135>Jan  1 01:06:26 konfsip[1276:1276]: DBG: RTP socket reachable at 135.105.129.137:4006
+<135>Jan  1 01:06:26 konfsip[1276:1276]: DBG: RTCP socket reachable at 135.105.129.137:4007
+<134>Jan  1 01:06:26 konfsip[1276:1276]: INF: sip_manager: Setting codec G722, prio 0
+<134>Jan  1 01:06:26 konfsip[1276:1276]: INF: sip_manager: Setting codec PCMA, prio 3
+<134>Jan  1 01:06:26 konfsip[1276:1276]: INF: sip_manager: Setting codec PCMU, prio 0
+<134>Jan  1 01:06:26 konfsip[1276:1276]: INF: sip_manager: Setting codec G729, prio 0
+<135>Jan  1 01:06:56 konfsip[1276:1276]: DBG: Contact for acc 3 updated for SIP outbound: <sip:6111@135.105.129.137:5061;transport=TLS;ob>;reg-id=1;+sip.instance="<urn:uuid:00000000-0000-0000-0000-0000d55b02c6>"
+<135>Jan  1 01:06:56 konfsip[1276:1276]: TRA: Request msg REGISTER/cseq=17885 (tdta0x341fc0) created.
+<135>Jan  1 01:06:56 konfsip[1276:1276]: TRA: Transaction created for Request msg REGISTER/cseq=17886 (tdta0x341fc0)
+<135>Jan  1 01:06:56 konfsip[1276:1276]: TRA: Sending Request msg REGISTER/cseq=17886 (tdta0x341fc0) in state Null
+<135>Jan  1 01:06:56 konfsip[1276:1276]: TRA: Target '135.124.168.107:0' type=TLS resolved to '135.124.168.107:5061' type=TLS (TLS transport)
+<135>Jan  1 01:06:56 konfsip[1276:1276]: DBG: TLS client transport created
+<135>Jan  1 01:06:56 konfsip[1276:1276]: DBG: TLS transport destroyed with reason 120099: Cannot assign requested address
+<132>Jan  1 01:06:56 konfsip[1276:1276]: WAR: Failed to send Request msg REGISTER/cseq=17886 (tdta0x341fc0)! err=120099 (Cannot assign requested address)
+<135>Jan  1 01:06:56 konfsip[1276:1276]: TRA: State changed from Null to Terminated, event=TRANSPORT_ERROR
+<132>Jan  1 01:06:56 konfsip[1276:1276]: WAR: SIP registration failed, status=503 (Service Unavailable)
+<135>Jan  1 01:06:56 konfsip[1276:1337]: DBG: ca_thread_func: overrun!
+<135>Jan  1 01:06:56 konfsip[1276:1276]: DBG: Error sending request, status=120099
+<131>Jan  1 01:06:56 konfsip[1276:1276]: ERR: Unable to create/send REGISTER: Cannot assign requested address [status=120099]
+<131>Jan  1 01:06:56 konfsip[1276:1276]: ERR: sip_manager: Error registering account 6111
+<135>Jan  1 01:06:56 konfsip[1276:1336]: DBG: pb_thread_func: underrun!
+<135>Jan  1 01:06:56 konfsip[1276:1335]: TRA: Timeout timer event
+<135>Jan  1 01:06:56 konfsip[1276:1335]: TRA: State changed from Terminated to Destroyed, event=TIMER
+<135>Jan  1 01:06:56 konfsip[1276:1335]: TRA: Destroying txdata Request msg REGISTER/cseq=17886 (tdta0x341fc0)
+<135>Jan  1 01:06:56 konfsip[1276:1335]: TRA: Transaction destroyed!
+<135>Jan  1 01:07:05 konfsip[1276:1338]: DBG: File player '/usr/lib/konfsip/click16k.wav' created: samp.rate=16000, ch=1, bufsize=0KB, filesize=1KB
+<135>Jan  1 01:07:05 konfsip[1276:1338]: DBG: Port 6 (/usr/lib/konfsip/click16k.wav) transmitting to port 1 (ks_splitcomb-ch)
+<135>Jan  1 01:07:05 konfsip[1276:1336]: DBG: Port 6 (/usr/lib/konfsip/click16k.wav) stop transmitting to port 1 (ks_splitcomb-ch)
+<135>Jan  1 01:07:26 konfsip[1276:1276]: DBG: Contact for acc 3 updated for SIP outbound: <sip:6111@135.105.129.137:5061;transport=TLS;ob>;reg-id=1;+sip.instance="<urn:uuid:00000000-0000-0000-0000-0000d55b02c6>"
+<135>Jan  1 01:07:26 konfsip[1276:1276]: TRA: Request msg REGISTER/cseq=46753 (tdta0x341ef8) created.
+<135>Jan  1 01:07:26 konfsip[1276:1276]: TRA: Transaction created for Request msg REGISTER/cseq=46754 (tdta0x341ef8)
+<135>Jan  1 01:07:26 konfsip[1276:1276]: TRA: Sending Request msg REGISTER/cseq=46754 (tdta0x341ef8) in state Null
+<135>Jan  1 01:07:26 konfsip[1276:1276]: TRA: Target '135.124.168.107:0' type=TLS resolved to '135.124.168.107:5061' type=TLS (TLS transport)
+<135>Jan  1 01:07:26 konfsip[1276:1276]: DBG: TLS client transport created
+<135>Jan  1 01:07:26 konfsip[1276:1276]: DBG: TLS transport 135.105.129.137:16387 is connecting to 135.124.168.107:5061...
+<142>Jan  1 01:07:26 konfsip[1276:1276]: TX 713 bytes Request msg REGISTER/cseq=46754 (tdta0x341ef8) to tls 135.124.168.107:5061:
+REGISTER sip:135.124.168.107;transport=tls SIP/2.0
+Via: SIP/2.0/tls 135.105.129.137:16387;rport;branch=z9hG4bKPjwGGcq3RUUftTczoyE6GWSsCkD9.B5yTc;alias
+Route: <sip:135.124.168.107;transport=tls;lr>
+Max-Forwards: 70
+From: <sip:6111@135.124.168.107>;tag=l5sDMmwQXtHSHjijDQmQIbNENeLVqV7V
+To: <sip:6111@135.124.168.107>
+Call-ID: 4mLmFmRHMcWjI65sl9UoMF9Y8vzhyDCk
+CSeq: 46754 REGISTER
+User-Agent: Avaya B179 2.4.0.23
+Supported: outbound, path
+Contact: <sip:6111@135.105.129.137:5061;transport=TLS;ob>;reg-id=1;+sip.instance="<urn:uuid:00000000-0000-0000-0000-0000d55b02c6>"
+Expires: 1800
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Content-Length:  0
+
+
+---------------------------------------------------------------------------------
+<135>Jan  1 01:07:26 konfsip[1276:1276]: TRA: State changed from Null to Calling, event=TX_MSG
+<134>Jan  1 01:07:26 konfsip[1276:1276]: INF: Registration sent
+<135>Jan  1 01:07:26 konfsip[1276:1336]: DBG: pb_thread_func: underrun!
+<135>Jan  1 01:07:26 konfsip[1276:1337]: DBG: ca_thread_func: overrun!
+<135>Jan  1 01:07:26 konfsip[1276:1335]: DBG: TCP transport 135.105.129.137:16387 is connected to 135.124.168.107:5061
+<135>Jan  1 01:07:26 konfsip[1276:1335]: TRA: Starting SSL_connect() negotiation
+<135>Jan  1 01:07:28 konfsip[1276:1335]: TRA: SSL_connect() negotiation completes successfully
+<135>Jan  1 01:07:28 konfsip[1276:1335]: TRA: Processing incoming message: Response msg 401/REGISTER/cseq=46754 (rdata0x343864)
+<142>Jan  1 01:07:28 konfsip[1276:1335]: RX 638 bytes Response msg 401/REGISTER/cseq=46754 (rdata0x343864) from tls 135.124.168.107:5061:
+SIP/2.0 401 Unauthorized
+WWW-Authenticate: Digest realm="avayasip.com",qop="auth",opaque="1234567890abcedef",nonce="154f1ad4fee602f5e48977b76a2a3a4359795bc83c6",algorithm=MD5,stale=false
+Call-ID: 4mLmFmRHMcWjI65sl9UoMF9Y8vzhyDCk
+CSeq: 46754 REGISTER
+From: <sip:6111@135.124.168.107>;tag=l5sDMmwQXtHSHjijDQmQIbNENeLVqV7V
+To: <sip:6111@135.124.168.107>;tag=8864601292130343_local.1447742356205_10001532_10011704
+Via: SIP/2.0/TLS 135.105.129.137:16387;rport=16387;branch=z9hG4bKPjwGGcq3RUUftTczoyE6GWSsCkD9.B5yTc;alias
+Av-Global-Session-ID: 958359d0-23f2-11e6-ba06-842b2bfcf567
+Server: AVAYA-SM-6.3.14.0.631402
+Content-Length: 0
+
+---------------------------------------------------------------------------------
+<135>Jan  1 01:07:28 konfsip[1276:1335]: TRA: Incoming Response msg 401/REGISTER/cseq=46754 (rdata0x343864) in state Calling
+<135>Jan  1 01:07:28 konfsip[1276:1335]: TRA: State changed from Calling to Completed, event=RX_MSG
+<135>Jan  1 01:07:28 konfsip[1276:1335]: TRA: Transaction created for Request msg REGISTER/cseq=46755 (tdta0x341ef8)
+<135>Jan  1 01:07:28 konfsip[1276:1335]: TRA: Sending Request msg REGISTER/cseq=46755 (tdta0x341ef8) in state Null
+<135>Jan  1 01:07:28 konfsip[1276:1335]: TRA: Target '135.124.168.107:0' type=TLS resolved to '135.124.168.107:5061' type=TLS (TLS transport)
+<142>Jan  1 01:07:28 konfsip[1276:1335]: TX 1022 bytes Request msg REGISTER/cseq=46755 (tdta0x341ef8) to tls 135.124.168.107:5061:
+REGISTER sip:135.124.168.107;transport=tls SIP/2.0
+Via: SIP/2.0/tls 135.105.129.137:16387;rport;branch=z9hG4bKPjYcYAMWSmQzuUgJ.3aQ6ACLIv5hFIB2Uw;alias
+Route: <sip:135.124.168.107;transport=tls;lr>
+Max-Forwards: 70
+From: <sip:6111@135.124.168.107>;tag=l5sDMmwQXtHSHjijDQmQIbNENeLVqV7V
+To: <sip:6111@135.124.168.107>
+Call-ID: 4mLmFmRHMcWjI65sl9UoMF9Y8vzhyDCk
+CSeq: 46755 REGISTER
+User-Agent: Avaya B179 2.4.0.23
+Supported: outbound, path
+Contact: <sip:6111@135.105.129.137:5061;transport=TLS;ob>;reg-id=1;+sip.instance="<urn:uuid:00000000-0000-0000-0000-0000d55b02c6>"
+Expires: 1800
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Authorization: Digest username="6111", realm="avayasip.com", nonce="154f1ad4fee602f5e48977b76a2a3a4359795bc83c6", uri="sip:135.124.168.107;transport=tls", response="e67583a6f18583ad8fb8bbf6eabb1e31", algorithm=MD5, cnonce="skPjOXOc3A1g1qfwn1JwXa9E.rM.D8w3", opaque="1234567890abcedef", qop=auth, nc=00000001
+Content-Length:  0
+
+
+---------------------------------------------------------------------------------
+<135>Jan  1 01:07:28 konfsip[1276:1335]: TRA: State changed from Null to Calling, event=TX_MSG
+<135>Jan  1 01:07:28 konfsip[1276:1335]: TRA: Processing incoming message: Response msg 403/REGISTER/cseq=46755 (rdata0x343864)
+<142>Jan  1 01:07:28 konfsip[1276:1335]: RX 495 bytes Response msg 403/REGISTER/cseq=46755 (rdata0x343864) from tls 135.124.168.107:5061:
+SIP/2.0 403 Forbidden (Authorization Failed)
+Call-ID: 4mLmFmRHMcWjI65sl9UoMF9Y8vzhyDCk
+CSeq: 46755 REGISTER
+From: <sip:6111@135.124.168.107>;tag=l5sDMmwQXtHSHjijDQmQIbNENeLVqV7V
+To: <sip:6111@135.124.168.107>;tag=7801089730223791_local.1447742356205_10001533_10011705
+Via: SIP/2.0/TLS 135.105.129.137:16387;rport=16387;branch=z9hG4bKPjYcYAMWSmQzuUgJ.3aQ6ACLIv5hFIB2Uw;alias
+Av-Global-Session-ID: 95bc6b30-23f2-11e6-ba06-842b2bfcf567
+Server: AVAYA-SM-6.3.14.0.631402
+Content-Length: 0
+
+---------------------------------------------------------------------------------
+<135>Jan  1 01:07:28 konfsip[1276:1335]: TRA: Incoming Response msg 403/REGISTER/cseq=46755 (rdata0x343864) in state Calling
+<135>Jan  1 01:07:28 konfsip[1276:1335]: TRA: State changed from Calling to Completed, event=RX_MSG
+<132>Jan  1 01:07:28 konfsip[1276:1335]: WAR: SIP registration failed, status=403 (Forbidden (Authorization Failed))
+<135>Jan  1 01:07:33 konfsip[1276:1335]: TRA: Timeout timer event
+<135>Jan  1 01:07:33 konfsip[1276:1335]: TRA: State changed from Completed to Terminated, event=TIMER
+<135>Jan  1 01:07:33 konfsip[1276:1335]: TRA: Timeout timer event
+<135>Jan  1 01:07:33 konfsip[1276:1335]: TRA: State changed from Terminated to Destroyed, event=TIMER
+<135>Jan  1 01:07:33 konfsip[1276:1335]: TRA: Transaction destroyed!
+<135>Jan  1 01:07:33 konfsip[1276:1335]: TRA: Timeout timer event
+<135>Jan  1 01:07:33 konfsip[1276:1335]: TRA: State changed from Completed to Terminated, event=TIMER
+<135>Jan  1 01:07:33 konfsip[1276:1335]: TRA: Timeout timer event
+<135>Jan  1 01:07:33 konfsip[1276:1335]: TRA: State changed from Terminated to Destroyed, event=TIMER
+<135>Jan  1 01:07:33 konfsip[1276:1335]: TRA: Destroying txdata Request msg REGISTER/cseq=46755 (tdta0x341ef8)
+<135>Jan  1 01:07:33 konfsip[1276:1335]: TRA: Transaction destroyed!
+<135>Jan  1 01:07:36 konfsip[1276:1337]: DBG: ca_thread_func: overrun!
+<135>Jan  1 01:07:36 konfsip[1276:1337]: DBG: ca_thread_func: overrun!
+<135>Jan  1 01:07:37 webif: Requesting restart
+<134>Jan  1 01:07:38 konfsip[1276:1339]: INF: ctl: Exit request
+<134>Jan  1 01:07:38 konfsip[1276:1276]: INF: mmi: Exit request
+<135>Jan  1 01:07:38 konfsip[1276:1337]: DBG: ca_thread_func: overrun!
+<135>Jan  1 01:07:38 konfsip[1276:1336]: DBG: pb_thread_func: underrun!
+<134>Jan  1 01:07:38 konfsip[1276:1276]: INF: sip_manager: Shutting down the SIP stack
+<135>Jan  1 01:07:38 konfsip[1276:1276]: DBG: Shutting down...
+<135>Jan  1 01:07:39 konfsip[1276:1276]: DBG: Destroying...
+<135>Jan  1 01:07:39 konfsip[1276:1276]: TRA: Destroying endpoing instance..
+<135>Jan  1 01:07:39 konfsip[1276:1276]: DBG: Stopping transaction layer module
+<135>Jan  1 01:07:39 konfsip[1276:1276]: DBG: Module "mod-pjsua-opt" unregistered
+<135>Jan  1 01:07:39 konfsip[1276:1276]: DBG: Module "mod-pjsua-options" unregistered
+<135>Jan  1 01:07:39 konfsip[1276:1276]: DBG: Module "mod-pjsua-im" unregistered
+<135>Jan  1 01:07:39 konfsip[1276:1276]: DBG: Module "mod-pjsua-pres" unregistered
+<135>Jan  1 01:07:39 konfsip[1276:1276]: DBG: Module "mod-pjsua" unregistered
+<135>Jan  1 01:07:39 konfsip[1276:1276]: DBG: Module "mod-stateful-util" unregistered
+<135>Jan  1 01:07:39 konfsip[1276:1276]: DBG: Module "mod-refer" unregistered
+<135>Jan  1 01:07:39 konfsip[1276:1276]: DBG: Module "mod-evsub" unregistered
+<135>Jan  1 01:07:39 konfsip[1276:1276]: DBG: Module "mod-invite" unregistered
+<135>Jan  1 01:07:39 konfsip[1276:1276]: DBG: Module "mod-100rel" unregistered
+<135>Jan  1 01:07:39 konfsip[1276:1276]: DBG: Module "mod-ua" unregistered
+<135>Jan  1 01:07:39 konfsip[1276:1276]: DBG: Transaction layer module destroyed
+<135>Jan  1 01:07:39 konfsip[1276:1276]: DBG: Module "mod-tsx-layer" unregistered
+<135>Jan  1 01:07:39 konfsip[1276:1276]: DBG: Module "mod-msg-print" unregistered
+<135>Jan  1 01:07:39 konfsip[1276:1276]: DBG: Module "check_sync" unregistered
+<135>Jan  1 01:07:39 konfsip[1276:1276]: DBG: Module "mod-pjsua-log" unregistered
+<135>Jan  1 01:07:39 konfsip[1276:1276]: DBG: Module "codec_limit" unregistered
+<135>Jan  1 01:07:39 konfsip[1276:1276]: TRA: Destroying transport manager
+<135>Jan  1 01:07:39 konfsip[1276:1276]: DBG: TLS transport destroyed normally
+<135>Jan  1 01:07:39 konfsip[1276:1276]: DBG: SIP TCP listener destroyed
+<135>Jan  1 01:07:39 konfsip[1276:1276]: DBG: SIP TLS listener destroyed
+<135>Jan  1 01:07:39 konfsip[1276:1276]: DBG: Endpoint 0x2eae04 destroyed
+<135>Jan  1 01:07:39 konfsip[1276:1276]: DBG: Pool is not released by application, releasing now
+<135>Jan  1 01:07:39 konfsip[1276:1276]: DBG: Pool is not released by application, releasing now
+<135>Jan  1 01:07:39 konfsip[1276:1276]: DBG: Pool is not released by application, releasing now
+<135>Jan  1 01:07:39 konfsip[1276:1276]: DBG: Pool is not released by application, releasing now
+<135>Jan  1 01:07:39 konfsip[1276:1276]: DBG: Pool is not released by application, releasing now
+<135>Jan  1 01:07:39 konfsip[1276:1276]: DBG: Pool is not released by application, releasing now
+<135>Jan  1 01:07:39 konfsip[1276:1276]: DBG: Pool is not released by application, releasing now
+<135>Jan  1 01:07:39 konfsip[1276:1276]: DBG: PJSUA destroyed...
+<134>Jan  1 01:07:39 konfsip[1276:1276]: INF: main: exit 1
+<132>Jan  1 01:07:40 run.konfsip.sh: Need Restart
+<135>Jan  1 01:07:41 konfsip[1367:1367]: DBG: event_queue: src/event_queue.c:62: Initializing
+<135>Jan  1 01:07:41 konfsip[1367:1367]: DBG: config: Initializing
+<135>Jan  1 01:07:44 konfsip[1367:1367]: DBG: sip_manager: src/sip.c:473: Initializing
+<135>Jan  1 01:07:44 konfsip[1367:1367]: DBG: sip_manager: src/sip.c:499: Max 3 concurrent G729 codec's allowed
+<135>Jan  1 01:07:44 konfsip[1367:1367]: DBG: pjlib 1.0-trunk for POSIX initialized
+<135>Jan  1 01:07:44 konfsip[1367:1367]: TRA: Creating endpoint instance...
+<135>Jan  1 01:07:44 konfsip[1367:1367]: DBG: select() I/O Queue created (0x2ebedc)
+<135>Jan  1 01:07:44 konfsip[1367:1367]: DBG: Module "mod-msg-print" registered
+<135>Jan  1 01:07:44 konfsip[1367:1367]: TRA: Transport manager created.
+<134>Jan  1 01:07:45 konfsip[1367:1367]: INF: sip_manager: ua_cfg.nameserver_count = 2
+<134>Jan  1 01:07:45 konfsip[1367:1367]: INF: sip_manager: ua_cfg.nameserver[0] = 135.11.66.59
+<134>Jan  1 01:07:45 konfsip[1367:1367]: INF: sip_manager: ua_cfg.nameserver[1] = 135.9.9.180
+<134>Jan  1 01:07:45 konfsip[1367:1367]: INF: sip_manager: ua_cfg.outbound_proxy_cnt = 0
+<134>Jan  1 01:07:45 konfsip[1367:1367]: INF: lldp_functions: Got vlan prio -1 from lldp
+<134>Jan  1 01:07:45 konfsip[1367:1367]: INF: lldp_functions: Got dscp -1 from lldp
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: Nameserver 135.11.66.59 added
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: Nameserver 135.9.9.180 added
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: Module "mod-tsx-layer" registered
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: Module "mod-stateful-util" registered
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: Module "mod-ua" registered
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: Module "mod-100rel" registered
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: Module "mod-pjsua" registered
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: Module "mod-invite" registered
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: select() I/O Queue created (0x313e2c)
+<135>Jan  1 01:07:45 konfsip[1367:1367]: TRA: Creating conference bridge with 15 ports
+<135>Jan  1 01:07:45 konfsip[1367:1367]: TRA: Sound device successfully created for port 0
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: Module "mod-evsub" registered
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: Module "mod-refer" registered
+<135>Jan  1 01:07:45 konfsip[1367:1367]: TRA: Event pkg "refer" registered by mod-refer
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: Module "mod-pjsua-pres" registered
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: Module "mod-pjsua-im" registered
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: Module "mod-pjsua-options" registered
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: 1 SIP worker threads created
+<134>Jan  1 01:07:45 konfsip[1367:1367]: INF: pjsua version 1.0-trunk for arm-926-linux-gnu initialized
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: sip_manager: Open the sound device
+<135>Jan  1 01:07:45 konfsip[1367:1367]: TRA: open_playback: set format SND_PCM_FORMAT_S16_LE
+<135>Jan  1 01:07:45 konfsip[1367:1367]: TRA: open_playback: set channels: 12
+<135>Jan  1 01:07:45 konfsip[1367:1367]: TRA: open_playback: set clock rate: 16000
+<135>Jan  1 01:07:45 konfsip[1367:1367]: TRA: open_playback: clock rate set to: 16000
+<135>Jan  1 01:07:45 konfsip[1367:1367]: TRA: open_playback: set period size: 160
+<135>Jan  1 01:07:45 konfsip[1367:1367]: TRA: open_playback: period size set to: 160
+<135>Jan  1 01:07:45 konfsip[1367:1367]: TRA: open_playback: buffer size set to: 320
+<135>Jan  1 01:07:45 konfsip[1367:1367]: TRA: Opened device alsa(hw:0,0) for playing, sample rate=16000, ch=12, bits=16, period size=160 frames
+<135>Jan  1 01:07:45 konfsip[1367:1367]: TRA: open_capture: set format SND_PCM_FORMAT_S16_LE
+<135>Jan  1 01:07:45 konfsip[1367:1367]: TRA: open_capture: set channels: 12
+<135>Jan  1 01:07:45 konfsip[1367:1367]: TRA: open_capture: set clock rate: 16000
+<135>Jan  1 01:07:45 konfsip[1367:1367]: TRA: open_capture: clock rate set to: 16000
+<135>Jan  1 01:07:45 konfsip[1367:1367]: TRA: open_capture: set period size: 160
+<135>Jan  1 01:07:45 konfsip[1367:1367]: TRA: open_capture: period size set to: 160
+<135>Jan  1 01:07:45 konfsip[1367:1367]: TRA: open_capture: buffer size set to: 320
+<135>Jan  1 01:07:45 konfsip[1367:1367]: TRA: Opened device alsa(hw:0,0) for capture, sample rate=16000, ch=12, bits=16, period size=160 frames
+<135>Jan  1 01:07:45 konfsip[1367:1427]: TRA: pb_thread_func: Started
+<135>Jan  1 01:07:45 konfsip[1367:1428]: TRA: ca_thread_func: Started
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: Echo canceller is now disabled in the sound port
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: SIP UDP socket reachable at 135.105.129.137:5060
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: SIP UDP transport started, published address is 135.105.129.137:5060
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: Account <sip:135.105.129.137:5060> added with id 0
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: SIP TCP listener ready for incoming connections at 135.105.129.137:5060
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: Account <sip:135.105.129.137:5060;transport=TCP> added with id 1
+<135>Jan  1 01:07:45 konfsip[1367:1367]: TRA: TLS verification mode set to 0
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: SIP TLS listener ready for incoming connections at 135.105.129.137:5061
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: Account <sip:135.105.129.137:5061;transport=TLS> added with id 2
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: Module "mod-pjsua-log" registered
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: Module "mod-pjsua-opt" registered
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: Module "codec_limit" registered
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: Module "check_sync" registered
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: Account <sip:6109@135.124.168.107;transport=tls> added with id 3
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: Contact for acc 3 updated for SIP outbound: <sip:6109@135.105.129.137:5061;transport=TLS;ob>;reg-id=1;+sip.instance="<urn:uuid:00000000-0000-0000-0000-0000d55b02c6>"
+<135>Jan  1 01:07:45 konfsip[1367:1367]: TRA: Request msg REGISTER/cseq=3360 (tdta0x335f10) created.
+<135>Jan  1 01:07:45 konfsip[1367:1367]: TRA: Transaction created for Request msg REGISTER/cseq=3361 (tdta0x335f10)
+<135>Jan  1 01:07:45 konfsip[1367:1367]: TRA: Sending Request msg REGISTER/cseq=3361 (tdta0x335f10) in state Null
+<135>Jan  1 01:07:45 konfsip[1367:1367]: TRA: Target '135.124.168.107:0' type=TLS resolved to '135.124.168.107:5061' type=TLS (TLS transport)
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: TLS client transport created
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: TLS transport 135.105.129.137:16385 is connecting to 135.124.168.107:5061...
+<142>Jan  1 01:07:45 konfsip[1367:1367]: TX 712 bytes Request msg REGISTER/cseq=3361 (tdta0x335f10) to tls 135.124.168.107:5061:
+REGISTER sip:135.124.168.107;transport=tls SIP/2.0
+Via: SIP/2.0/tls 135.105.129.137:16385;rport;branch=z9hG4bKPjQxm18AhswkVUCQxF2g4suOXCugOqqL38;alias
+Route: <sip:135.124.168.107;transport=tls;lr>
+Max-Forwards: 70
+From: <sip:6109@135.124.168.107>;tag=dulAjHJ2A95k94AebHaAlo8f1.wIGk--
+To: <sip:6109@135.124.168.107>
+Call-ID: Caz.VJAM9BRwEjRpwZ1WbmV2yewXRpv3
+CSeq: 3361 REGISTER
+User-Agent: Avaya B179 2.4.0.23
+Supported: outbound, path
+Contact: <sip:6109@135.105.129.137:5061;transport=TLS;ob>;reg-id=1;+sip.instance="<urn:uuid:00000000-0000-0000-0000-0000d55b02c6>"
+Expires: 1800
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Content-Length:  0
+
+
+---------------------------------------------------------------------------------
+<135>Jan  1 01:07:45 konfsip[1367:1367]: TRA: State changed from Null to Calling, event=TX_MSG
+<134>Jan  1 01:07:45 konfsip[1367:1367]: INF: Registration sent
+<135>Jan  1 01:07:45 konfsip[1367:1367]: DBG: RTP socket reachable at 135.105.129.137:4000
+<135>Jan  1 01:07:46 konfsip[1367:1367]: DBG: RTCP socket reachable at 135.105.129.137:4001
+<135>Jan  1 01:07:46 konfsip[1367:1367]: DBG: RTP socket reachable at 135.105.129.137:4002
+<135>Jan  1 01:07:46 konfsip[1367:1367]: DBG: RTCP socket reachable at 135.105.129.137:4003
+<135>Jan  1 01:07:46 konfsip[1367:1367]: DBG: RTP socket reachable at 135.105.129.137:4004
+<135>Jan  1 01:07:46 konfsip[1367:1367]: DBG: RTCP socket reachable at 135.105.129.137:4005
+<135>Jan  1 01:07:46 konfsip[1367:1367]: DBG: RTP socket reachable at 135.105.129.137:4006
+<135>Jan  1 01:07:46 konfsip[1367:1367]: DBG: RTCP socket reachable at 135.105.129.137:4007
+<134>Jan  1 01:07:46 konfsip[1367:1367]: INF: sip_manager: Setting codec G722, prio 0
+<134>Jan  1 01:07:46 konfsip[1367:1367]: INF: sip_manager: Setting codec PCMA, prio 3
+<134>Jan  1 01:07:46 konfsip[1367:1367]: INF: sip_manager: Setting codec PCMU, prio 0
+<134>Jan  1 01:07:46 konfsip[1367:1367]: INF: sip_manager: Setting codec G729, prio 0
+<135>Jan  1 01:07:46 konfsip[1367:1426]: DBG: TCP transport 135.105.129.137:16385 is connected to 135.124.168.107:5061
+<135>Jan  1 01:07:46 konfsip[1367:1426]: TRA: Starting SSL_connect() negotiation
+<135>Jan  1 01:07:47 konfsip[1367:1426]: TRA: SSL_connect() negotiation completes successfully
+<135>Jan  1 01:07:47 konfsip[1367:1426]: TRA: Processing incoming message: Response msg 401/REGISTER/cseq=3361 (rdata0x337b14)
+<142>Jan  1 01:07:47 konfsip[1367:1426]: RX 638 bytes Response msg 401/REGISTER/cseq=3361 (rdata0x337b14) from tls 135.124.168.107:5061:
+SIP/2.0 401 Unauthorized
+WWW-Authenticate: Digest realm="avayasip.com",qop="auth",opaque="1234567890abcedef",nonce="154f1ad9cb89ca6b26ef37bd623150157c4c39e8c43",algorithm=MD5,stale=false
+Call-ID: Caz.VJAM9BRwEjRpwZ1WbmV2yewXRpv3
+CSeq: 3361 REGISTER
+From: <sip:6109@135.124.168.107>;tag=dulAjHJ2A95k94AebHaAlo8f1.wIGk--
+To: <sip:6109@135.124.168.107>;tag=18705389564288777_local.1447742356205_10001552_10011724
+Via: SIP/2.0/TLS 135.105.129.137:16385;rport=16385;branch=z9hG4bKPjQxm18AhswkVUCQxF2g4suOXCugOqqL38;alias
+Av-Global-Session-ID: a13aec70-23f2-11e6-ba06-842b2bfcf567
+Server: AVAYA-SM-6.3.14.0.631402
+Content-Length: 0
+
+---------------------------------------------------------------------------------
+<135>Jan  1 01:07:47 konfsip[1367:1426]: TRA: Incoming Response msg 401/REGISTER/cseq=3361 (rdata0x337b14) in state Calling
+<135>Jan  1 01:07:47 konfsip[1367:1426]: TRA: State changed from Calling to Completed, event=RX_MSG
+<135>Jan  1 01:07:47 konfsip[1367:1426]: TRA: Transaction created for Request msg REGISTER/cseq=3362 (tdta0x335f10)
+<135>Jan  1 01:07:47 konfsip[1367:1426]: TRA: Sending Request msg REGISTER/cseq=3362 (tdta0x335f10) in state Null
+<135>Jan  1 01:07:47 konfsip[1367:1426]: TRA: Target '135.124.168.107:0' type=TLS resolved to '135.124.168.107:5061' type=TLS (TLS transport)
+<142>Jan  1 01:07:47 konfsip[1367:1426]: TX 1021 bytes Request msg REGISTER/cseq=3362 (tdta0x335f10) to tls 135.124.168.107:5061:
+REGISTER sip:135.124.168.107;transport=tls SIP/2.0
+Via: SIP/2.0/tls 135.105.129.137:16385;rport;branch=z9hG4bKPjIoZMWxD4UG7M9HVRbDY0sz-OmqHJ1tqK;alias
+Route: <sip:135.124.168.107;transport=tls;lr>
+Max-Forwards: 70
+From: <sip:6109@135.124.168.107>;tag=dulAjHJ2A95k94AebHaAlo8f1.wIGk--
+To: <sip:6109@135.124.168.107>
+Call-ID: Caz.VJAM9BRwEjRpwZ1WbmV2yewXRpv3
+CSeq: 3362 REGISTER
+User-Agent: Avaya B179 2.4.0.23
+Supported: outbound, path
+Contact: <sip:6109@135.105.129.137:5061;transport=TLS;ob>;reg-id=1;+sip.instance="<urn:uuid:00000000-0000-0000-0000-0000d55b02c6>"
+Expires: 1800
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Authorization: Digest username="6109", realm="avayasip.com", nonce="154f1ad9cb89ca6b26ef37bd623150157c4c39e8c43", uri="sip:135.124.168.107;transport=tls", response="4ce78322619fe8946efb8c95673f9ded", algorithm=MD5, cnonce="7V7YlAe.bHPCJDhuUiZWl6VHvexnvhKa", opaque="1234567890abcedef", qop=auth, nc=00000001
+Content-Length:  0
+
+
+---------------------------------------------------------------------------------
+<135>Jan  1 01:07:47 konfsip[1367:1428]: DBG: ca_thread_func: overrun!
+<135>Jan  1 01:07:47 konfsip[1367:1426]: TRA: State changed from Null to Calling, event=TX_MSG
+<135>Jan  1 01:07:48 konfsip[1367:1426]: TRA: Processing incoming message: Response msg 200/REGISTER/cseq=3362 (rdata0x337b14)
+<142>Jan  1 01:07:48 konfsip[1367:1426]: RX 688 bytes Response msg 200/REGISTER/cseq=3362 (rdata0x337b14) from tls 135.124.168.107:5061:
+SIP/2.0 200 OK
+Contact: <sip:6109@135.105.129.137:5061;transport=TLS;ob>;expires=1338;reg-id=1;+sip.instance="<urn:uuid:00000000-0000-0000-0000-0000d55b02c6>"
+Feature-Caps: *;+sip.avaya-sips-handling
+Call-ID: Caz.VJAM9BRwEjRpwZ1WbmV2yewXRpv3
+CSeq: 3362 REGISTER
+From: <sip:6109@135.124.168.107>;tag=dulAjHJ2A95k94AebHaAlo8f1.wIGk--
+To: <sip:6109@135.124.168.107>;tag=5828696979546165_local.1447742356205_10001553_10011725
+Via: SIP/2.0/TLS 135.105.129.137:16385;rport=16385;branch=z9hG4bKPjIoZMWxD4UG7M9HVRbDY0sz-OmqHJ1tqK;alias
+Av-Global-Session-ID: a17165c0-23f2-11e6-ba06-842b2bfcf567
+Server: AVAYA-SM-6.3.14.0.631402
+Date: Fri, 27 May 2016 10:06:07 GMT
+Content-Length: 0
+
+---------------------------------------------------------------------------------
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: Incoming Response msg 200/REGISTER/cseq=3362 (rdata0x337b14) in state Calling
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: State changed from Calling to Completed, event=RX_MSG
+<135>May 27 12:06:07 konfsip[1367:1426]: DBG: SIP outbound status for acc 3 is not active
+<134>May 27 12:06:07 konfsip[1367:1426]: INF: IP address change detected for account 3 (135.105.129.137:5061 --> 135.105.129.137:16385). Updating registration..
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: Request msg REGISTER/cseq=3362 (tdta0x3570f0) created.
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: Transaction created for Request msg REGISTER/cseq=3363 (tdta0x3570f0)
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: Sending Request msg REGISTER/cseq=3363 (tdta0x3570f0) in state Null
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: Target '135.124.168.107:0' type=TLS resolved to '135.124.168.107:5061' type=TLS (TLS transport)
+<142>May 27 12:06:07 konfsip[1367:1426]: TX 611 bytes Request msg REGISTER/cseq=3363 (tdta0x3570f0) to tls 135.124.168.107:5061:
+REGISTER sip:135.124.168.107;transport=tls SIP/2.0
+Via: SIP/2.0/tls 135.105.129.137:16385;rport;branch=z9hG4bKPjoXMyaXHdQkfeCZWSde-XVGuzGgW7JjxS;alias
+Route: <sip:135.124.168.107;transport=tls;lr>
+Max-Forwards: 70
+From: <sip:6109@135.124.168.107>;tag=lhLYZkruAaiS5n-nhooQvZbxkCPFr2XV
+To: <sip:6109@135.124.168.107>
+Call-ID: Caz.VJAM9BRwEjRpwZ1WbmV2yewXRpv3
+CSeq: 3363 REGISTER
+User-Agent: Avaya B179 2.4.0.23
+Supported: outbound, path
+Contact: <sip:6109@135.105.129.137:5061;transport=TLS;ob>;reg-id=1;+sip.instance="<urn:uuid:00000000-0000-0000-0000-0000d55b02c6>"
+Expires: 0
+Content-Length:  0
+
+
+---------------------------------------------------------------------------------
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: State changed from Null to Calling, event=TX_MSG
+<134>May 27 12:06:07 konfsip[1367:1426]: INF: Unregistration sent
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: Request msg REGISTER/cseq=40524 (tdta0x34a9a0) created.
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: Transaction created for Request msg REGISTER/cseq=40525 (tdta0x34a9a0)
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: Sending Request msg REGISTER/cseq=40525 (tdta0x34a9a0) in state Null
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: Target '135.124.168.107:0' type=TLS resolved to '135.124.168.107:5061' type=TLS (TLS transport)
+<142>May 27 12:06:07 konfsip[1367:1426]: TX 614 bytes Request msg REGISTER/cseq=40525 (tdta0x34a9a0) to tls 135.124.168.107:5061:
+REGISTER sip:135.124.168.107;transport=tls SIP/2.0
+Via: SIP/2.0/tls 135.105.129.137:16385;rport;branch=z9hG4bKPj4px.xDSsIS7L0kUJmqtkvlPwHfjjFzB3;alias
+Route: <sip:135.124.168.107;transport=tls;lr>
+Max-Forwards: 70
+From: <sip:6109@135.124.168.107>;tag=vS1bgn81d9BEhfC23qAdOhyTprK7EU3O
+To: <sip:6109@135.124.168.107>
+Call-ID: H2iyNLnbVqq5MtcddtGRI9S0137APVOz
+CSeq: 40525 REGISTER
+User-Agent: Avaya B179 2.4.0.23
+Contact: <sip:6109@135.105.129.137:16385;transport=tls;ob>
+Expires: 1800
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Content-Length:  0
+
+
+---------------------------------------------------------------------------------
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: State changed from Null to Calling, event=TX_MSG
+<134>May 27 12:06:07 konfsip[1367:1426]: INF: Registration sent
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: Timeout timer event
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: State changed from Completed to Terminated, event=TIMER
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: Sending 4 byte(s) keep-alive to 135.124.168.107:5061
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: Timeout timer event
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: State changed from Completed to Terminated, event=TIMER
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: Timeout timer event
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: State changed from Terminated to Destroyed, event=TIMER
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: Transaction destroyed!
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: Timeout timer event
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: State changed from Terminated to Destroyed, event=TIMER
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: Destroying txdata Request msg REGISTER/cseq=3362 (tdta0x335f10)
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: Transaction destroyed!
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: Processing incoming message: Response msg 401/REGISTER/cseq=3363 (rdata0x337b14)
+<142>May 27 12:06:07 konfsip[1367:1426]: RX 638 bytes Response msg 401/REGISTER/cseq=3363 (rdata0x337b14) from tls 135.124.168.107:5061:
+SIP/2.0 401 Unauthorized
+WWW-Authenticate: Digest realm="avayasip.com",qop="auth",opaque="1234567890abcedef",nonce="154f1ad9fe58ff13ae22b9fb1071a547564cff92bcc",algorithm=MD5,stale=false
+Call-ID: Caz.VJAM9BRwEjRpwZ1WbmV2yewXRpv3
+CSeq: 3363 REGISTER
+From: <sip:6109@135.124.168.107>;tag=lhLYZkruAaiS5n-nhooQvZbxkCPFr2XV
+To: <sip:6109@135.124.168.107>;tag=32064662088645457_local.1447742356205_10001554_10011726
+Via: SIP/2.0/TLS 135.105.129.137:16385;rport=16385;branch=z9hG4bKPjoXMyaXHdQkfeCZWSde-XVGuzGgW7JjxS;alias
+Av-Global-Session-ID: a1b6fa40-23f2-11e6-ba06-842b2bfcf567
+Server: AVAYA-SM-6.3.14.0.631402
+Content-Length: 0
+
+---------------------------------------------------------------------------------
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: Incoming Response msg 401/REGISTER/cseq=3363 (rdata0x337b14) in state Calling
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: State changed from Calling to Completed, event=RX_MSG
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: Transaction created for Request msg REGISTER/cseq=3364 (tdta0x3570f0)
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: Sending Request msg REGISTER/cseq=3364 (tdta0x3570f0) in state Null
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: Target '135.124.168.107:0' type=TLS resolved to '135.124.168.107:5061' type=TLS (TLS transport)
+<142>May 27 12:06:07 konfsip[1367:1426]: TX 920 bytes Request msg REGISTER/cseq=3364 (tdta0x3570f0) to tls 135.124.168.107:5061:
+REGISTER sip:135.124.168.107;transport=tls SIP/2.0
+Via: SIP/2.0/tls 135.105.129.137:16385;rport;branch=z9hG4bKPjJprlg4sTXUshZUZkyPnAxCMF4Eb3oz9Y;alias
+Route: <sip:135.124.168.107;transport=tls;lr>
+Max-Forwards: 70
+From: <sip:6109@135.124.168.107>;tag=lhLYZkruAaiS5n-nhooQvZbxkCPFr2XV
+To: <sip:6109@135.124.168.107>
+Call-ID: Caz.VJAM9BRwEjRpwZ1WbmV2yewXRpv3
+CSeq: 3364 REGISTER
+User-Agent: Avaya B179 2.4.0.23
+Supported: outbound, path
+Contact: <sip:6109@135.105.129.137:5061;transport=TLS;ob>;reg-id=1;+sip.instance="<urn:uuid:00000000-0000-0000-0000-0000d55b02c6>"
+Expires: 0
+Authorization: Digest username="6109", realm="avayasip.com", nonce="154f1ad9fe58ff13ae22b9fb1071a547564cff92bcc", uri="sip:135.124.168.107;transport=tls", response="d4eaf6061295e6c3ae6370b7136310f0", algorithm=MD5, cnonce="7V7YlAe.bHPCJDhuUiZWl6VHvexnvhKa", opaque="1234567890abcedef", qop=auth, nc=00000001
+Content-Length:  0
+
+
+---------------------------------------------------------------------------------
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: State changed from Null to Calling, event=TX_MSG
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: Processing incoming message: Response msg 401/REGISTER/cseq=40525 (rdata0x337b14)
+<142>May 27 12:06:07 konfsip[1367:1426]: RX 638 bytes Response msg 401/REGISTER/cseq=40525 (rdata0x337b14) from tls 135.124.168.107:5061:
+SIP/2.0 401 Unauthorized
+WWW-Authenticate: Digest realm="avayasip.com",qop="auth",opaque="1234567890abcedef",nonce="154f1ada12846a1db40e8223e1a53e25e24dfc2f6d9",algorithm=MD5,stale=false
+Call-ID: H2iyNLnbVqq5MtcddtGRI9S0137APVOz
+CSeq: 40525 REGISTER
+From: <sip:6109@135.124.168.107>;tag=vS1bgn81d9BEhfC23qAdOhyTprK7EU3O
+To: <sip:6109@135.124.168.107>;tag=5060722691345081_local.1447742356205_10001555_10011727
+Via: SIP/2.0/TLS 135.105.129.137:16385;rport=16385;branch=z9hG4bKPj4px.xDSsIS7L0kUJmqtkvlPwHfjjFzB3;alias
+Av-Global-Session-ID: a1e86a80-23f2-11e6-ba06-842b2bfcf567
+Server: AVAYA-SM-6.3.14.0.631402
+Content-Length: 0
+
+---------------------------------------------------------------------------------
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: Incoming Response msg 401/REGISTER/cseq=40525 (rdata0x337b14) in state Calling
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: State changed from Calling to Completed, event=RX_MSG
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: Transaction created for Request msg REGISTER/cseq=40526 (tdta0x34a9a0)
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: Sending Request msg REGISTER/cseq=40526 (tdta0x34a9a0) in state Null
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: Target '135.124.168.107:0' type=TLS resolved to '135.124.168.107:5061' type=TLS (TLS transport)
+<142>May 27 12:06:07 konfsip[1367:1426]: TX 923 bytes Request msg REGISTER/cseq=40526 (tdta0x34a9a0) to tls 135.124.168.107:5061:
+REGISTER sip:135.124.168.107;transport=tls SIP/2.0
+Via: SIP/2.0/tls 135.105.129.137:16385;rport;branch=z9hG4bKPjvQo2TnsKFiSGQZC3fmMbuHhVSChFLTve;alias
+Route: <sip:135.124.168.107;transport=tls;lr>
+Max-Forwards: 70
+From: <sip:6109@135.124.168.107>;tag=vS1bgn81d9BEhfC23qAdOhyTprK7EU3O
+To: <sip:6109@135.124.168.107>
+Call-ID: H2iyNLnbVqq5MtcddtGRI9S0137APVOz
+CSeq: 40526 REGISTER
+User-Agent: Avaya B179 2.4.0.23
+Contact: <sip:6109@135.105.129.137:16385;transport=tls;ob>
+Expires: 1800
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Authorization: Digest username="6109", realm="avayasip.com", nonce="154f1ada12846a1db40e8223e1a53e25e24dfc2f6d9", uri="sip:135.124.168.107;transport=tls", response="8febb8167206ea764f50bfff20216d4f", algorithm=MD5, cnonce="42KBxPluoSX8fC8HPo9SuC2yNA8AdZ3U", opaque="1234567890abcedef", qop=auth, nc=00000001
+Content-Length:  0
+
+
+---------------------------------------------------------------------------------
+<135>May 27 12:06:07 konfsip[1367:1426]: TRA: State changed from Null to Calling, event=TX_MSG
+<135>May 27 12:06:08 konfsip[1367:1426]: TRA: Processing incoming message: Response msg 200/REGISTER/cseq=3364 (rdata0x337b14)
+<142>May 27 12:06:08 konfsip[1367:1426]: RX 544 bytes Response msg 200/REGISTER/cseq=3364 (rdata0x337b14) from tls 135.124.168.107:5061:
+SIP/2.0 200 OK
+Feature-Caps: *;+sip.avaya-sips-handling
+Call-ID: Caz.VJAM9BRwEjRpwZ1WbmV2yewXRpv3
+CSeq: 3364 REGISTER
+From: <sip:6109@135.124.168.107>;tag=lhLYZkruAaiS5n-nhooQvZbxkCPFr2XV
+To: <sip:6109@135.124.168.107>;tag=21686608062010038_local.1447742356205_10001556_10011728
+Via: SIP/2.0/TLS 135.105.129.137:16385;rport=16385;branch=z9hG4bKPjJprlg4sTXUshZUZkyPnAxCMF4Eb3oz9Y;alias
+Av-Global-Session-ID: a2196590-23f2-11e6-ba06-842b2bfcf567
+Server: AVAYA-SM-6.3.14.0.631402
+Date: Fri, 27 May 2016 10:06:09 GMT
+Content-Length: 0
+
+---------------------------------------------------------------------------------
+<135>May 27 12:06:09 konfsip[1367:1426]: TRA: Incoming Response msg 200/REGISTER/cseq=3364 (rdata0x337b14) in state Calling
+<135>May 27 12:06:09 konfsip[1367:1426]: TRA: State changed from Calling to Completed, event=RX_MSG
+<135>May 27 12:06:09 konfsip[1367:1426]: TRA: Timeout timer event
+<135>May 27 12:06:09 konfsip[1367:1426]: TRA: State changed from Completed to Terminated, event=TIMER
+<135>May 27 12:06:09 konfsip[1367:1426]: TRA: Timeout timer event
+<135>May 27 12:06:09 konfsip[1367:1426]: TRA: State changed from Terminated to Destroyed, event=TIMER
+<135>May 27 12:06:09 konfsip[1367:1426]: TRA: Transaction destroyed!
+<135>May 27 12:06:09 konfsip[1367:1426]: TRA: Processing incoming message: Response msg 200/REGISTER/cseq=40526 (rdata0x337b14)
+<142>May 27 12:06:09 konfsip[1367:1426]: RX 617 bytes Response msg 200/REGISTER/cseq=40526 (rdata0x337b14) from tls 135.124.168.107:5061:
+SIP/2.0 200 OK
+Contact: <sip:6109@135.105.129.137:16385;transport=tls;ob>;expires=1328
+Feature-Caps: *;+sip.avaya-sips-handling
+Call-ID: H2iyNLnbVqq5MtcddtGRI9S0137APVOz
+CSeq: 40526 REGISTER
+From: <sip:6109@135.124.168.107>;tag=vS1bgn81d9BEhfC23qAdOhyTprK7EU3O
+To: <sip:6109@135.124.168.107>;tag=2643049903834478_local.1447742356205_10001557_10011729
+Via: SIP/2.0/TLS 135.105.129.137:16385;rport=16385;branch=z9hG4bKPjvQo2TnsKFiSGQZC3fmMbuHhVSChFLTve;alias
+Av-Global-Session-ID: a24ad5d0-23f2-11e6-ba06-842b2bfcf567
+Server: AVAYA-SM-6.3.14.0.631402
+Date: Fri, 27 May 2016 10:06:09 GMT
+Content-Length: 0
+
+---------------------------------------------------------------------------------
+<135>May 27 12:06:09 konfsip[1367:1426]: TRA: Incoming Response msg 200/REGISTER/cseq=40526 (rdata0x337b14) in state Calling
+<135>May 27 12:06:09 konfsip[1367:1426]: TRA: State changed from Calling to Completed, event=RX_MSG
+<135>May 27 12:06:09 konfsip[1367:1426]: DBG: SIP outbound status for acc 3 is not active
+<134>May 27 12:06:09 konfsip[1367:1426]: INF: <sip:6109@135.124.168.107;transport=tls>: registration success, status=200 (OK), will re-register in 1328 seconds
+<135>May 27 12:06:09 konfsip[1367:1426]: TRA: Timeout timer event
+<135>May 27 12:06:09 konfsip[1367:1426]: TRA: State changed from Completed to Terminated, event=TIMER
+<135>May 27 12:06:09 konfsip[1367:1426]: TRA: Timeout timer event
+<135>May 27 12:06:09 konfsip[1367:1426]: TRA: State changed from Terminated to Destroyed, event=TIMER
+<135>May 27 12:06:09 konfsip[1367:1426]: TRA: Transaction destroyed!
+<134>May 27 12:06:09 konfsip[1367:1367]: INF: mmi: Account 'Konf_Puli_6111' registered
+<135>May 27 12:06:12 konfsip[1367:1426]: TRA: Timeout timer event
+<135>May 27 12:06:12 konfsip[1367:1426]: TRA: State changed from Completed to Terminated, event=TIMER
+<135>May 27 12:06:12 konfsip[1367:1426]: TRA: Timeout timer event
+<135>May 27 12:06:12 konfsip[1367:1426]: TRA: State changed from Terminated to Destroyed, event=TIMER
+<135>May 27 12:06:12 konfsip[1367:1426]: TRA: Destroying txdata Request msg REGISTER/cseq=3364 (tdta0x3570f0)
+<135>May 27 12:06:12 konfsip[1367:1426]: TRA: Transaction destroyed!
+<135>May 27 12:06:12 konfsip[1367:1426]: TRA: Timeout timer event
+<135>May 27 12:06:12 konfsip[1367:1426]: TRA: State changed from Completed to Terminated, event=TIMER
+<135>May 27 12:06:12 konfsip[1367:1426]: TRA: Timeout timer event
+<135>May 27 12:06:12 konfsip[1367:1426]: TRA: State changed from Terminated to Destroyed, event=TIMER
+<135>May 27 12:06:12 konfsip[1367:1426]: TRA: Destroying txdata Request msg REGISTER/cseq=40526 (tdta0x34a9a0)
+<135>May 27 12:06:12 konfsip[1367:1426]: TRA: Transaction destroyed!
+<75>May 27 10:06:20 crond[965]: time disparity of 4419959 minutes detected
+<135>May 27 12:06:21 konfsip[1367:1429]: DBG: File player '/usr/lib/konfsip/click16k.wav' created: samp.rate=16000, ch=1, bufsize=0KB, filesize=1KB
+<135>May 27 12:06:21 konfsip[1367:1429]: DBG: Port 6 (/usr/lib/konfsip/click16k.wav) transmitting to port 1 (ks_splitcomb-ch)
+<135>May 27 12:06:21 konfsip[1367:1427]: DBG: Port 6 (/usr/lib/konfsip/click16k.wav) stop transmitting to port 1 (ks_splitcomb-ch)
+<135>May 27 12:06:22 konfsip[1367:1429]: DBG: File player '/usr/lib/konfsip/click16k.wav' created: samp.rate=16000, ch=1, bufsize=0KB, filesize=1KB
+<135>May 27 12:06:22 konfsip[1367:1429]: DBG: Port 6 (/usr/lib/konfsip/click16k.wav) transmitting to port 1 (ks_splitcomb-ch)
+<135>May 27 12:06:22 konfsip[1367:1427]: DBG: Port 6 (/usr/lib/konfsip/click16k.wav) stop transmitting to port 1 (ks_splitcomb-ch)
+<135>May 27 12:06:23 konfsip[1367:1429]: DBG: File player '/usr/lib/konfsip/click16k.wav' created: samp.rate=16000, ch=1, bufsize=0KB, filesize=1KB
+<135>May 27 12:06:23 konfsip[1367:1429]: DBG: Port 6 (/usr/lib/konfsip/click16k.wav) transmitting to port 1 (ks_splitcomb-ch)
+<135>May 27 12:06:23 konfsip[1367:1427]: DBG: Port 6 (/usr/lib/konfsip/click16k.wav) stop transmitting to port 1 (ks_splitcomb-ch)
+<135>May 27 12:06:23 konfsip[1367:1429]: DBG: File player '/usr/lib/konfsip/click16k.wav' created: samp.rate=16000, ch=1, bufsize=0KB, filesize=1KB
+<135>May 27 12:06:23 konfsip[1367:1429]: DBG: Port 6 (/usr/lib/konfsip/click16k.wav) transmitting to port 1 (ks_splitcomb-ch)
+<135>May 27 12:06:23 konfsip[1367:1427]: DBG: Port 6 (/usr/lib/konfsip/click16k.wav) stop transmitting to port 1 (ks_splitcomb-ch)
+<135>May 27 12:06:28 konfsip[1367:1429]: DBG: File player '/usr/lib/konfsip/click16k.wav' created: samp.rate=16000, ch=1, bufsize=0KB, filesize=1KB
+<135>May 27 12:06:28 konfsip[1367:1429]: DBG: Port 6 (/usr/lib/konfsip/click16k.wav) transmitting to port 1 (ks_splitcomb-ch)
+<135>May 27 12:06:29 konfsip[1367:1367]: DBG: Making call with acc #3 to <sip:6011@135.124.168.107;transport=tls>
+<135>May 27 12:06:29 konfsip[1367:1367]: TRA: UAC dialog created
+<135>May 27 12:06:29 konfsip[1367:1427]: DBG: Port 6 (/usr/lib/konfsip/click16k.wav) stop transmitting to port 1 (ks_splitcomb-ch)
+<135>May 27 12:06:29 konfsip[1367:1367]: DBG: Media index 0 selected for call 0
+<135>May 27 12:06:29 konfsip[1367:1367]: TRA: Module mod-invite added as dialog usage, data=0x336c48
+<135>May 27 12:06:29 konfsip[1367:1367]: TRA: Session count inc to 2 by mod-invite
+<135>May 27 12:06:29 konfsip[1367:1367]: TRA: Module mod-100rel added as dialog usage, data=0x34bd28
+<135>May 27 12:06:29 konfsip[1367:1367]: TRA: 100rel module attached
+<135>May 27 12:06:29 konfsip[1367:1367]: TRA: UAC invite session created for dialog dlg0x357154
+<135>May 27 12:06:29 konfsip[1367:1367]: TRA: Request msg INVITE/cseq=30660 (tdta0x34bd50) created.
+<135>May 27 12:06:29 konfsip[1367:1367]: TRA: Sending Request msg INVITE/cseq=30660 (tdta0x34bd50)
+<135>May 27 12:06:29 konfsip[1367:1367]: TRA: Sending Request msg INVITE/cseq=30660 (tdta0x34bd50)
+<135>May 27 12:06:29 konfsip[1367:1367]: TRA: Transaction created for Request msg INVITE/cseq=30659 (tdta0x34bd50)
+<135>May 27 12:06:29 konfsip[1367:1367]: TRA: Sending Request msg INVITE/cseq=30659 (tdta0x34bd50) in state Null
+<135>May 27 12:06:29 konfsip[1367:1367]: TRA: Target '135.124.168.107:0' type=TLS resolved to '135.124.168.107:5061' type=TLS (TLS transport)
+<142>May 27 12:06:29 konfsip[1367:1367]: TX 1069 bytes Request msg INVITE/cseq=30659 (tdta0x34bd50) to tls 135.124.168.107:5061:
+INVITE sip:6011@135.124.168.107;transport=tls SIP/2.0
+Via: SIP/2.0/tls 135.105.129.137:16385;rport;branch=z9hG4bKPjB0-4X1wENtwaPF.QWB0mmT8cImXM0Dp6;alias
+Max-Forwards: 70
+From: <sip:6109@135.124.168.107>;tag=xMiif4kefmPEOQZ9u2iY03GBm6D1I0gu
+To: <sip:6011@135.124.168.107>
+Contact: <sip:6109@135.105.129.137:16385;transport=tls;ob>
+Call-ID: bn5DbJYYTcjLdJficypE4qOCa4xzKunk
+CSeq: 30659 INVITE
+Route: <sip:135.124.168.107;transport=tls;lr>
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Supported: replaces, 100rel
+User-Agent: Avaya B179 2.4.0.23
+Content-Type: application/sdp
+Content-Length:   406
+
+v=0
+o=- 3673332389 3673332389 IN IP4 135.105.129.137
+s=pjmedia
+c=IN IP4 135.105.129.137
+t=0 0
+a=X-nat:0
+m=audio 4000 RTP/AVP 8 101
+a=rtcp:4001 IN IP4 135.105.129.137
+a=rtpmap:8 PCMA/8000
+a=sendrecv
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=tcap:1 RTP/SAVP
+a=acap:1 crypto:1 AES_CM_128_HMAC_SHA1_80 inline:/WukmvVRf5tFkhaIO+OiNaX634S/OcNJHF3Yxt1U UNENCRYPTED_SRTCP
+a=pcfg:1 t=1 a=1
+
+---------------------------------------------------------------------------------
+<135>May 27 12:06:29 konfsip[1367:1367]: DBG: codec_limiter: ON TX: call id 0, remove g729 from SDP
+<135>May 27 12:06:29 konfsip[1367:1367]: TRA: State changed from Null to Calling, event=TX_MSG
+<135>May 27 12:06:29 konfsip[1367:1367]: TRA: Transaction tsx0x33aa0c state changed to Calling
+<135>May 27 12:06:29 konfsip[1367:1367]: TRA: sip_manager: on_call_state
+<135>May 27 12:06:29 konfsip[1367:1367]: TRA: sip_manager: on_call_tsx_state
+<135>May 27 12:06:29 konfsip[1367:1367]: TRA: sip_manager: on_call_tsx_state - No PAI found
+<135>May 27 12:06:29 konfsip[1367:1426]: TRA: Processing incoming message: Response msg 100/INVITE/cseq=30659 (rdata0x337b14)
+<142>May 27 12:06:29 konfsip[1367:1426]: RX 314 bytes Response msg 100/INVITE/cseq=30659 (rdata0x337b14) from tls 135.124.168.107:5061:
+SIP/2.0 100 Trying
+Call-ID: bn5DbJYYTcjLdJficypE4qOCa4xzKunk
+CSeq: 30659 INVITE
+From: <sip:6109@135.124.168.107>;tag=xMiif4kefmPEOQZ9u2iY03GBm6D1I0gu
+To: <sip:6011@135.124.168.107>
+Via: SIP/2.0/TLS 135.105.129.137:16385;rport=16385;branch=z9hG4bKPjB0-4X1wENtwaPF.QWB0mmT8cImXM0Dp6;alias
+Content-Length: 0
+
+---------------------------------------------------------------------------------
+<135>May 27 12:06:29 konfsip[1367:1426]: TRA: Incoming Response msg 100/INVITE/cseq=30659 (rdata0x337b14) in state Calling
+<135>May 27 12:06:29 konfsip[1367:1426]: TRA: State changed from Calling to Proceeding, event=RX_MSG
+<135>May 27 12:06:29 konfsip[1367:1426]: TRA: Received Response msg 100/INVITE/cseq=30659 (rdata0x337b14)
+<135>May 27 12:06:29 konfsip[1367:1426]: TRA: Transaction tsx0x33aa0c state changed to Proceeding
+<135>May 27 12:06:29 konfsip[1367:1426]: TRA: sip_manager: on_call_tsx_state
+<135>May 27 12:06:29 konfsip[1367:1426]: DBG: sip_manager: extract_pai_header_event: PJSIP_EVENT_TSX_STATE
+<135>May 27 12:06:29 konfsip[1367:1426]: TRA: sip_manager: on_call_tsx_state - No PAI found
+<135>May 27 12:06:29 konfsip[1367:1428]: DBG: ca_thread_func: overrun!
+<135>May 27 12:06:29 konfsip[1367:1426]: TRA: Processing incoming message: Response msg 407/INVITE/cseq=30659 (rdata0x337b14)
+<142>May 27 12:06:29 konfsip[1367:1426]: RX 656 bytes Response msg 407/INVITE/cseq=30659 (rdata0x337b14) from tls 135.124.168.107:5061:
+SIP/2.0 407 Proxy Authentication Required
+Proxy-Authenticate: Digest realm="avayasip.com",qop="auth",opaque="1234567890abcedef",nonce="154f1adf52fd0f39c6cfe9d04a60666b6087e8a6a80",algorithm=MD5,stale=false
+Call-ID: bn5DbJYYTcjLdJficypE4qOCa4xzKunk
+CSeq: 30659 INVITE
+From: <sip:6109@135.124.168.107>;tag=xMiif4kefmPEOQZ9u2iY03GBm6D1I0gu
+To: <sip:6011@135.124.168.107>;tag=09160591391526662_local.1447742356205_10001571_10011743
+Via: SIP/2.0/TLS 135.105.129.137:16385;rport=16385;branch=z9hG4bKPjB0-4X1wENtwaPF.QWB0mmT8cImXM0Dp6;alias
+Av-Global-Session-ID: aebabbf0-23f2-11e6-ba06-842b2bfcf567
+Server: AVAYA-SM-6.3.14.0.631402
+Content-Length: 0
+
+---------------------------------------------------------------------------------
+<135>May 27 12:06:29 konfsip[1367:1426]: TRA: Incoming Response msg 407/INVITE/cseq=30659 (rdata0x337b14) in state Proceeding
+<135>May 27 12:06:29 konfsip[1367:1426]: TRA: Request msg ACK/cseq=30659 (tdta0x33adb8) created.
+<142>May 27 12:06:29 konfsip[1367:1426]: TX 463 bytes Request msg ACK/cseq=30659 (tdta0x33adb8) to tls 135.124.168.107:5061:
+ACK sip:6011@135.124.168.107;transport=tls SIP/2.0
+Via: SIP/2.0/tls 135.105.129.137:16385;rport;branch=z9hG4bKPjB0-4X1wENtwaPF.QWB0mmT8cImXM0Dp6;alias
+Max-Forwards: 70
+From: <sip:6109@135.124.168.107>;tag=xMiif4kefmPEOQZ9u2iY03GBm6D1I0gu
+To: <sip:6011@135.124.168.107>;tag=09160591391526662_local.1447742356205_10001571_10011743
+Call-ID: bn5DbJYYTcjLdJficypE4qOCa4xzKunk
+CSeq: 30659 ACK
+Route: <sip:135.124.168.107;transport=tls;lr>
+Content-Length:  0
+
+
+---------------------------------------------------------------------------------
+<135>May 27 12:06:29 konfsip[1367:1426]: TRA: State changed from Proceeding to Completed, event=RX_MSG
+<135>May 27 12:06:29 konfsip[1367:1426]: TRA: Received Response msg 407/INVITE/cseq=30659 (rdata0x337b14)
+<135>May 27 12:06:29 konfsip[1367:1426]: TRA: Transaction tsx0x33aa0c state changed to Completed
+<135>May 27 12:06:29 konfsip[1367:1426]: TRA: Sending Request msg INVITE/cseq=30659 (tdta0x34bd50)
+<135>May 27 12:06:29 konfsip[1367:1426]: TRA: Sending Request msg INVITE/cseq=30659 (tdta0x34bd50)
+<135>May 27 12:06:29 konfsip[1367:1426]: TRA: Transaction created for Request msg INVITE/cseq=30660 (tdta0x34bd50)
+<135>May 27 12:06:29 konfsip[1367:1426]: TRA: Sending Request msg INVITE/cseq=30660 (tdta0x34bd50) in state Null
+<135>May 27 12:06:29 konfsip[1367:1426]: TRA: Target '135.124.168.107:0' type=TLS resolved to '135.124.168.107:5061' type=TLS (TLS transport)
+<142>May 27 12:06:29 konfsip[1367:1426]: TX 1389 bytes Request msg INVITE/cseq=30660 (tdta0x34bd50) to tls 135.124.168.107:5061:
+INVITE sip:6011@135.124.168.107;transport=tls SIP/2.0
+Via: SIP/2.0/tls 135.105.129.137:16385;rport;branch=z9hG4bKPjzd5F6gm0zKSQLQUrtB4JzYbSZ0ZbvVYV;alias
+Max-Forwards: 70
+From: <sip:6109@135.124.168.107>;tag=xMiif4kefmPEOQZ9u2iY03GBm6D1I0gu
+To: <sip:6011@135.124.168.107>
+Contact: <sip:6109@135.105.129.137:16385;transport=tls;ob>
+Call-ID: bn5DbJYYTcjLdJficypE4qOCa4xzKunk
+CSeq: 30660 INVITE
+Route: <sip:135.124.168.107;transport=tls;lr>
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Supported: replaces, 100rel
+User-Agent: Avaya B179 2.4.0.23
+Proxy-Authorization: Digest username="6109", realm="avayasip.com", nonce="154f1adf52fd0f39c6cfe9d04a60666b6087e8a6a80", uri="sip:6011@135.124.168.107;transport=tls", response="4f96c22fbfbe0213a407efe06a85c292", algorithm=MD5, cnonce="-vBSn1S2Pdvk4JxaJT97KHOV23-bbfC3", opaque="1234567890abcedef", qop=auth, nc=00000001
+Content-Type: application/sdp
+Content-Length:   406
+
+v=0
+o=- 3673332389 3673332389 IN IP4 135.105.129.137
+s=pjmedia
+c=IN IP4 135.105.129.137
+t=0 0
+a=X-nat:0
+m=audio 4000 RTP/AVP 8 101
+a=rtcp:4001 IN IP4 135.105.129.137
+a=rtpmap:8 PCMA/8000
+a=sendrecv
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=tcap:1 RTP/SAVP
+a=acap:1 crypto:1 AES_CM_128_HMAC_SHA1_80 inline:/WukmvVRf5tFkhaIO+OiNaX634S/OcNJHF3Yxt1U UNENCRYPTED_SRTCP
+a=pcfg:1 t=1 a=1
+
+---------------------------------------------------------------------------------
+<135>May 27 12:06:29 konfsip[1367:1426]: DBG: codec_limiter: ON TX: call id 0, remove g729 from SDP
+<135>May 27 12:06:29 konfsip[1367:1426]: TRA: State changed from Null to Calling, event=TX_MSG
+<135>May 27 12:06:29 konfsip[1367:1426]: TRA: Transaction tsx0x336344 state changed to Calling
+<135>May 27 12:06:29 konfsip[1367:1426]: TRA: sip_manager: on_call_state
+<135>May 27 12:06:29 konfsip[1367:1426]: TRA: sip_manager: on_call_tsx_state
+<135>May 27 12:06:29 konfsip[1367:1426]: TRA: sip_manager: on_call_tsx_state - No PAI found
+<135>May 27 12:06:29 konfsip[1367:1426]: TRA: sip_manager: on_call_tsx_state
+<135>May 27 12:06:29 konfsip[1367:1426]: DBG: sip_manager: extract_pai_header_event: PJSIP_EVENT_TSX_STATE
+<135>May 27 12:06:29 konfsip[1367:1426]: TRA: sip_manager: on_call_tsx_state - No PAI found
+<135>May 27 12:06:30 konfsip[1367:1426]: TRA: Processing incoming message: Response msg 100/INVITE/cseq=30660 (rdata0x337b14)
+<142>May 27 12:06:30 konfsip[1367:1426]: RX 314 bytes Response msg 100/INVITE/cseq=30660 (rdata0x337b14) from tls 135.124.168.107:5061:
+SIP/2.0 100 Trying
+Call-ID: bn5DbJYYTcjLdJficypE4qOCa4xzKunk
+CSeq: 30660 INVITE
+From: <sip:6109@135.124.168.107>;tag=xMiif4kefmPEOQZ9u2iY03GBm6D1I0gu
+To: <sip:6011@135.124.168.107>
+Via: SIP/2.0/TLS 135.105.129.137:16385;rport=16385;branch=z9hG4bKPjzd5F6gm0zKSQLQUrtB4JzYbSZ0ZbvVYV;alias
+Content-Length: 0
+
+---------------------------------------------------------------------------------
+<135>May 27 12:06:30 konfsip[1367:1426]: TRA: Incoming Response msg 100/INVITE/cseq=30660 (rdata0x337b14) in state Calling
+<135>May 27 12:06:30 konfsip[1367:1426]: TRA: State changed from Calling to Proceeding, event=RX_MSG
+<135>May 27 12:06:30 konfsip[1367:1426]: TRA: Received Response msg 100/INVITE/cseq=30660 (rdata0x337b14)
+<135>May 27 12:06:30 konfsip[1367:1426]: TRA: Transaction tsx0x336344 state changed to Proceeding
+<135>May 27 12:06:30 konfsip[1367:1426]: TRA: sip_manager: on_call_tsx_state
+<135>May 27 12:06:30 konfsip[1367:1426]: DBG: sip_manager: extract_pai_header_event: PJSIP_EVENT_TSX_STATE
+<135>May 27 12:06:30 konfsip[1367:1426]: TRA: sip_manager: on_call_tsx_state - No PAI found
+<135>May 27 12:06:30 konfsip[1367:1426]: TRA: Processing incoming message: Response msg 488/INVITE/cseq=30660 (rdata0x337b14)
+<142>May 27 12:06:30 konfsip[1367:1426]: RX 695 bytes Response msg 488/INVITE/cseq=30660 (rdata0x337b14) from tls 135.124.168.107:5061:
+SIP/2.0 488 Not Acceptable Here (Transport Not Secure)
+P-Location: SM;origlocname="budapest";origmedialocname="budapest";orighomelocname="budapest";termlocname="budapest";termsiglocname="budapest";termmedialocname="budapest";smaccounting="true"
+Server: Avaya CM/R016x.03.0.124.0 AVAYA-SM-6.3.14.0.631402
+Av-Global-Session-ID: af4ce9d0-23f2-11e6-ba06-842b2bfcf567
+To: <sip:6011@135.124.168.107>;tag=80fa5e9bcc24e61b7eb56f6c1e700
+From: <sip:6109@135.124.168.107>;tag=xMiif4kefmPEOQZ9u2iY03GBm6D1I0gu
+Call-ID: bn5DbJYYTcjLdJficypE4qOCa4xzKunk
+CSeq: 30660 INVITE
+Via: SIP/2.0/TLS 135.105.129.137:16385;rport=16385;branch=z9hG4bKPjzd5F6gm0zKSQLQUrtB4JzYbSZ0ZbvVYV;alias
+Content-Length: 0
+
+---------------------------------------------------------------------------------
+<135>May 27 12:06:30 konfsip[1367:1426]: TRA: Incoming Response msg 488/INVITE/cseq=30660 (rdata0x337b14) in state Proceeding
+<135>May 27 12:06:30 konfsip[1367:1426]: TRA: Request msg ACK/cseq=30660 (tdta0x33b5c0) created.
+<142>May 27 12:06:30 konfsip[1367:1426]: TX 437 bytes Request msg ACK/cseq=30660 (tdta0x33b5c0) to tls 135.124.168.107:5061:
+ACK sip:6011@135.124.168.107;transport=tls SIP/2.0
+Via: SIP/2.0/tls 135.105.129.137:16385;rport;branch=z9hG4bKPjzd5F6gm0zKSQLQUrtB4JzYbSZ0ZbvVYV;alias
+Max-Forwards: 70
+From: <sip:6109@135.124.168.107>;tag=xMiif4kefmPEOQZ9u2iY03GBm6D1I0gu
+To: <sip:6011@135.124.168.107>;tag=80fa5e9bcc24e61b7eb56f6c1e700
+Call-ID: bn5DbJYYTcjLdJficypE4qOCa4xzKunk
+CSeq: 30660 ACK
+Route: <sip:135.124.168.107;transport=tls;lr>
+Content-Length:  0
+
+
+---------------------------------------------------------------------------------
+<135>May 27 12:06:30 konfsip[1367:1426]: TRA: State changed from Proceeding to Completed, event=RX_MSG
+<135>May 27 12:06:30 konfsip[1367:1426]: TRA: Received Response msg 488/INVITE/cseq=30660 (rdata0x337b14)
+<135>May 27 12:06:30 konfsip[1367:1426]: TRA: Transaction tsx0x336344 state changed to Completed
+<135>May 27 12:06:30 konfsip[1367:1426]: TRA: sip_manager: on_call_state
+<135>May 27 12:06:30 konfsip[1367:1426]: DBG: Port 2 (tonegen) transmitting to port 0 (Master/sound)
+<135>May 27 12:06:30 konfsip[1367:1426]: TRA: Session count dec to 1 by mod-invite
+<135>May 27 12:06:30 konfsip[1367:1426]: TRA: Destroying txdata Request msg INVITE/cseq=30660 (tdta0x34bd50)
+<135>May 27 12:06:30 konfsip[1367:1367]: DBG: mmi: Sanitize display name: <sip:6011@135.124.168.107;transport=tls>
+<135>May 27 12:06:33 konfsip[1367:1429]: DBG: File player '/usr/lib/konfsip/click16k.wav' created: samp.rate=16000, ch=1, bufsize=0KB, filesize=1KB
+<135>May 27 12:06:33 konfsip[1367:1429]: DBG: Port 6 (/usr/lib/konfsip/click16k.wav) transmitting to port 1 (ks_splitcomb-ch)
+<135>May 27 12:06:33 konfsip[1367:1367]: DBG: Port 2 (tonegen) stop transmitting to port 0 (Master/sound)
+<135>May 27 12:06:33 konfsip[1367:1427]: DBG: Port 6 (/usr/lib/konfsip/click16k.wav) stop transmitting to port 1 (ks_splitcomb-ch)

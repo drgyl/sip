@@ -1,0 +1,852 @@
+
+
+********** Warning: Logging to Screen Started **********
+                    
+3309492437mS SIP Rx: TCP 213.148.136.222:5060 -> 10.255.1.21:23588
+                    INVITE sip:+49202251557999@10.255.1.21:5060;transport=tcp SIP/2.0
+                    Via: SIP/2.0/TCP 213.148.136.222:5060;branch=z9hG4bKdt9mce1060g69f3u2vn0.1
+                    To: <sip:+49202251557999@ipfonie.de;user=phone>
+                    Call-ID: SD21rr301-09cd8beb955054685b414326949ba5a8-l65h8l3
+                    From: "+492119562699" <sip:+492119562699@ipfonie.de;user=phone>;tag=SD21rr301-0UUHS0000030000E1D0302Yu0235FEJ1UV6IF1
+                    CSeq: 38488 INVITE
+                    Contact: <sip:213.148.136.222:5060;line=sr-N6IAzJd4z.VfM.quWBV6z.IyMBFlOBFZMJZfWxP7MBc-W.y6Mx1uN6KLH90vo6sIzwaL3RslNSQLpxuugUy*;transport=tcp>
+                    Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, INFO, UPDATE
+                    Content-Type: application/sdp
+                    Diversion: <sip:00441483308000@ipfonie.de>;reason=unknown;counter=1
+                    Max-Forwards: 60
+                    P-Early-Media: supported
+                    Supported: timer, histinfo
+                    Content-Length: 361
+                    P-Called-Party-ID: sip:+49202251557999@ipfonie.de
+                    X-ORIGINAL-DDI-URI: sip:+49202251557999@ipfonie.de
+                    X-CID: bf15e00009f5-5edde336-601acd50-2720a5b8-a4a8dea-01
+                    
+                    v=0
+                    o=- 290951731 2753 IN IP4 213.148.136.222
+                    s=TELES-SBC
+                    c=IN IP4 213.148.136.222
+                    t=0 0
+                    m=audio 56698 RTP/AVP 9 8 0 96 120
+                    a=rtpmap:9 G722/8000
+                    a=rtpmap:8 PCMA/8000
+                    a=rtpmap:0 PCMU/8000
+                    a=rtpmap:96 AMR-WB/16000
+                    a=fmtp:96 octet-align=1;mode-change-capability=2;max-red=0
+                    a=rtpmap:120 telephone-event/8000
+                    a=fmtp:120 0-15
+                    a=maxptime:20
+                    a=sendrecv
+3309492437mS CMCallEvt:    0000000000000000 0.1293670.0 -1 BaseEP: NEW CMEndpoint ee642f78 TOTAL NOW=64 CALL_LIST=31
+3309492438mS SIP Tx: TCP 10.255.1.21:23588 -> 213.148.136.222:5060
+                    SIP/2.0 100 Trying
+                    Via: SIP/2.0/TCP 213.148.136.222:5060;branch=z9hG4bKdt9mce1060g69f3u2vn0.1
+                    From: "+492119562699" <sip:+492119562699@ipfonie.de;user=phone>;tag=SD21rr301-0UUHS0000030000E1D0302Yu0235FEJ1UV6IF1
+                    Call-ID: SD21rr301-09cd8beb955054685b414326949ba5a8-l65h8l3
+                    CSeq: 38488 INVITE
+                    Allow: INVITE,ACK,CANCEL,OPTIONS,BYE,INFO,NOTIFY,UPDATE
+                    Supported: timer
+                    Server: IP Office 11.0.4.2.0 build 58
+                    Content-Length: 0
+                    To: <sip:+49202251557999@ipfonie.de;user=phone>;tag=e0bcf55bfdb071a1
+                    
+3309492438mS CMCallEvt:    CREATE CALL:343769 (ef014730)
+3309492438mS CMCallEvt:    0000000000000000 0.1293671.0 -1 BaseEP: NEW CMEndpoint ef44b7a8 TOTAL NOW=65 CALL_LIST=31
+3309492439mS CMCallEvt:    c0a864150013bd66 21.1293670.1 343769 SIPTrunk Endpoint: StateChange: END=A CMCSIdle->CMCSDialInitiated
+3309492439mS CMTARGET:     c0a864150013bd66 21.1293670.1 343769 SIPTrunk Endpoint: LOOKUP CALL ROUTE: GID=21 type=1 called_party=0202251557999 sub= calling=002119562699@ipfonie.de calling_sub= dir=in complete=1 ses=0
+3309492439mS CMTARGET:     c0a864150013bd66 21.1293670.1 343769 SIPTrunk Endpoint: SET BESTMATCH: length 15 vs -1 match=+49202251557999 dest=ChapA157999
+3309492440mS CMCallEvt:    Priority hike: call 343769 priority 0->1
+3309492440mS CMTARGET:     c0a864150013bd66 21.1293670.1 343769 SIPTrunk Endpoint: LOOKUP ICR: DDI=+49202251557999 CGPN=002119562699@ipfonie.de  (Destination ChapA157999 ) => CDPN=ChapA157999
+3309492440mS CMTARGET:     c0a864150013bd66 21.1293670.1 343769 SIPTrunk Endpoint: ADD TARGET (N): number=ChapA157999 type=1 depth=1 nobar=1 setorig=1 ses=0
+3309492440mS CMTARGET:     c0a864150013bd66 21.1293670.1 343769 SIPTrunk Endpoint: SYS SC: ChapA157999 11 7999 sc=type=DialExtn code=ChapA15XXXX, num=6991|>>15N callinfop->sending_complete=1 secondary_dialtone=
+3309492440mS CMTARGET:     c0a864150013bd66 21.1293670.1 343769 SIPTrunk Endpoint: ADD TARGET (N): number=6991 type=100 depth=2 nobar=1 setorig=1 ses=0
+3309492440mS CMTARGET:     c0a864150013bd66 21.1293670.1 343769 SIPTrunk Endpoint: SET USER: Extn6991 orig=1
+3309492440mS CMTARGET:     c0a864150013bd66 21.1293670.1 343769 SIPTrunk Endpoint: ADD USER: Extn6991 depth=2 disallow_cw=0 dnd=0 real_call=1 group_call=0 type(CMNTypeInternational) incl(0x0) excpt(0x0), allow_redir(0) remote=00000000 simult 0 (0) r_lic=T
+3309492440mS CMCallEvt:    0000000000000000 0.1293672.0 -1 BaseEP: NEW CMEndpoint ef044860 TOTAL NOW=66 CALL_LIST=32
+3309492440mS CMCallEvt:    0000000000000000 0.1293672.0 -1 Extn6991.-1: NEW CMExtnEndpoint ef044860, Name=Extn6991, Extn=6991, Phys Extn=6991
+3309492440mS CMTARGET:     c0a864150013bd68 351.1293672.0 343769 Extn6991.2: ADD PRIMARY
+3309492440mS CMTARGET:     FoundKnownSystemTargets ICR cache hit
+3309492440mS CMTARGET:     c0a864150013bd66 21.1293670.1 343769 SIPTrunk Endpoint: INITIAL TARGETING SUCCEEDED
+3309492440mS CMTARGET:     c0a864150013bd66 21.1293670.1 343769 SIPTrunk Endpoint: GetNoAnswerTimer:50
+3309492440mS CMCallEvt:    c0a864150013bd66 21.1293670.1 343769 SIPTrunk Endpoint: StateChange: END=A CMCSDialInitiated->CMCSDialled
+3309492441mS CMCallEvt:    0000000000000000 0.1293671.0 343769 TargetingEP: StateChange: END=B CMCSIdle->CMCSOffering
+3309492441mS CMCallEvt:    c0a864150013bd68 351.1293672.0 343769 Extn6991.2: StateChange: END=T CMCSIdle->CMCSOffering
+3309492445mS CMCallEvt:    c0a864150013bd68 351.1293672.0 343769 Extn6991.2: StateChange: END=T CMCSOffering->CMCSAccept
+3309492445mS CMCallEvt:    0000000000000000 0.1293671.0 343769 TargetingEP: StateChange: END=B CMCSOffering->CMCSAccept
+                 
+3309492453mS CMCallEvt:    c0a864150013bcf4 21.1293556.1 343738 SIPTrunk Endpoint: StateChange: END=A CMCSConnected->CMCSCompleted
+3309492454mS CMCallEvt:    c0a864150013bcf4 21.1293556.1 -1 SIPTrunk Endpoint: StateChange: END=X CMCSCompleted->CMCSDelete
+3309492454mS CMCallEvt:    c0a864150013bd45 421.1293637.0 -1 Extn449.0: StateChange: END=X CMCSConnected->CMCSCompleted
+3309492454mS CMCallEvt:    c0a864150013bd45 421.1293637.0 -1 Extn449.-1: StateChange: END=X CMCSCompleted->CMCSDelete
+3309492454mS CMCallEvt:    On c0a864150013bd45 421.1293637.0 -1 BaseEP destructor, listening by epid list has 1 members, stopping each listening by epid call
+3309492454mS CMCallEvt:    Listening by EPID call (edf22b70) explicitly deleted
+3309492454mS CMCallEvt:    c0a864150013bd48 0.1293640.0 343760 ListeningEP : StateChange: END=B CMCSConnReq->CMCSCompleted
+3309492455mS CMCallEvt:    c0a864150013bd46 10000.1293638.0 -1 NoUser.11: StateChange: END=X CMCSOGConnReq->CMCSCompleted
+3309492455mS CMCallEvt:    c0a864150013bd46 10000.1293638.0 -1 NoUser.-1: StateChange: END=X CMCSCompleted->CMCSDelete
+3309492455mS CMTARGET:     c0a864150013bd46 10000.1293638.0 -1 BaseEP: ~CMTargetHandler ededb9c8 ep edf00078
+3309492455mS CMCallEvt:    c0a864150013bd46 10000.1293638.0 -1 BaseEP: DELETE CMEndpoint edf00078 TOTAL NOW=65 CALL_LIST=30
+3309492455mS CMCallEvt:    c0a864150013bd48 0.1293640.0 -1 ListeningEP : StateChange: END=X CMCSCompleted->CMCSDelete
+3309492455mS CMCallEvt:    END CALL:343760 (edf22b70)
+3309492456mS CMCallEvt:    c0a864150013bd48 0.1293640.0 -1 BaseEP: DELETE CMEndpoint ef07c8b0 TOTAL NOW=64 CALL_LIST=30
+3309492456mS CMCallEvt:    c0a864150013bd45 421.1293637.0 -1 BaseEP: DELETE CMEndpoint ef4abb70 TOTAL NOW=63 CALL_LIST=30
+3309492456mS CMCallEvt:    END CALL:343738 (ef02bb60)
+3309492456mS CMCallEvt:    c0a864150013bcf4 21.1293556.1 -1 BaseEP: DELETE CMEndpoint ee342498 TOTAL NOW=62 CALL_LIST=30
+3309492627mS CMCallEvt:    c0a864150013bd68 351.1293672.0 343769 Extn6991.2: StateChange: END=T CMCSAccept->CMCSConnReq
+3309492627mS CMCallEvt:    0000000000000000 0.1293671.0 343769 TargetingEP: RequestEnd c0a864150013bd68 351.1293672.0 343769 Extn6991.2
+3309492627mS CMTARGET:     c0a864150013bd66 21.1293670.1 343769 SIPTrunk Endpoint: CancelTimer CMTCCoverageTimeout
+3309492627mS CMCallEvt:    0000000000000000 0.1293671.0 -1 BaseEP: DELETE CMEndpoint ef44b7a8 TOTAL NOW=61 CALL_LIST=30
+3309492627mS CMCallEvt:    c0a864150013bd66 21.1293670.1 343769 SIPTrunk Endpoint: StateChange: END=A CMCSDialled->CMCSOGConnReq
+3309492628mS SIP Tx: TCP 10.255.1.21:23588 -> 213.148.136.222:5060
+                    SIP/2.0 200 OK
+                    Via: SIP/2.0/TCP 213.148.136.222:5060;branch=z9hG4bKdt9mce1060g69f3u2vn0.1
+                    From: "+492119562699" <sip:+492119562699@ipfonie.de;user=phone>;tag=SD21rr301-0UUHS0000030000E1D0302Yu0235FEJ1UV6IF1
+                    Call-ID: SD21rr301-09cd8beb955054685b414326949ba5a8-l65h8l3
+                    CSeq: 38488 INVITE
+                    Contact: <sip:+49202251557999@10.255.1.21:5060;transport=tcp>
+                    Allow: INVITE,ACK,CANCEL,OPTIONS,BYE,INFO,NOTIFY,UPDATE
+                    P-Asserted-Identity: "CIE1-PRI" <sip:6991@10.255.1.21:5060>
+                    Supported: timer
+                    Server: IP Office 11.0.4.2.0 build 58
+                    Content-Type: application/sdp
+                    Content-Length: 202
+                    To: <sip:+49202251557999@ipfonie.de;user=phone>;tag=e0bcf55bfdb071a1
+                    
+                    v=0
+                    o=UserA 1550387101 1737568062 IN IP4 10.255.1.21
+                    s=Session SDP
+                    c=IN IP4 10.255.1.21
+                    t=0 0
+                    m=audio 49840 RTP/AVP 8 120
+                    a=rtpmap:8 PCMA/8000
+                    a=rtpmap:120 telephone-event/8000
+                    a=fmtp:120 0-15
+3309492638mS CMCallEvt:    0000000000000000 0.1293673.0 -1 BaseEP: NEW CMEndpoint ef4abb70 TOTAL NOW=62 CALL_LIST=30
+3309492638mS CMCallEvt:    0000000000000000 0.1293673.0 -1 Extn6991.-1: NEW CMExtnEndpoint ef4abb70, Name=Extn6991, Extn=6991, Phys Extn=6991
+3309492638mS CMCallEvt:    CREATE CALL:343770 (ef02bb60)
+3309492638mS CMCallEvt:    0000000000000000 0.1293674.0 -1 BaseEP: NEW CMEndpoint ef44b7a8 TOTAL NOW=63 CALL_LIST=30
+3309492639mS CMCallEvt:    c0a864150013bd69 351.1293673.0 343770 Extn6991.3: StateChange: END=A CMCSIdle->CMCSDialInitiated
+3309492639mS CMTARGET:     c0a864150013bd69 351.1293673.0 343770 Extn6991.3: LOOKUP CALL ROUTE: GID=0 type=100 called_party=001635050026 sub= calling=002119562699@ipfonie.de calling_sub= dir=out complete=1 ses=0
+3309492639mS CMTARGET:     c0a864150013bd69 351.1293673.0 343770 Extn6991.3: ADD TARGET (N): number=001635050026 type=100 depth=1 nobar=1 setorig=1 ses=0
+3309492639mS CMTARGET:     c0a864150013bd69 351.1293673.0 343770 Extn6991.3: USER SC: 001635050026 2 01635050026 sc=type=Dial code=0N, num=NSSi
+3309492639mS CMARS:        FindActiveARSByGroupID GroupID=55 - Found
+3309492639mS CMARS:        MakeCallTarget - Called Number: 01635050026 
+3309492639mS CMCallEvt:    0000000000000000 0.1293675.0 -1 BaseEP: NEW CMEndpoint ee65aac0 TOTAL NOW=64 CALL_LIST=31
+3309492639mS CMTARGET:     c0a864150013bd69 351.1293673.0 343770 Extn6991.3: INITIAL TARGETING SUCCEEDED
+3309492639mS CMCallEvt:    c0a864150013bd69 351.1293673.0 343770 Extn6991.3: StateChange: END=A CMCSDialInitiated->CMCSDialled
+3309492639mS CMCallEvt:    0000000000000000 0.1293674.0 343770 TargetingEP: StateChange: END=B CMCSIdle->CMCSOffering
+3309492639mS CMCallEvt:    0000000000000000 0.1293675.0 343770 ARS for P SWF4  0202/2515-SSi: StateChange: END=T CMCSIdle->CMCSOffering
+3309492640mS CMCallEvt:    0000000000000000 0.1293674.0 343770 TargetingEP: RequestEnd 0000000000000000 0.1293675.0 343770 ARS for P SWF4  0202/2515-SSi
+3309492640mS CMCallEvt:    0000000000000000 0.1293675.0 343770 ARS for P SWF4  0202/2515-SSi: StateChange: END=B CMCSOffering->CMCSOverlapRecv
+3309492640mS CMARS:        FORM: P SWF4  0202/2515-SSi - Received Number: 01635050026
+3309492640mS CMARS:        FOUND A SHORT CODE - short_code: 0163N; - Tel: +49163NSSi - Called_Party: +491635050026 - Line Group Id: 21
+3309492640mS CMARS:        SetCurrentTarget: Short_Code: 0163N; - Line_Group_ID: 21
+3309492640mS CMARS:        FindActiveARSByGroupID GroupID=21 - Not Found
+3309492640mS CMCallEvt:    0000000000000000 0.1293676.0 -1 BaseEP: NEW CMEndpoint ee342498 TOTAL NOW=65 CALL_LIST=31
+3309492641mS CMARS:        ModifyCMARSTarget: Short_Code: 0163N; - Line_Group_ID: 21 set line status to CMARS_TRYING
+3309492641mS CMARS:        FOUND LINE - Line Id: 21 - using line group id: 21 (code 0163N;, line 21) - Called Number: +491635050026 - Calling Number: 002119562699@ipfonie.de
+3309492641mS CMARS:        SEND Setup TO LINE
+3309492641mS CMCallEvt:    c0a864150013bd6c 21.1293676.0 343770 SIPTrunk Endpoint: StateChange: END=child CMCSIdle->CMCSOffering
+3309492642mS SIP Tx: TCP 10.255.1.21:23588 -> 213.148.136.222:5060
+                    INVITE sip:+491635050026@213.148.136.222;user=phone SIP/2.0
+                    Via: SIP/2.0/TCP 10.255.1.21:5060;rport;branch=z9hG4bK2ad8e2e70ef6e750a443d79a52327309
+                    From: "+4920225156991" <sip:+2119562699@213.148.136.222;user=phone>;tag=2768b99c238965f9
+                    To: <sip:+491635050026@213.148.136.222;user=phone>
+                    Call-ID: 066d7343b1a1314219c973b6272f636d
+                    CSeq: 201694419 INVITE
+                    Contact: "+4920225156991" <sip:+4920225156991@10.255.1.21:5060;transport=tcp>
+                    Proxy-Authorization: Digest username="108288707057",realm="qsc.de",nonce="Xt3kYl7d4zYkaBEbGeBd0BzRXWkX+Inq",response="b2f12417979ecc33749175d330a612df",uri="sip:+491635050026@213.148.136.222;user=phone",algorithm=MD5,qop=auth,nc=000000
+05,cnonce="59fff019e03654bbc761"
+                    Max-Forwards: 70
+                    Allow: INVITE,ACK,CANCEL,OPTIONS,BYE,INFO,NOTIFY,UPDATE
+                    Supported: timer
+                    User-Agent: IP Office 11.0.4.2.0 build 58
+                    P-Asserted-Identity: "+4920225156991" <sip:+4920225156991@10.255.1.21:5060>
+                    Content-Type: application/sdp
+                    Content-Length: 201
+                    
+                    v=0
+                    o=UserA 571481258 1549369020 IN IP4 10.255.1.21
+                    s=Session SDP
+                    c=IN IP4 10.255.1.21
+                    t=0 0
+                    m=audio 41590 RTP/AVP 8 101
+                    a=rtpmap:8 PCMA/8000
+                    a=rtpmap:101 telephone-event/8000
+                    a=fmtp:101 0-15
+3309492642mS CMCallEvt:    0000000000000000 0.1293674.0 -1 TargetingEP: StateChange: END=X CMCSOffering->CMCSDelete
+3309492642mS CMCallEvt:    0000000000000000 0.1293674.0 -1 BaseEP: DELETE CMEndpoint ef44b7a8 TOTAL NOW=64 CALL_LIST=31
+3309492653mS SIP Rx: TCP 213.148.136.222:5060 -> 10.255.1.21:23588
+                    ACK sip:+49202251557999@10.255.1.21:5060;transport=tcp SIP/2.0
+                    Via: SIP/2.0/TCP 213.148.136.222:5060;branch=z9hG4bKqeqp9q20907vfa1jdqh0.1
+                    From: "+492119562699" <sip:+492119562699@ipfonie.de;user=phone>;tag=SD21rr301-0UUHS0000030000E1D0302Yu0235FEJ1UV6IF1
+                    To: <sip:+49202251557999@ipfonie.de;user=phone>;tag=e0bcf55bfdb071a1
+                    Call-ID: SD21rr301-09cd8beb955054685b414326949ba5a8-l65h8l3
+                    CSeq: 38488 ACK
+                    Contact: <sip:00492119562699@213.148.136.222:5060;line=sr-N6IAzJd4z.VfM.quWBV6z.IyMBFlOBFZMJZfWxP7MBc-W.y6Mx1uN6KLH90vo6sIzwaL3RslNSQLpxuugUy*;transport=tcp>
+                    Max-Forwards: 68
+                    Content-Length: 0
+                    X-CID: bf15e00009f5-5edde336-601acd50-2720a5b8-a4a8dea-01
+                    
+3309492653mS CMCallEvt:    c0a864150013bd66 21.1293670.1 343769 SIPTrunk Endpoint: StateChange: END=A CMCSOGConnReq->CMCSConnected
+3309492653mS CMTARGET:     c0a864150013bd66 21.1293670.1 343769 SIPTrunk Endpoint: ~CMTargetHandler ef0f7b18 ep ee642f78
+3309492653mS CMCallEvt:    c0a864150013bd68 351.1293672.0 343769 Extn6991.2: StateChange: END=B CMCSConnReq->CMCSConnected
+3309492662mS SIP Rx: TCP 213.148.136.222:5060 -> 10.255.1.21:23588
+                    SIP/2.0 100 Trying
+                    Via: SIP/2.0/TCP 10.255.1.21:5060;received=87.234.29.147;branch=z9hG4bK2ad8e2e70ef6e750a443d79a52327309;rport=23588
+                    From: "+4920225156991" <sip:+2119562699@213.148.136.222;user=phone>;tag=2768b99c238965f9
+                    To: <sip:+491635050026@213.148.136.222;user=phone>
+                    Call-ID: 066d7343b1a1314219c973b6272f636d
+                    CSeq: 201694419 INVITE
+                    Content-Length: 0
+                    
+3309492662mS CMARS:        LINE ep Received:  CMProceeding - child->state = CMCSOffering - ARS Call State = CMCSOverlapRecv
+3309492662mS CMCallEvt:    c0a864150013bd6c 21.1293676.0 343770 SIPTrunk Endpoint: StateChange: END=child CMCSOffering->CMCSAccept
+3309492662mS CMCallEvt:    c0a864150013bd69 0.1293675.0 343770 ARS for P SWF4  0202/2515-SSi: StateChange: END=B CMCSOverlapRecv->CMCSAccept
+3309492664mS SIP Tx: TCP 10.255.1.21:23588 -> 213.148.136.222:5060
+                    INVITE sip:213.148.136.222:5060;line=sr-N6IAzJd4z.VfM.quWBV6z.IyMBFlOBFZMJZfWxP7MBc-W.y6Mx1uN6KLH90vo6sIzwaL3RslNSQLpxuugUy*;transport=tcp SIP/2.0
+                    Via: SIP/2.0/TCP 10.255.1.21:5060;rport;branch=z9hG4bKfbe3d44c4df8251198134f7d728074ea
+                    From: <sip:+49202251557999@ipfonie.de;user=phone>;tag=e0bcf55bfdb071a1
+                    To: "+492119562699" <sip:+492119562699@ipfonie.de;user=phone>;tag=SD21rr301-0UUHS0000030000E1D0302Yu0235FEJ1UV6IF1
+                    Call-ID: SD21rr301-09cd8beb955054685b414326949ba5a8-l65h8l3
+                    CSeq: 38489 INVITE
+                    P-Asserted-Identity: "+4920225156991" <sip:+4920225156991@10.255.1.21:5060>
+                    Contact: <sip:+49202251557999@10.255.1.21:5060;transport=tcp>
+                    Max-Forwards: 70
+                    Proxy-Authorization: Digest username="108288707057",realm="qsc.de",nonce="Xt3kYl7d4zYkaBEbGeBd0BzRXWkX+Inq",response="4bbfb91a14b58c7441d2484a7ff12b5b",uri="sip:213.148.136.222:5060;line=sr-N6IAzJd4z.VfM.quWBV6z.IyMBFlOBFZMJZfWxP7MBc-W
+.y6Mx1uN6KLH90vo6sIzwaL3RslNSQLpxuugUy*;transport=tcp",algorithm=MD5,qop=auth,nc=00000006,cnonce="f6e3b27a8caf2cf72ba5"
+                    Allow: INVITE,ACK,CANCEL,OPTIONS,BYE,INFO,NOTIFY,UPDATE
+                    Supported: timer
+                    User-Agent: IP Office 11.0.4.2.0 build 58
+                    Content-Type: application/sdp
+                    Content-Length: 202
+                    
+                    v=0
+                    o=UserA 1550387101 1737568063 IN IP4 10.255.1.21
+                    s=Session SDP
+                    c=IN IP4 10.255.1.21
+                    t=0 0
+                    m=audio 49840 RTP/AVP 8 101
+                    a=rtpmap:8 PCMA/8000
+                    a=rtpmap:101 telephone-event/8000
+                    a=fmtp:101 0-15
+3309492674mS SIP Rx: TCP 213.148.136.222:5060 -> 10.255.1.21:23588
+                    SIP/2.0 407 Proxy Authentication Required
+                    Via: SIP/2.0/TCP 10.255.1.21:5060;received=87.234.29.147;branch=z9hG4bK2ad8e2e70ef6e750a443d79a52327309;rport=23588
+                    From: "+4920225156991" <sip:+2119562699@213.148.136.222;user=phone>;tag=2768b99c238965f9
+                    To: <sip:+491635050026@213.148.136.222;user=phone>;tag=SDt9k5c99-4b238efd922e9fc1139c652e4d3f3e37.ee0c151a
+                    Call-ID: 066d7343b1a1314219c973b6272f636d
+                    CSeq: 201694419 INVITE
+                    Proxy-Authenticate: Digest realm="qsc.de", nonce="Xt3kYl7d4zacWBE4yiPWWediJqAqVnVS", qop="auth"
+                    Server: QSC SiP DURO node 02
+                    Content-Length: 0
+                    
+3309492674mS SIP Tx: TCP 10.255.1.21:23588 -> 213.148.136.222:5060
+                    ACK sip:+491635050026@213.148.136.222;user=phone SIP/2.0
+                    Via: SIP/2.0/TCP 10.255.1.21:5060;rport;branch=z9hG4bK2ad8e2e70ef6e750a443d79a52327309
+                    From: "+4920225156991" <sip:+2119562699@213.148.136.222;user=phone>;tag=2768b99c238965f9
+                    To: <sip:+491635050026@213.148.136.222;user=phone>;tag=SDt9k5c99-4b238efd922e9fc1139c652e4d3f3e37.ee0c151a
+                    Call-ID: 066d7343b1a1314219c973b6272f636d
+                    CSeq: 201694419 ACK
+                    Max-Forwards: 70
+                    Proxy-Authorization: Digest username="108288707057",realm="qsc.de",nonce="Xt3kYl7d4zYkaBEbGeBd0BzRXWkX+Inq",response="09a009ea1c1294f2dfdc3fac8dc99a28",uri="sip:+491635050026@213.148.136.222;user=phone",algorithm=MD5,qop=auth,nc=000000
+07,cnonce="3ca2f589ccb4b5c90996"
+                    Allow: INVITE,ACK,CANCEL,OPTIONS,BYE,INFO,NOTIFY,UPDATE
+                    User-Agent: IP Office 11.0.4.2.0 build 58
+                    Content-Length: 0
+                    
+3309492674mS SIP Tx: TCP 10.255.1.21:23588 -> 213.148.136.222:5060
+                    INVITE sip:+491635050026@213.148.136.222;user=phone SIP/2.0
+                    Via: SIP/2.0/TCP 10.255.1.21:5060;rport;branch=z9hG4bKac149c31c60ac53cf449002a0cc02619
+                    From: "+4920225156991" <sip:+2119562699@213.148.136.222;user=phone>;tag=2768b99c238965f9
+                    To: <sip:+491635050026@213.148.136.222;user=phone>
+                    Call-ID: 066d7343b1a1314219c973b6272f636d
+                    CSeq: 201694420 INVITE
+                    P-Asserted-Identity: "+4920225156991" <sip:+4920225156991@10.255.1.21:5060>
+                    Contact: "+4920225156991" <sip:+4920225156991@10.255.1.21:5060;transport=tcp>
+                    Max-Forwards: 70
+                    Proxy-Authorization: Digest username="108288707057",realm="qsc.de",nonce="Xt3kYl7d4zacWBE4yiPWWediJqAqVnVS",response="7b1a03186670e291625b180a640349be",uri="sip:+491635050026@213.148.136.222;user=phone",algorithm=MD5,qop=auth,nc=000000
+01,cnonce="d94b394dfb907115a500"
+                    Allow: INVITE,ACK,CANCEL,OPTIONS,BYE,INFO,NOTIFY,UPDATE
+                    Supported: timer
+                    User-Agent: IP Office 11.0.4.2.0 build 58
+                    Content-Type: application/sdp
+                    Content-Length: 201
+                    
+                    v=0
+                    o=UserA 571481258 1549369020 IN IP4 10.255.1.21
+                    s=Session SDP
+                    c=IN IP4 10.255.1.21
+                    t=0 0
+                    m=audio 41590 RTP/AVP 8 101
+                    a=rtpmap:8 PCMA/8000
+                    a=rtpmap:101 telephone-event/8000
+                    a=fmtp:101 0-15
+3309492682mS SIP Rx: TCP 213.148.136.222:5060 -> 10.255.1.21:23588
+                    SIP/2.0 100 Trying
+                    Via: SIP/2.0/TCP 10.255.1.21:5060;received=87.234.29.147;branch=z9hG4bKfbe3d44c4df8251198134f7d728074ea;rport=23588
+                    From: <sip:+49202251557999@ipfonie.de;user=phone>;tag=e0bcf55bfdb071a1
+                    To: "+492119562699" <sip:+492119562699@ipfonie.de;user=phone>;tag=SD21rr301-0UUHS0000030000E1D0302Yu0235FEJ1UV6IF1
+                    Call-ID: SD21rr301-09cd8beb955054685b414326949ba5a8-l65h8l3
+                    CSeq: 38489 INVITE
+                    Content-Length: 0
+                    
+3309492689mS SIP Rx: TCP 213.148.136.222:5060 -> 10.255.1.21:23588
+                    SIP/2.0 100 Trying
+                    Via: SIP/2.0/TCP 10.255.1.21:5060;received=87.234.29.147;branch=z9hG4bKac149c31c60ac53cf449002a0cc02619;rport=23588
+                    From: "+4920225156991" <sip:+2119562699@213.148.136.222;user=phone>;tag=2768b99c238965f9
+                    To: <sip:+491635050026@213.148.136.222;user=phone>
+                    Call-ID: 066d7343b1a1314219c973b6272f636d
+                    CSeq: 201694420 INVITE
+                    Content-Length: 0
+                    
+3309492689mS CMARS:        LINE ep Received:  CMProceeding - child->state = CMCSAccept - ARS Call State = CMCSAccept
+3309492871mS SIP Rx: TCP 213.148.136.222:5060 -> 10.255.1.21:23588
+                    SIP/2.0 200 OK
+                    Via: SIP/2.0/TCP 10.255.1.21:5060;received=87.234.29.147;branch=z9hG4bKfbe3d44c4df8251198134f7d728074ea;rport=23588
+                    From: <sip:+49202251557999@ipfonie.de;user=phone>;tag=e0bcf55bfdb071a1
+                    To: "+492119562699" <sip:+492119562699@ipfonie.de;user=phone>;tag=SD21rr301-0UUHS0000030000E1D0302Yu0235FEJ1UV6IF1
+                    Call-ID: SD21rr301-09cd8beb955054685b414326949ba5a8-l65h8l3
+                    CSeq: 38489 INVITE
+                    Contact: <sip:213.148.136.222:5060;line=sr-N6IAzJd4z.VfM.quWBV6z.IyMBFlOBFZMJZfWxP7MBc-W.y6Mx1uN6KLH90vo6sIzwaL3RslNSQLpxuugUy*;transport=tcp>
+                    Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, INFO, UPDATE
+                    Content-Type: application/sdp
+                    Supported: timer, from-change, x-diversion, histinfo
+                    Content-Length: 272
+                    
+                    v=0
+                    o=- 290951731 2754 IN IP4 213.148.136.222
+                    s=TELES-SBC
+                    c=IN IP4 213.148.136.222
+                    t=0 0
+                    m=audio 56698 RTP/AVP 9 8 0 101
+                    a=rtpmap:9 G722/8000
+                    a=rtpmap:8 PCMA/8000
+                    a=rtpmap:0 PCMU/8000
+                    a=rtpmap:101 telephone-event/8000
+                    a=fmtp:101 0-15
+                    a=maxptime:20
+                    a=sendrecv
+3309492871mS SIP Tx: TCP 10.255.1.21:23588 -> 213.148.136.222:5060
+                    ACK sip:213.148.136.222:5060;line=sr-N6IAzJd4z.VfM.quWBV6z.IyMBFlOBFZMJZfWxP7MBc-W.y6Mx1uN6KLH90vo6sIzwaL3RslNSQLpxuugUy*;transport=tcp SIP/2.0
+                    Via: SIP/2.0/TCP 10.255.1.21:5060;rport;branch=z9hG4bKea69b1d94a66a761a1ca51505c4aa99c
+                    From: <sip:+49202251557999@ipfonie.de;user=phone>;tag=e0bcf55bfdb071a1
+                    To: "+492119562699" <sip:+492119562699@ipfonie.de;user=phone>;tag=SD21rr301-0UUHS0000030000E1D0302Yu0235FEJ1UV6IF1
+                    Call-ID: SD21rr301-09cd8beb955054685b414326949ba5a8-l65h8l3
+                    CSeq: 38489 ACK
+                    Max-Forwards: 70
+                    Proxy-Authorization: Digest username="108288707057",realm="qsc.de",nonce="Xt3kYl7d4zacWBE4yiPWWediJqAqVnVS",response="66ba3dfd2395273ed3209b7468178030",uri="sip:213.148.136.222:5060;line=sr-N6IAzJd4z.VfM.quWBV6z.IyMBFlOBFZMJZfWxP7MBc-W
+.y6Mx1uN6KLH90vo6sIzwaL3RslNSQLpxuugUy*;transport=tcp",algorithm=MD5,qop=auth,nc=00000002,cnonce="e38cc69cafa7acc77cab"
+                    Allow: INVITE,ACK,CANCEL,OPTIONS,BYE,INFO,NOTIFY,UPDATE
+                    User-Agent: IP Office 11.0.4.2.0 build 58
+                    Content-Length: 0
+                    
+3309493849mS SIP Rx: TCP 213.148.136.222:5060 -> 10.255.1.21:23588
+                    SIP/2.0 183 Session Progress
+                    Via: SIP/2.0/TCP 10.255.1.21:5060;received=87.234.29.147;branch=z9hG4bKac149c31c60ac53cf449002a0cc02619;rport=23588
+                    From: "+4920225156991" <sip:+2119562699@213.148.136.222;user=phone>;tag=2768b99c238965f9
+                    To: <sip:+491635050026@213.148.136.222;user=phone>;tag=SDt9k5c99-slg1l5th-CC-52
+                    Call-ID: 066d7343b1a1314219c973b6272f636d
+                    CSeq: 201694420 INVITE
+                    Contact: <sip:213.148.136.222:5060;transport=tcp>
+                    Allow: INVITE,ACK,OPTIONS,BYE,CANCEL,REGISTER,INFO,PRACK,SUBSCRIBE,NOTIFY,UPDATE,MESSAGE,REFER
+                    Content-Length: 225
+                    Content-Type: application/sdp
+                    
+                    v=0
+                    o=HuaweiSoftX3000 41809402 41809402 IN IP4 213.148.136.222
+                    s=Sip Call
+                    c=IN IP4 213.148.136.222
+                    t=0 0
+                    m=audio 34450 RTP/AVP 8 101
+                    a=rtpmap:8 PCMA/8000
+                    a=rtpmap:101 telephone-event/8000
+                    a=ptime:20
+                    a=fmtp:101 0-15
+3309493849mS CMARS:        LINE ep Received:  CMProgress - child->state = CMCSAccept - ARS Call State = CMCSAccept
+3309493849mS CMARS:        LINE IS NOW THE B END OF THE CALL - CMARSEndpoint::RequestEnd()
+3309493849mS CMARS:        CMARSEndpoint::CallLost(cause=124) - Address: c0a864150013bd69 0.1293675.0 343770 ARS for P SWF4  0202/2515-SSi - Call State: CMCSAccept
+3309493849mS CMCallEvt:    c0a864150013bd69 0.1293675.0 -1 ARS for P SWF4  0202/2515-SSi: StateChange: END=X CMCSAccept->CMCSDelete
+3309493849mS CMCallEvt:    c0a864150013bd6c 21.1293676.0 343770 SIPTrunk Endpoint: StateChange: END=B CMCSAccept->CMCSRinging
+3309493849mS CMCallEvt:    c0a864150013bd69 351.1293673.0 343770 Extn6991.3: StateChange: END=A CMCSDialled->CMCSRingBack
+3309493850mS CMCallEvt:    c0a864150013bd69 0.1293675.0 -1 BaseEP: DELETE CMEndpoint ee65aac0 TOTAL NOW=63 CALL_LIST=31
+3309493903mS SIP Rx: TCP 213.148.136.222:5060 -> 10.255.1.21:23588
+                    INVITE sip:10.255.1.21:5060;transport=tcp SIP/2.0
+                    Via: SIP/2.0/TCP 213.148.136.222:5060;branch=z9hG4bKqf6mjv00c0uj15570s40.1
+                    From: "+492119562699" <sip:+492119562699@ipfonie.de;user=phone>;tag=SD21rr301-0UUHS0000030000E1D0302Yu0235FEJ1UV6IF1
+                    To: <sip:+49202251557999@ipfonie.de;user=phone>;tag=e0bcf55bfdb071a1
+                    Call-ID: SD21rr301-09cd8beb955054685b414326949ba5a8-l65h8l3
+                    CSeq: 38489 INVITE
+                    Contact: <sip:00492119562699@213.148.136.222:5060;line=sr-N6IAzJd4z.VfM.quWBV6z.IyMBFlOBFZMJZfWxP7MBc-W.y6Mx1uN6KLH90vo6sIzwaL3RslNSQLpxuugUy*;transport=tcp>
+                    Content-Type: application/sdp
+                    Max-Forwards: 68
+                    Supported: timer, from-change, x-diversion, histinfo
+                    Content-Length: 361
+                    X-CID: bf15e00009f5-5edde336-601acd50-2720a5b8-a4a8dea-01
+                    
+                    v=0
+                    o=- 290951731 2755 IN IP4 213.148.136.222
+                    s=TELES-SBC
+                    c=IN IP4 213.148.136.222
+                    t=0 0
+                    m=audio 56698 RTP/AVP 8 0 9 96 101
+                    a=rtpmap:8 PCMA/8000
+                    a=rtpmap:0 PCMU/8000
+                    a=rtpmap:9 G722/8000
+                    a=rtpmap:96 AMR-WB/16000
+                    a=fmtp:96 octet-align=1;mode-change-capability=2;max-red=0
+                    a=rtpmap:101 telephone-event/8000
+                    a=fmtp:101 0-15
+                    a=maxptime:20
+                    a=sendrecv
+3309493903mS SIP Tx: TCP 10.255.1.21:23588 -> 213.148.136.222:5060
+                    SIP/2.0 100 Trying
+                    Via: SIP/2.0/TCP 213.148.136.222:5060;branch=z9hG4bKqf6mjv00c0uj15570s40.1
+                    From: "+492119562699" <sip:+492119562699@ipfonie.de;user=phone>;tag=SD21rr301-0UUHS0000030000E1D0302Yu0235FEJ1UV6IF1
+                    Call-ID: SD21rr301-09cd8beb955054685b414326949ba5a8-l65h8l3
+                    CSeq: 38489 INVITE
+                    Allow: INVITE,ACK,CANCEL,OPTIONS,BYE,INFO,NOTIFY,UPDATE
+                    Supported: timer
+                    Server: IP Office 11.0.4.2.0 build 58
+                    Content-Length: 0
+                    To: <sip:+49202251557999@ipfonie.de;user=phone>;tag=e0bcf55bfdb071a1
+                    
+3309493903mS SIP Tx: TCP 10.255.1.21:23588 -> 213.148.136.222:5060
+                    SIP/2.0 200 OK
+                    Via: SIP/2.0/TCP 213.148.136.222:5060;branch=z9hG4bKqf6mjv00c0uj15570s40.1
+                    From: "+492119562699" <sip:+492119562699@ipfonie.de;user=phone>;tag=SD21rr301-0UUHS0000030000E1D0302Yu0235FEJ1UV6IF1
+                    Call-ID: SD21rr301-09cd8beb955054685b414326949ba5a8-l65h8l3
+                    CSeq: 38489 INVITE
+                    Contact: <sip:+49202251557999@10.255.1.21:5060;transport=tcp>
+                    Allow: INVITE,ACK,CANCEL,OPTIONS,BYE,INFO,NOTIFY,UPDATE
+                    P-Asserted-Identity: "+4920225156991" <sip:+4920225156991@10.255.1.21:5060>
+                    Supported: timer
+                    Server: IP Office 11.0.4.2.0 build 58
+                    Content-Type: application/sdp
+                    Content-Length: 202
+                    To: <sip:+49202251557999@ipfonie.de;user=phone>;tag=e0bcf55bfdb071a1
+                    
+                    v=0
+                    o=UserA 1550387101 1737568063 IN IP4 10.255.1.21
+                    s=Session SDP
+                    c=IN IP4 10.255.1.21
+                    t=0 0
+                    m=audio 49840 RTP/AVP 8 101
+                    a=rtpmap:8 PCMA/8000
+                    a=rtpmap:101 telephone-event/8000
+                    a=fmtp:101 0-15
+3309494038mS SIP Rx: TCP 213.148.136.222:5060 -> 10.255.1.21:23588
+                    ACK sip:+49202251557999@10.255.1.21:5060;transport=tcp SIP/2.0
+                    Via: SIP/2.0/TCP 213.148.136.222:5060;branch=z9hG4bKd1of56100odspjhqfco0.1
+                    From: "+492119562699" <sip:+492119562699@ipfonie.de;user=phone>;tag=SD21rr301-0UUHS0000030000E1D0302Yu0235FEJ1UV6IF1
+                    To: <sip:+49202251557999@ipfonie.de;user=phone>;tag=e0bcf55bfdb071a1
+                    Call-ID: SD21rr301-09cd8beb955054685b414326949ba5a8-l65h8l3
+                    CSeq: 38489 ACK
+                    Contact: <sip:00492119562699@213.148.136.222:5060;line=sr-N6IAzJd4z.VfM.quWBV6z.IyMBFlOBFZMJZfWxP7MBc-W.y6Mx1uN6KLH90vo6sIzwaL3RslNSQLpxuugUy*;transport=tcp>
+                    Max-Forwards: 68
+                    Content-Length: 0
+                    X-CID: bf15e00009f5-5edde336-601acd50-2720a5b8-a4a8dea-01
+                    
+3309494085mS SIP Rx: TCP 213.148.136.222:5060 -> 10.255.1.21:23588
+                    INVITE sip:+49202251557011@10.255.1.21:5060;transport=tcp SIP/2.0
+                    Via: SIP/2.0/TCP 213.148.136.222:5060;branch=z9hG4bKm1qf4d100ob3tepiuje0.1
+                    To: <sip:+49202251557011@ipfonie.de;user=phone>
+                    Call-ID: SD41n8301-3b8bf5cea23df6cc1c9e76b3f50f2976-l65h8l3
+                    From: "+4917635794417" <sip:+4917635794417@ipfonie.de;user=phone>;tag=SD41n8301-0UUHS0000030000E1D0B02Yu0E5439H0E21E48
+                    CSeq: 21204 INVITE
+                    Contact: <sip:213.148.136.222:5060;line=sr-N6IAzhWh3uQBPxcwOBFlWJZuOBj4zwaL3RslNSQLpxuugUy*;transport=tcp>
+                    Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, INFO, UPDATE
+                    Content-Type: application/sdp
+                    Max-Forwards: 60
+                    P-Early-Media: supported
+                    Supported: timer, histinfo
+                    Content-Length: 313
+                    P-Called-Party-ID: sip:+49202251557011@ipfonie.de
+                    X-ORIGINAL-DDI-URI: sip:+49202251557011@ipfonie.de
+                    X-CID: 1915e0000af5-5edde338-73a1b41e-1151e620-a4af7a3-01
+                    
+                    v=0
+                    o=- 554911058 1 IN IP4 213.148.136.222
+                    s=TELES-SBC
+                    c=IN IP4 213.148.136.222
+                    t=0 0
+                    m=audio 23898 RTP/AVP 9 8 18 0 101
+                    a=rtpmap:9 G722/8000
+                    a=rtpmap:8 PCMA/8000
+                    a=rtpmap:18 G729/8000
+                    a=fmtp:18 annexb=no
+                    a=rtpmap:0 PCMU/8000
+                    a=rtpmap:101 telephone-event/8000
+                    a=fmtp:101 0-15
+                    a=ptime:20
+                    a=sendrecv
+3309494085mS CMCallEvt:    0000000000000000 0.1293677.0 -1 BaseEP: NEW CMEndpoint ee355a50 TOTAL NOW=64 CALL_LIST=31
+3309494086mS SIP Tx: TCP 10.255.1.21:23588 -> 213.148.136.222:5060
+                    SIP/2.0 100 Trying
+                    Via: SIP/2.0/TCP 213.148.136.222:5060;branch=z9hG4bKm1qf4d100ob3tepiuje0.1
+                    From: "+4917635794417" <sip:+4917635794417@ipfonie.de;user=phone>;tag=SD41n8301-0UUHS0000030000E1D0B02Yu0E5439H0E21E48
+                    Call-ID: SD41n8301-3b8bf5cea23df6cc1c9e76b3f50f2976-l65h8l3
+                    CSeq: 21204 INVITE
+                    Allow: INVITE,ACK,CANCEL,OPTIONS,BYE,INFO,NOTIFY,UPDATE
+                    Supported: timer
+                    Server: IP Office 11.0.4.2.0 build 58
+                    Content-Length: 0
+                    To: <sip:+49202251557011@ipfonie.de;user=phone>;tag=dd5bf7560fb12b4b
+                    
+3309494086mS CMCallEvt:    CREATE CALL:343771 (f0e71198)
+3309494087mS CMCallEvt:    0000000000000000 0.1293678.0 -1 BaseEP: NEW CMEndpoint ef44b7a8 TOTAL NOW=65 CALL_LIST=31
+3309494087mS CMCallEvt:    c0a864150013bd6d 21.1293677.1 343771 SIPTrunk Endpoint: StateChange: END=A CMCSIdle->CMCSDialInitiated
+3309494087mS CMTARGET:     c0a864150013bd6d 21.1293677.1 343771 SIPTrunk Endpoint: LOOKUP CALL ROUTE: GID=21 type=1 called_party=0202251557011 sub= calling=0017635794417@ipfonie.de calling_sub= dir=in complete=1 ses=0
+3309494087mS CMTARGET:     c0a864150013bd6d 21.1293677.1 343771 SIPTrunk Endpoint: SET BESTMATCH: length 15 vs -1 match=+49202251557011 dest=ChapA157011
+3309494087mS CMCallEvt:    Priority hike: call 343771 priority 0->1
+3309494088mS CMTARGET:     c0a864150013bd6d 21.1293677.1 343771 SIPTrunk Endpoint: LOOKUP ICR: DDI=+49202251557011 CGPN=0017635794417@ipfonie.de  (Destination ChapA157011 ) => CDPN=ChapA157011
+3309494088mS CMTARGET:     c0a864150013bd6d 21.1293677.1 343771 SIPTrunk Endpoint: ADD TARGET (N): number=ChapA157011 type=1 depth=1 nobar=1 setorig=1 ses=0
+3309494088mS CMTARGET:     c0a864150013bd6d 21.1293677.1 343771 SIPTrunk Endpoint: SYS SC: ChapA157011 11 7011 sc=type=DialExtn code=ChapA15XXXX, num=6991|>>15N callinfop->sending_complete=1 secondary_dialtone=
+3309494088mS CMTARGET:     c0a864150013bd6d 21.1293677.1 343771 SIPTrunk Endpoint: ADD TARGET (N): number=6991 type=100 depth=2 nobar=1 setorig=1 ses=0
+3309494088mS CMTARGET:     c0a864150013bd6d 21.1293677.1 343771 SIPTrunk Endpoint: SET USER: Extn6991 orig=1
+3309494088mS CMTARGET:     c0a864150013bd6d 21.1293677.1 343771 SIPTrunk Endpoint: ADD USER: Extn6991 depth=2 disallow_cw=0 dnd=0 real_call=1 group_call=0 type(CMNTypeInternational) incl(0x0) excpt(0x0), allow_redir(0) remote=00000000 simult 0 (0) r_lic=T
+3309494088mS CMCallEvt:    0000000000000000 0.1293679.0 -1 BaseEP: NEW CMEndpoint ee65aac0 TOTAL NOW=66 CALL_LIST=32
+3309494088mS CMCallEvt:    0000000000000000 0.1293679.0 -1 Extn6991.-1: NEW CMExtnEndpoint ee65aac0, Name=Extn6991, Extn=6991, Phys Extn=6991
+3309494089mS CMTARGET:     c0a864150013bd6f 351.1293679.0 343771 Extn6991.4: ADD PRIMARY
+3309494089mS CMTARGET:     FoundKnownSystemTargets ICR cache hit
+3309494089mS CMTARGET:     c0a864150013bd6d 21.1293677.1 343771 SIPTrunk Endpoint: INITIAL TARGETING SUCCEEDED
+3309494089mS CMTARGET:     c0a864150013bd6d 21.1293677.1 343771 SIPTrunk Endpoint: GetNoAnswerTimer:50
+3309494089mS CMCallEvt:    c0a864150013bd6d 21.1293677.1 343771 SIPTrunk Endpoint: StateChange: END=A CMCSDialInitiated->CMCSDialled
+3309494089mS CMCallEvt:    0000000000000000 0.1293678.0 343771 TargetingEP: StateChange: END=B CMCSIdle->CMCSOffering
+3309494089mS CMCallEvt:    c0a864150013bd6f 351.1293679.0 343771 Extn6991.4: StateChange: END=T CMCSIdle->CMCSOffering
+3309494093mS CMCallEvt:    c0a864150013bd6f 351.1293679.0 343771 Extn6991.4: StateChange: END=T CMCSOffering->CMCSAccept
+3309494093mS CMCallEvt:    0000000000000000 0.1293678.0 343771 TargetingEP: StateChange: END=B CMCSOffering->CMCSAccept
+3309494572mS SIP Rx: TCP 213.148.136.222:5060 -> 10.255.1.21:23588
+                    INVITE sip:+492022515781@10.255.1.21:5060;transport=tcp SIP/2.0
+                    Via: SIP/2.0/TCP 213.148.136.222:5060;branch=z9hG4bKrlt7di308omgljtfatd0.1
+                    To: <sip:+492022515781@ipfonie.de;user=phone>
+                    Call-ID: SD445p601-349313299398e19b43f8c366c70abfde-l65h8l3
+                    From: "+491704992995" <sip:+491704992995@ipfonie.de;user=phone>;tag=SD445p601-0UUHS0000030000E1D010E2u0224WVT1GINPAR
+                    CSeq: 13916 INVITE
+                    Contact: <sip:213.148.136.222:5060;line=sr-N6IAzhWh3uQBPxcwOBFlWJZuOBj4zwaL3RslNSQLpxuugUy*;transport=tcp>
+                    Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, INFO, UPDATE
+                    Content-Type: application/sdp
+                    Max-Forwards: 52
+                    P-Early-Media: supported
+                    Supported: timer, histinfo, from-change
+                    Content-Length: 213
+                    P-Called-Party-ID: sip:+492022515781@ipfonie.de
+                    X-ORIGINAL-DDI-URI: sip:+492022515781@ipfonie.de
+                    X-CID: bc15e00009f5-5edde338-6f70a10e-2de7fbd0-a4a91a8-01
+                    
+                    v=0
+                    o=- 9928661675 1338727083 IN IP4 213.148.136.222
+                    s=TELES-SBC
+                    c=IN IP4 213.148.136.222
+                    t=0 0
+                    m=audio 56064 RTP/AVP 8 99
+                    a=rtpmap:8 PCMA/8000
+                    a=rtpmap:99 telephone-event/8000
+                    a=fmtp:99 0-15
+                    a=sendrecv
+3309494572mS CMCallEvt:    0000000000000000 0.1293680.0 -1 BaseEP: NEW CMEndpoint ef0d80d8 TOTAL NOW=67 CALL_LIST=32
+3309494573mS SIP Tx: TCP 10.255.1.21:23588 -> 213.148.136.222:5060
+                    SIP/2.0 100 Trying
+                    Via: SIP/2.0/TCP 213.148.136.222:5060;branch=z9hG4bKrlt7di308omgljtfatd0.1
+                    From: "+491704992995" <sip:+491704992995@ipfonie.de;user=phone>;tag=SD445p601-0UUHS0000030000E1D010E2u0224WVT1GINPAR
+                    Call-ID: SD445p601-349313299398e19b43f8c366c70abfde-l65h8l3
+                    CSeq: 13916 INVITE
+                    Allow: INVITE,ACK,CANCEL,OPTIONS,BYE,INFO,NOTIFY,UPDATE
+                    Supported: timer
+                    Server: IP Office 11.0.4.2.0 build 58
+                    Content-Length: 0
+                    To: <sip:+492022515781@ipfonie.de;user=phone>;tag=7fdab2499b796e3b
+                    
+3309494574mS CMCallEvt:    CREATE CALL:343772 (f0f29b98)
+3309494574mS CMCallEvt:    0000000000000000 0.1293681.0 -1 BaseEP: NEW CMEndpoint ef41dfe0 TOTAL NOW=68 CALL_LIST=32
+3309494575mS CMCallEvt:    c0a864150013bd70 21.1293680.1 343772 SIPTrunk Endpoint: StateChange: END=A CMCSIdle->CMCSDialInitiated
+3309494575mS CMTARGET:     c0a864150013bd70 21.1293680.1 343772 SIPTrunk Endpoint: LOOKUP CALL ROUTE: GID=21 type=1 called_party=02022515781 sub= calling=001704992995@ipfonie.de calling_sub= dir=in complete=1 ses=0
+3309494575mS CMTARGET:     c0a864150013bd70 21.1293680.1 343772 SIPTrunk Endpoint: SET BESTMATCH: length 13 vs -1 match=+492022515781 dest=ChapA150781
+3309494576mS CMCallEvt:    Priority hike: call 343772 priority 0->1
+3309494576mS CMTARGET:     c0a864150013bd70 21.1293680.1 343772 SIPTrunk Endpoint: LOOKUP ICR: DDI=+492022515781 CGPN=001704992995@ipfonie.de  (Destination ChapA150781 ) => CDPN=ChapA150781
+3309494576mS CMTARGET:     c0a864150013bd70 21.1293680.1 343772 SIPTrunk Endpoint: ADD TARGET (N): number=ChapA150781 type=1 depth=1 nobar=1 setorig=1 ses=0
+3309494576mS CMTARGET:     c0a864150013bd70 21.1293680.1 343772 SIPTrunk Endpoint: SYS SC: ChapA150781 11 0781 sc=type=DialExtn code=ChapA15XXXX, num=6991|>>15N callinfop->sending_complete=1 secondary_dialtone=
+3309494576mS CMTARGET:     c0a864150013bd70 21.1293680.1 343772 SIPTrunk Endpoint: ADD TARGET (N): number=6991 type=100 depth=2 nobar=1 setorig=1 ses=0
+3309494576mS CMTARGET:     c0a864150013bd70 21.1293680.1 343772 SIPTrunk Endpoint: SET USER: Extn6991 orig=1
+3309494576mS CMTARGET:     c0a864150013bd70 21.1293680.1 343772 SIPTrunk Endpoint: ADD USER: Extn6991 depth=2 disallow_cw=0 dnd=0 real_call=1 group_call=0 type(CMNTypeInternational) incl(0x0) excpt(0x0), allow_redir(0) remote=00000000 simult 0 (0) r_lic=T
+3309494576mS CMCallEvt:    0000000000000000 0.1293682.0 -1 BaseEP: NEW CMEndpoint ef0c0018 TOTAL NOW=69 CALL_LIST=33
+3309494576mS CMCallEvt:    0000000000000000 0.1293682.0 -1 Extn6991.-1: NEW CMExtnEndpoint ef0c0018, Name=Extn6991, Extn=6991, Phys Extn=6991
+3309494576mS CMTARGET:     c0a864150013bd72 351.1293682.0 343772 Extn6991.5: ADD PRIMARY
+3309494576mS CMTARGET:     FoundKnownSystemTargets ICR cache hit
+3309494576mS CMTARGET:     c0a864150013bd70 21.1293680.1 343772 SIPTrunk Endpoint: INITIAL TARGETING SUCCEEDED
+3309494576mS CMTARGET:     c0a864150013bd70 21.1293680.1 343772 SIPTrunk Endpoint: GetNoAnswerTimer:50
+3309494576mS CMCallEvt:    c0a864150013bd70 21.1293680.1 343772 SIPTrunk Endpoint: StateChange: END=A CMCSDialInitiated->CMCSDialled
+3309494577mS CMCallEvt:    0000000000000000 0.1293681.0 343772 TargetingEP: StateChange: END=B CMCSIdle->CMCSOffering
+3309494577mS CMCallEvt:    c0a864150013bd72 351.1293682.0 343772 Extn6991.5: StateChange: END=T CMCSIdle->CMCSOffering
+3309494581mS CMCallEvt:    c0a864150013bd72 351.1293682.0 343772 Extn6991.5: StateChange: END=T CMCSOffering->CMCSAccept
+3309494581mS CMCallEvt:    0000000000000000 0.1293681.0 343772 TargetingEP: StateChange: END=B CMCSOffering->CMCSAccept
+3309494807mS CMCallEvt:    c0a864150013bd6f 351.1293679.0 343771 Extn6991.4: StateChange: END=T CMCSAccept->CMCSConnReq
+3309494807mS CMCallEvt:    0000000000000000 0.1293678.0 343771 TargetingEP: RequestEnd c0a864150013bd6f 351.1293679.0 343771 Extn6991.4
+3309494807mS CMTARGET:     c0a864150013bd6d 21.1293677.1 343771 SIPTrunk Endpoint: CancelTimer CMTCCoverageTimeout
+3309494807mS CMCallEvt:    0000000000000000 0.1293678.0 -1 BaseEP: DELETE CMEndpoint ef44b7a8 TOTAL NOW=68 CALL_LIST=33
+3309494807mS CMCallEvt:    c0a864150013bd6d 21.1293677.1 343771 SIPTrunk Endpoint: StateChange: END=A CMCSDialled->CMCSOGConnReq
+3309494808mS SIP Tx: TCP 10.255.1.21:23588 -> 213.148.136.222:5060
+                    SIP/2.0 200 OK
+                    Via: SIP/2.0/TCP 213.148.136.222:5060;branch=z9hG4bKm1qf4d100ob3tepiuje0.1
+                    From: "+4917635794417" <sip:+4917635794417@ipfonie.de;user=phone>;tag=SD41n8301-0UUHS0000030000E1D0B02Yu0E5439H0E21E48
+                    Call-ID: SD41n8301-3b8bf5cea23df6cc1c9e76b3f50f2976-l65h8l3
+                    CSeq: 21204 INVITE
+                    Contact: <sip:+49202251557011@10.255.1.21:5060;transport=tcp>
+                    Allow: INVITE,ACK,CANCEL,OPTIONS,BYE,INFO,NOTIFY,UPDATE
+                    P-Asserted-Identity: "CIE1-PRI" <sip:6991@10.255.1.21:5060>
+                    Supported: timer
+                    Server: IP Office 11.0.4.2.0 build 58
+                    Content-Type: application/sdp
+                    Content-Length: 201
+                    To: <sip:+49202251557011@ipfonie.de;user=phone>;tag=dd5bf7560fb12b4b
+                    
+                    v=0
+                    o=UserA 1629281078 883800839 IN IP4 10.255.1.21
+                    s=Session SDP
+                    c=IN IP4 10.255.1.21
+                    t=0 0
+                    m=audio 41298 RTP/AVP 8 101
+                    a=rtpmap:8 PCMA/8000
+                    a=rtpmap:101 telephone-event/8000
+                    a=fmtp:101 0-15
+3309494820mS CMCallEvt:    c0a864150013bd72 351.1293682.0 343772 Extn6991.5: StateChange: END=T CMCSAccept->CMCSConnReq
+3309494820mS CMCallEvt:    0000000000000000 0.1293681.0 343772 TargetingEP: RequestEnd c0a864150013bd72 351.1293682.0 343772 Extn6991.5
+3309494820mS CMTARGET:     c0a864150013bd70 21.1293680.1 343772 SIPTrunk Endpoint: CancelTimer CMTCCoverageTimeout
+3309494820mS CMCallEvt:    0000000000000000 0.1293681.0 -1 BaseEP: DELETE CMEndpoint ef41dfe0 TOTAL NOW=67 CALL_LIST=33
+3309494820mS CMCallEvt:    c0a864150013bd70 21.1293680.1 343772 SIPTrunk Endpoint: StateChange: END=A CMCSDialled->CMCSOGConnReq
+3309494820mS SIP Tx: TCP 10.255.1.21:23588 -> 213.148.136.222:5060
+                    SIP/2.0 200 OK
+                    Via: SIP/2.0/TCP 213.148.136.222:5060;branch=z9hG4bKrlt7di308omgljtfatd0.1
+                    From: "+491704992995" <sip:+491704992995@ipfonie.de;user=phone>;tag=SD445p601-0UUHS0000030000E1D010E2u0224WVT1GINPAR
+                    Call-ID: SD445p601-349313299398e19b43f8c366c70abfde-l65h8l3
+                    CSeq: 13916 INVITE
+                    Contact: <sip:+492022515781@10.255.1.21:5060;transport=tcp>
+                    Allow: INVITE,ACK,CANCEL,OPTIONS,BYE,INFO,NOTIFY,UPDATE
+                    P-Asserted-Identity: "CIE1-PRI" <sip:6991@10.255.1.21:5060>
+                    Supported: timer
+                    Server: IP Office 11.0.4.2.0 build 58
+                    Content-Type: application/sdp
+                    Content-Length: 197
+                    To: <sip:+492022515781@ipfonie.de;user=phone>;tag=7fdab2499b796e3b
+                    
+                    v=0
+                    o=UserA 73107134 1116605429 IN IP4 10.255.1.21
+                    s=Session SDP
+                    c=IN IP4 10.255.1.21
+                    t=0 0
+                    m=audio 40912 RTP/AVP 8 99
+                    a=rtpmap:8 PCMA/8000
+                    a=rtpmap:99 telephone-event/8000
+                    a=fmtp:99 0-15
+3309494827mS SIP Rx: TCP 213.148.136.222:5060 -> 10.255.1.21:23588
+                    ACK sip:+49202251557011@10.255.1.21:5060;transport=tcp SIP/2.0
+                    Via: SIP/2.0/TCP 213.148.136.222:5060;branch=z9hG4bK6fdvfh30c8gom8cq4rl0.1
+                    From: "+4917635794417" <sip:+4917635794417@ipfonie.de;user=phone>;tag=SD41n8301-0UUHS0000030000E1D0B02Yu0E5439H0E21E48
+                    To: <sip:+49202251557011@ipfonie.de;user=phone>;tag=dd5bf7560fb12b4b
+                    Call-ID: SD41n8301-3b8bf5cea23df6cc1c9e76b3f50f2976-l65h8l3
+                    CSeq: 21204 ACK
+                    Contact: <sip:004917635794417@213.148.136.222:5060;line=sr-N6IAzhWh3uQBPxcwOBFlWJZuOBj4zwaL3RslNSQLpxuugUy*;transport=tcp>
+                    Max-Forwards: 68
+                    Content-Length: 0
+                    X-CID: 1915e0000af5-5edde338-73a1b41e-1151e620-a4af7a3-01
+                    
+3309494827mS CMCallEvt:    c0a864150013bd6d 21.1293677.1 343771 SIPTrunk Endpoint: StateChange: END=A CMCSOGConnReq->CMCSConnected
+3309494827mS CMTARGET:     c0a864150013bd6d 21.1293677.1 343771 SIPTrunk Endpoint: ~CMTargetHandler ef0f7b18 ep ee355a50
+3309494827mS CMCallEvt:    c0a864150013bd6f 351.1293679.0 343771 Extn6991.4: StateChange: END=B CMCSConnReq->CMCSConnected
+3309494864mS SIP Rx: TCP 213.148.136.222:5060 -> 10.255.1.21:23588
+                    ACK sip:+492022515781@10.255.1.21:5060;transport=tcp SIP/2.0
+                    Via: SIP/2.0/TCP 213.148.136.222:5060;branch=z9hG4bKfv8scf30c8lbepdenk80.1
+                    From: "+491704992995" <sip:+491704992995@ipfonie.de;user=phone>;tag=SD445p601-0UUHS0000030000E1D010E2u0224WVT1GINPAR
+                    To: <sip:+492022515781@ipfonie.de;user=phone>;tag=7fdab2499b796e3b
+                    Call-ID: SD445p601-349313299398e19b43f8c366c70abfde-l65h8l3
+                    CSeq: 13916 ACK
+                    Contact: <sip:00491704992995@213.148.136.222:5060;line=sr-N6IAzhWh3uQBPxcwOBFlWJZuOBj4zwaL3RslNSQLpxuugUy*;transport=tcp>
+                    Max-Forwards: 68
+                    Content-Length: 0
+                    X-CID: bc15e00009f5-5edde338-6f70a10e-2de7fbd0-a4a91a8-01
+                    
+3309494864mS CMCallEvt:    c0a864150013bd70 21.1293680.1 343772 SIPTrunk Endpoint: StateChange: END=A CMCSOGConnReq->CMCSConnected
+3309494864mS CMTARGET:     c0a864150013bd70 21.1293680.1 343772 SIPTrunk Endpoint: ~CMTargetHandler ef487088 ep ef0d80d8
+3309494865mS CMCallEvt:    c0a864150013bd72 351.1293682.0 343772 Extn6991.5: StateChange: END=B CMCSConnReq->CMCSConnected
+3309495267mS SIP Rx: TCP 213.148.136.222:5060 -> 10.255.1.21:23588
+                    SIP/2.0 180 Ringing
+                    Via: SIP/2.0/TCP 10.255.1.21:5060;received=87.234.29.147;branch=z9hG4bKac149c31c60ac53cf449002a0cc02619;rport=23588
+                    From: "+4920225156991" <sip:+2119562699@213.148.136.222;user=phone>;tag=2768b99c238965f9
+                    To: <sip:+491635050026@213.148.136.222;user=phone>;tag=SDt9k5c99-slg1l5th-CC-52
+                    Call-ID: 066d7343b1a1314219c973b6272f636d
+                    CSeq: 201694420 INVITE
+                    Allow: INVITE,ACK,OPTIONS,BYE,CANCEL,REGISTER,INFO,PRACK,SUBSCRIBE,NOTIFY,UPDATE,MESSAGE,REFER
+                    Contact: <sip:213.148.136.222:5060;transport=tcp>
+                    Content-Length: 225
+                    Content-Type: application/sdp
+                    
+                    v=0
+                    o=HuaweiSoftX3000 41809402 41809403 IN IP4 213.148.136.222
+                    s=Sip Call
+                    c=IN IP4 213.148.136.222
+                    t=0 0
+                    m=audio 34450 RTP/AVP 8 101
+                    a=rtpmap:8 PCMA/8000
+                    a=rtpmap:101 telephone-event/8000
+                    a=ptime:20
+                    a=fmtp:101 0-15
+3309495345mS CMCallEvt:    c0a864150013bd5a 420.1293658.0 343765 Extn448.0: StateChange: END=T CMCSRinging->CMCSConnReq
+3309495345mS CMCallEvt:    0000000000000000 0.1293657.0 343765 TargetingEP: RequestEnd c0a864150013bd5a 420.1293658.0 343765 Extn448.0
+3309495345mS CMCallEvt:    0000000000000000 0.1293657.0 -1 BaseEP: DELETE CMEndpoint ef6dc650 TOTAL NOW=66 CALL_LIST=33
+3309495345mS CMCallEvt:    c0a8641600055090 1.2981.1 343765 H323TrunkEP: StateChange: END=A CMCSRingBack->CMCSOGConnReq
+3309495347mS CMCallEvt:    c0a8641600055090 1.2981.1 343765 H323TrunkEP: StateChange: END=A CMCSOGConnReq->CMCSConnected
+3309495347mS CMTARGET:     c0a8641600055090 1.2981.1 343765 H323TrunkEP: ~CMTargetHandler ef4cce18 ep ef029418
+3309495348mS CMCallEvt:    c0a864150013bd5a 420.1293658.0 343765 Extn448.0: StateChange: END=B CMCSConnReq->CMCSConnected
+3309495357mS CMCallEvt:    0000000000000000 0.1293683.0 -1 BaseEP: NEW CMEndpoint edf00078 TOTAL NOW=67 CALL_LIST=33
+3309495357mS CMCallEvt:    0000000000000000 0.1293683.0 -1 NoUser.-1: NEW CMExtnEndpoint edf00078, Name=NoUser, Extn=, Phys Extn=SipRecExtn
+3309495358mS CMCallEvt:    CREATE CALL:343773 (edf22b70)
+3309495358mS CMCallEvt:    0000000000000000 0.1293684.0 -1 BaseEP: NEW CMEndpoint ef1dceb0 TOTAL NOW=68 CALL_LIST=33
+3309495364mS CMCallEvt:    c0a864150013bd73 10000.1293683.0 343773 NoUser.13: REVCALL COMPLETE state=1 substate=2
+3309495364mS CMCallEvt:    c0a864150013bd73 10000.1293683.0 343773 NoUser.13: StateChange: END=A CMCSIdle->CMCSDialInitiated
+3309495365mS CMTARGET:     c0a864150013bd73 10000.1293683.0 343773 NoUser.13: LOOKUP CALL ROUTE: GID=0 type=141 called_party=c0a864150013bd5a sub= calling= calling_sub= dir=out complete=0 ses=0
+3309495365mS CMTARGET:     c0a864150013bd73 10000.1293683.0 343773 NoUser.13: ADD TARGET (N): number=c0a864150013bd5a type=141 depth=1 nobar=1 setorig=1 ses=0
+3309495365mS CMCallEvt:    0000000000000000 0.1293685.0 -1 BaseEP: NEW CMEndpoint ef07c8b0 TOTAL NOW=69 CALL_LIST=34
+3309495365mS CMCallEvt:    Listening by EPID target created ef07c8b0
+3309495365mS CMTARGET:     c0a864150013bd73 10000.1293683.0 343773 NoUser.13: CancelTimer CMTCDialToneTimeout
+3309495365mS CMTARGET:     c0a864150013bd73 10000.1293683.0 343773 NoUser.13: INITIAL TARGETING SUCCEEDED
+3309495365mS CMTARGET:     c0a864150013bd73 10000.1293683.0 343773 NoUser.13: GetNoAnswerTimer:15
+3309495365mS CMCallEvt:    c0a864150013bd73 10000.1293683.0 343773 NoUser.13: StateChange: END=A CMCSDialInitiated->CMCSDialling
+3309495365mS CMCallEvt:    0000000000000000 0.1293684.0 343773 TargetingEP: StateChange: END=B CMCSIdle->CMCSOffering
+3309495365mS CMCallEvt:    c0a864150013bd75 0.1293685.0 343773 ListeningEP : StateChange: END=T CMCSIdle->CMCSOffering
+3309495365mS CMCallEvt:    c0a864150013bd75 0.1293685.0 343773 ListeningEP : StateChange: END=T CMCSOffering->CMCSConnReq
+3309495365mS CMCallEvt:    0000000000000000 0.1293684.0 343773 TargetingEP: RequestEnd c0a864150013bd75 0.1293685.0 343773 ListeningEP 
+3309495365mS CMTARGET:     c0a864150013bd73 10000.1293683.0 343773 NoUser.13: CancelTimer CMTCNoAnswerTimeout
+3309495366mS CMCallEvt:    c0a864150013bd73 10000.1293683.0 343773 NoUser.13: StateChange: END=A CMCSDialling->CMCSOGConnReq
+3309495366mS CMCallEvt:    0000000000000000 0.1293684.0 -1 TargetingEP: StateChange: END=X CMCSOffering->CMCSDelete
+3309495366mS CMCallEvt:    0000000000000000 0.1293684.0 -1 BaseEP: DELETE CMEndpoint ef1dceb0 TOTAL NOW=68 CALL_LIST=34
+3309495366mS CMCallEvt:    ef07c8b0(c0a864150013bd75 0.1293685.0 343773 ListeningEP ) Beep off propagated to listening endpoint
+3309495764mS CMCallEvt:    c0a864150013bd34 10000.1293620.0 343754 NoUser.8: StateChange: END=A CMCSOGConnReq->CMCSCompleted
+3309495764mS CMCallEvt:    c0a864150013bd34 10000.1293620.0 -1 NoUser.-1: StateChange: END=X CMCSCompleted->CMCSDelete
+3309495764mS CMCallEvt:    c0a864150013bd36 0.1293622.0 -1 ListeningEP : StateChange: END=X CMCSConnReq->CMCSDelete
+3309495764mS CMCallEvt:    c0a864150013bd36 0.1293622.0 -1 BaseEP: DELETE CMEndpoint ef000018 TOTAL NOW=67 CALL_LIST=33
+3309495764mS CMCallEvt:    END CALL:343754 (edf295f8)
+3309495765mS CMTARGET:     c0a864150013bd34 10000.1293620.0 -1 BaseEP: ~CMTargetHandler edf0f290 ep ee8742e0
+3309495765mS CMCallEvt:    c0a864150013bd34 10000.1293620.0 -1 BaseEP: DELETE CMEndpoint ee8742e0 TOTAL NOW=66 CALL_LIST=33
+3309497966mS CMCallEvt:    0000000000000000 0.1293686.0 -1 BaseEP: NEW CMEndpoint ef0c1f50 TOTAL NOW=67 CALL_LIST=33
+3309497966mS CMCallEvt:    0000000000000000 0.1293686.0 -1 Extn6991.-1: NEW CMExtnEndpoint ef0c1f50, Name=Extn6991, Extn=6991, Phys Extn=6991
+3309497966mS CMCallEvt:    CREATE CALL:343774 (ee3508b8)
+3309497966mS CMCallEvt:    0000000000000000 0.1293687.0 -1 BaseEP: NEW CMEndpoint ef6dc650 TOTAL NOW=68 CALL_LIST=33
+3309497966mS CMCallEvt:    c0a864150013bd76 351.1293686.0 343774 Extn6991.6: StateChange: END=A CMCSIdle->CMCSDialInitiated
+3309497966mS CMTARGET:     c0a864150013bd76 351.1293686.0 343774 Extn6991.6: LOOKUP CALL ROUTE: GID=0 type=100 called_party=513 sub= calling=0017635794417@ipfonie.de calling_sub= dir=out complete=1 ses=0
+3309497966mS CMTARGET:     c0a864150013bd76 351.1293686.0 343774 Extn6991.6: ADD TARGET (N): number=513 type=100 depth=1 nobar=1 setorig=1 ses=0
+3309497966mS CMTARGET:     c0a864150013bd76 351.1293686.0 343774 Extn6991.6: SET USER: Extn513 orig=1
+3309497966mS CMTARGET:     c0a864150013bd76 351.1293686.0 343774 Extn6991.6: ADD USER: Extn513 depth=1 disallow_cw=0 dnd=0 real_call=1 group_call=0 type(CMNTypeDefault) incl(0x0) excpt(0x0), allow_redir(1) remote=00000000 simult 0 (0) r_lic=T
+3309497966mS CMCallEvt:    0000000000000000 0.1293688.0 -1 BaseEP: NEW CMEndpoint ee64bb18 TOTAL NOW=69 CALL_LIST=34
+3309497966mS CMCallEvt:    0000000000000000 0.1293688.0 -1 Extn513.-1: NEW CMExtnEndpoint ee64bb18, Name=Extn513, Extn=513, Phys Extn=513
+3309497967mS CMTARGET:     c0a864150013bd78 439.1293688.0 343774 Extn513.0: ADD PRIMARY
+3309497967mS CMTARGET:     c0a864150013bd76 351.1293686.0 343774 Extn6991.6: INITIAL TARGETING SUCCEEDED
+3309497967mS CMCallEvt:    c0a864150013bd76 351.1293686.0 343774 Extn6991.6: StateChange: END=A CMCSDialInitiated->CMCSDialled
+3309497967mS CMCallEvt:    0000000000000000 0.1293687.0 343774 TargetingEP: StateChange: END=B CMCSIdle->CMCSOffering
+3309497967mS CMCallEvt:    c0a864150013bd78 439.1293688.0 343774 Extn513.0: StateChange: END=T CMCSIdle->CMCSOffering
+3309497968mS CMCallEvt:    c0a864150013bd78 439.1293688.0 343774 Extn513.0: StateChange: END=T CMCSOffering->CMCSRinging
+3309497968mS CMCallEvt:    0000000000000000 0.1293687.0 343774 TargetingEP: StateChange: END=B CMCSOffering->CMCSRinging
+3309497968mS CMCallEvt:    c0a864150013bd76 351.1293686.0 343774 Extn6991.6: StateChange: END=A CMCSDialled->CMCSRingBack
+3309497983mS CMCallEvt:    NotifyEndpoint NOTIFIED:65303 Remaining=1 expire_secs=86400 method=0
+3309497983mS CMCallEvt:    NotifyEndpoint NOTIFIER:65304 Remaining=2 expire_secs=86400 method=0
+3309497983mS CMCallEvt:    CompleteTransferTo 'tgep' is consultation, 'this' is original
+3309497983mS CMTARGET:     TransferProposal: X_call: ID=343774 Aend=6991 -> 513
+3309497983mS CMTARGET:     TransferProposal: Y_call: ID=343771 Aend=0017635794417@ipfonie.de -> 6991
+3309497983mS CMTARGET:     Transfer weightings: xcall=0 ycall=9 xaend=-24 yaend=7 x_acd=00000000 y_acd=00000000
+3309497983mS CMTARGET:     Surviving Call=343771
+3309497983mS CMTARGET:     Goodbying Call=343774
+3309497983mS CMTARGET:     AEND 0017635794417@ipfonie.de -> 513 BEND
+3309497984mS CMCallEvt:    c0a864150013bd6f 351.1293679.0 343771 Extn6991.4: CompleteTransfer to 351.1293686.0 (c0a864150013bd76 351.1293686.0 343774 Extn6991.6) (Return @ 0ms -> null) ssdata 0
+3309497984mS CMCallEvt:    c0a864150013bd6f 351.1293679.0 -1 Extn6991.4: StateChange: END=X CMCSConnected->CMCSCompleted
+3309497984mS CMTARGET:     c0a864150013bd76 351.1293686.0 343774 Extn6991.6: ChangeOriginator: To c0a864150013bd6d 21.1293677.1 343771 SIPTrunk Endpoint
+3309497985mS CMCallEvt:    c0a864150013bd76 351.1293686.0 -1 Extn6991.6: StateChange: END=X CMCSRingBack->CMCSCompleted
+3309497985mS CMCallEvt:    c0a864150013bd76 351.1293686.0 -1 Extn6991.-1: StateChange: END=X CMCSCompleted->CMCSDelete
+3309497985mS CMCallEvt:    END CALL:343774 (ee3508b8)
+3309497986mS CMCallEvt:    c0a864150013bd76 351.1293686.0 -1 BaseEP: DELETE CMEndpoint ef0c1f50 TOTAL NOW=68 CALL_LIST=33
+
+********** SysMonitor v11.1.0.0.0 build 237 [connected to 192.168.100.21 (IPO11459PRI (Server Edition(P)) (Select))] **********
+3309500521mS SIP Rx: TCP 213.148.136.222:5060 -> 10.255.1.21:23588
+                    BYE sip:+49202251557999@10.255.1.21:5060;transport=tcp SIP/2.0
+                    Via: SIP/2.0/TCP 213.148.136.222:5060;branch=z9hG4bKe72357107g6rubf5t3b0.1
+                    From: "+492119562699" <sip:+492119562699@ipfonie.de;user=phone>;tag=SD21rr301-0UUHS0000030000E1D0302Yu0235FEJ1UV6IF1
+                    To: <sip:+49202251557999@ipfonie.de;user=phone>;tag=e0bcf55bfdb071a1
+                    Call-ID: SD21rr301-09cd8beb955054685b414326949ba5a8-l65h8l3
+                    CSeq: 38490 BYE
+                    Contact: <sip:00492119562699@213.148.136.222:5060;line=sr-N6IAzJd4z.VfM.quWBV6z.IyMBFlOBFZMJZfWxP7MBc-W.y6Mx1uN6KLH90vo6sIzwaL3RslNSQLpxuugUy*;transport=tcp>
+                    Max-Forwards: 68
+                    Reason: Q.850;cause=16;text="Normal call clearing"
+                    Content-Length: 0
+                    X-CID: bf15e00009f5-5edde336-601acd50-2720a5b8-a4a8dea-01
+                    
+3309500521mS SIP Tx: TCP 10.255.1.21:23588 -> 213.148.136.222:5060
+                    SIP/2.0 200 OK
+                    Via: SIP/2.0/TCP 213.148.136.222:5060;branch=z9hG4bKe72357107g6rubf5t3b0.1
+                    From: "+492119562699" <sip:+492119562699@ipfonie.de;user=phone>;tag=SD21rr301-0UUHS0000030000E1D0302Yu0235FEJ1UV6IF1
+                    Call-ID: SD21rr301-09cd8beb955054685b414326949ba5a8-l65h8l3
+                    CSeq: 38490 BYE
+                    Supported: timer
+                    Server: IP Office 11.0.4.2.0 build 58
+                    Content-Length: 0
+                    To: <sip:+49202251557999@ipfonie.de;user=phone>;tag=e0bcf55bfdb071a1
+                    
+3309500521mS CMCallEvt:    c0a864150013bd66 21.1293670.1 343769 SIPTrunk Endpoint: StateChange: END=A CMCSConnected->CMCSCompleted
+3309500522mS CMCallEvt:    c0a864150013bd66 21.1293670.1 -1 SIPTrunk Endpoint: StateChange: END=X CMCSCompleted->CMCSDelete
+3309500523mS CMCallEvt:    c0a864150013bd68 351.1293672.0 -1 Extn6991.-1: StateChange: END=X CMCSConnected->CMCSDelete
+3309500523mS CMCallEvt:    c0a864150013bd68 351.1293672.0 -1 BaseEP: DELETE CMEndpoint ef044860 TOTAL NOW=67 CALL_LIST=32
+3309500523mS CMCallEvt:    END CALL:343769 (ef014730)
+3309500524mS CMCallEvt:    c0a864150013bd66 21.1293670.1 -1 BaseEP: DELETE CMEndpoint ee642f78 TOTAL NOW=66 CALL_LIST=32
+3309500529mS CMCallEvt:    c0a864150013bd69 351.1293673.0 343770 Extn6991.2: StateChange: END=A CMCSRingBack->CMCSCompleted
+3309500530mS CMCallEvt:    c0a864150013bd69 351.1293673.0 -1 Extn6991.-1: StateChange: END=X CMCSCompleted->CMCSDelete
+3309500530mS SIP Tx: TCP 10.255.1.21:23588 -> 213.148.136.222:5060
+                    CANCEL sip:+491635050026@213.148.136.222;user=phone SIP/2.0
+                    Via: SIP/2.0/TCP 10.255.1.21:5060;rport;branch=z9hG4bKac149c31c60ac53cf449002a0cc02619
+                    From: "+4920225156991" <sip:+2119562699@213.148.136.222;user=phone>;tag=2768b99c238965f9
+                    To: <sip:+491635050026@213.148.136.222;user=phone>
+                    Call-ID: 066d7343b1a1314219c973b6272f636d
+                    CSeq: 201694420 CANCEL
+                    Max-Forwards: 70
+                    Proxy-Authorization: Digest username="108288707057",realm="qsc.de",nonce="Xt3kYl7d4zacWBE4yiPWWediJqAqVnVS",response="4e9bdd9b34ad2abb6b1842259bfe6feb",uri="sip:+491635050026@213.148.136.222;user=phone",algorithm=MD5,qop=auth,nc=000000
+03,cnonce="81fbb74ac6b2b92bc6a8"
+                    Allow: INVITE,ACK,CANCEL,OPTIONS,BYE,INFO,NOTIFY,UPDATE
+                    Supported: timer
+                    User-Agent: IP Office 11.0.4.2.0 build 58
+                    Reason: Q.850;cause=16;text="Normal call clearing"
+                    Content-Length: 0
+                    
+3309500530mS CMCallEvt:    c0a864150013bd6c 21.1293676.0 -1 SIPTrunk Endpoint: StateChange: END=X CMCSRinging->CMCSCompleted
+3309500530mS CMCallEvt:    END CALL:343770 (ef02bb60)
+3309500530mS CMTARGET:     c0a864150013bd69 351.1293673.0 -1 BaseEP: ~CMTargetHandler ee62aa88 ep ef4abb70
+3309500530mS CMCallEvt:    c0a864150013bd69 351.1293673.0 -1 BaseEP: DELETE CMEndpoint ef4abb70 TOTAL NOW=65 CALL_LIST=31
+3309500640mS SIP Rx: TCP 213.148.136.222:5060 -> 10.255.1.21:23588
+                    SIP/2.0 200 OK
+                    Via: SIP/2.0/TCP 10.255.1.21:5060;received=87.234.29.147;branch=z9hG4bKac149c31c60ac53cf449002a0cc02619;rport=23588
+                    From: "+4920225156991" <sip:+2119562699@213.148.136.222;user=phone>;tag=2768b99c238965f9
+                    To: <sip:+491635050026@213.148.136.222;user=phone>;tag=SDt9k5c99-slg1l5th-CC-52
+                    Call-ID: 066d7343b1a1314219c973b6272f636d
+                    CSeq: 201694420 CANCEL
+                    Content-Length: 0
+                    
+3309500687mS SIP Rx: TCP 213.148.136.222:5060 -> 10.255.1.21:23588
+                    SIP/2.0 487 Request Terminated
+                    Via: SIP/2.0/TCP 10.255.1.21:5060;received=87.234.29.147;branch=z9hG4bKac149c31c60ac53cf449002a0cc02619;rport=23588
+                    From: "+4920225156991" <sip:+2119562699@213.148.136.222;user=phone>;tag=2768b99c238965f9
+                    To: <sip:+491635050026@213.148.136.222;user=phone>;tag=SDt9k5c99-slg1l5th-CC-52
+                    Call-ID: 066d7343b1a1314219c973b6272f636d
+                    CSeq: 201694420 INVITE
+                    Warning: 399 SoftX3000 "SS030001F00156L00817[00000] Cancel received from network"
+                    Content-Length: 0
+                    
+3309500687mS SIP Tx: TCP 10.255.1.21:23588 -> 213.148.136.222:5060
+                    ACK sip:+491635050026@213.148.136.222;user=phone SIP/2.0
+                    Via: SIP/2.0/TCP 10.255.1.21:5060;rport;branch=z9hG4bKac149c31c60ac53cf449002a0cc02619
+                    From: "+4920225156991" <sip:+2119562699@213.148.136.222;user=phone>;tag=2768b99c238965f9
+                    To: <sip:+491635050026@213.148.136.222;user=phone>;tag=SDt9k5c99-slg1l5th-CC-52
+                    Call-ID: 066d7343b1a1314219c973b6272f636d
+                    CSeq: 201694420 ACK
+                    Max-Forwards: 70
+                    Proxy-Authorization: Digest username="108288707057",realm="qsc.de",nonce="Xt3kYl7d4zacWBE4yiPWWediJqAqVnVS",response="0f556ed6b5f7d018c057686211c08524",uri="sip:+491635050026@213.148.136.222;user=phone",algorithm=MD5,qop=auth,nc=000000
+04,cnonce="17f60ef4fe1adfde6242"
+                    Allow: INVITE,ACK,CANCEL,OPTIONS,BYE,INFO,NOTIFY,UPDATE
+                    User-Agent: IP Office 11.0.4.2.0 build 58
+                    Content-Length: 0
+                    
+
+
+********** Warning: Logging to Screen Stopped **********
