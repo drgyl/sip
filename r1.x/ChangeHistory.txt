@@ -1,0 +1,495 @@
+11/09/2022 - r1.0.2 had been released to Public with following collection of scripts:
+
+trace11xx.sh   traceADA.sh   traceBREEZE.sh  traceEP.sh     traceMX.sh      traceVDIC.sh
+trace1XCES.sh  traceAMS.sh   traceBRIA.sh    traceIPO.sh    tracePCAP.sh    traceWP.sh
+trace96x1.sh   traceASM.sh   traceCBA.sh     traceIVIEW.sh  tracePhoner.sh  traceXT.sh
+traceAAC.sh    traceATTD.sh  traceCC.sh      traceIXM.sh    traceRC.sh
+traceAAFD.sh   traceB169.sh  traceCIE.sh     traceK1xx.sh   traceSBC.sh
+traceAAM.sh    traceB179.sh  traceCM.sh      traceMCU.sh    traceSES.sh
+traceAAWG.sh   traceB199.sh  traceCU360.sh   traceMEGA.sh   traceSIPP.sh
+
+11/10/2022 - r1.0.2.1
+
+- some linux environment includes 'base64' program which does not accept "--version" option
+    1-liner added to workaround this with existing '-b' option
+- traceAMS.sh    
+    BugFix: missing [ in start_sipmsg()]    
+    BugFix: date/time conversion was omitted for vsyslog=20 scenario
+    BugFix: direction was not identified for vsyslog=19 scenario
+    Enhancement: improved conversion logic with re-written semaphore states
+    Enhancement: accept compressed logfiles (eg sipmcDebug.txt.gz)
+
+
+11/11/2022 - r1.0.2.2
+- Enhancement: alternative distribution link introduced
+    http://toolsa.sd.avaya.com/~lgyalog/SIPlog2traceSM.tgz
+- Enhancement: failsafe sipmsg_header() against missing sipdate, siptime or IP
+- BugFix: safeguard missing 'tshark'
+to install the latest version on Ubuntu 16.04 or 17.04 use the following commands to add the package repository:
+sudo add-apt-repository ppa:dreibh/ppa sudo apt-get update && sudo apt-get install wireshark tshark
+- traceAMS.sh
+    Enhancement: allow ignoring INFO SIP messages
+??? TODO   Enhancement: accept compressed logfiles (eg sipmcDebug.txt.gz or sipmcDebug.txt.Z)    
+- traceCM.sh
+    Enhancement: accept compressed logfiles (eg sipmcDebug.txt.gz)
+    Enhancement: allow ignoring INFO SIP messages
+    Enhancement: let raw MST get converted into all three output formats    
+    BugFix: replace 'cut' with 'awk' to properly grab timestamp, ipaddr and port
+- trace96x1.sh
+    BugFix: replace 'cut' with 'awk' in get_sip_datatime() for tftpd64 (8) syslog
+    Enhancement: detect reversed syslog (eg VisualSyslog or Interactive Syslog) and convert it using 'tac' command
+- traceB179.sh:
+    BugFix: replaced '} with }' for couple of awk commands
+- traceB199.sh:
+    BugFix: corrected siplength, siptime and IP address calculation
+    BugFix: sipstream was undefined in sip_direction
+- tracePCAP.sh
+    Enhancement: provide tips if found syslog, based on User-Agent strings, which other traceXXX.sh script could be utilized with this input file
+    Enhancement: a packet can include multiple SIP messages (eg. Continuation)
+- NewFeature: added Konftel 300IP/300IPx into traceB179.sh (introduced vsyslog=30 when there is no 'konfsip' string)
+- NewFeature: added Konftel 800 into traceB199.sh (introduced vsyslog=30 when there is no 'konfsip' string)
+- NewFeature: created traceD200.sh for D200 DECT gateways    
+- NewFeature: created traceACME.sh for ACME SBC
+- NewFeature: traceVDIC.sh and trace96x1.sh now supporting 1x Agent's EndpointLog.txt (special SIPMESSAGE format: "End of inbound/outbound SIP message")
+>>> - !!! Enhancement: speed up conversion loop by adding "if $insidesip == 0 then continue" where it is applicable
+- Enhancement: longest SIP msg statistics now shows SIP REQUEST strings
+- Enhancement: on report screen, show timestamp of first/last SIP message
+- Enhancement: added exception management to the 'date' command
+- traceVDI.sh:
+    Enhancement: display the Workplace VDI firmware version string on the stat screen
+    Enhancement: adding to message number indicator if SIP msg was split
+- traceAAfD.sh:
+    Enhancement: implement -A and -C options (convert All files found in logreport and Concatenate outputfiles)
+    BugFix: correct SIPmessage filter from DBH \[.*\] SIGNAL" to "DBH \[.*SIGNAL"
+    TODO: Enhancement process AvayaAgentLogs.zip including LogsFromUserDir.zip and LogsFromDefaultDir.zip
+- traceAAC.sh
+    Enhancement: modified script to convert AS5300 SIP logfiles (vsyslog=7)
+>>>    **Enhancement: detect "Content-Encoding: gzip" and decode() similar to Base64 dumps)
+    BugFix: improve detection of SIP msg ending + get rid of bogus ^SIP/2.0 lines at end of messages
+- traceIPO.sh:
+    BugFix: universal time was not extracted properly from msg header
+    Enhancement: assigned last 3 digits of 3309492437mS to msec variable in timestamp, instead of currently using "000"
+
+
+==================
+I'm pleased to announce the release of SIPlog2traceSM version 2.0.  This
+version was going to be called version 1.0.2, but so much has changed
+that it seemed like a good time to bump the minor version number. It's
+more than just a bug-fix release!
+======================================================
+
+
+TODO: using -A concatenate all files in chronological order to a single .asm file (due to traceSM not displaying multiple files in chronological order)
+
+TODO: improve detection of base64, unzip, tar, file using --help instead of --version
+
+TODO: detect awk supporting source input via -e or -W (AWKSRCFLAG)
+
+TODO: # Find a useable awk
+for AWK in /usr/bin/gawk /usr/bin/nawk gawk-nawk-command-not-found
+do
+	[ -x "$AWK" ] && break
+done
+
+
+TODO: add detection of "file" utility (could be missing in BusyBox environment such as MobaXterm)
+Mobaxterm: file A175debugreport_1_group63_bad.tar.gz
+A175debugreport_1_group63_bad.tar.gz: openssl enc'd data with salted password
+
+Cygwin/Ubuntu: $ file A175debugreport_1_group63_bad.tar.gz
+A175debugreport_1_group63_bad.tar.gz: data                            
+
+TODO: add '-s timestamp/-d date' option which will let conversion of SIPMESSAGES starting at given timestamp
+TODO: improve destination filename construction. example: ./trace96x1.sh av*.log generates avaya_phone-avaya_phone.log.asm
+DONE: trace96x1 accepts .tar as well as .tar.gz
+DONE: trace96x1 - if input was phonereport and no SIP messages found, then grep and print LOG_CATEGORY in configcache.xml and ConfigStatus_Web_Debugging.xml file
+TODO: find out decoding for Content-Encode: gzip/deflate and implement in all scripts
+ The zlib-flate program is part of the qpdf package.
+
+TODO: fixVSYSLOG=0 (like in trace96x1) when "-v" option is available
+
+TODO: replace n=n+1 with n += 1 or n++ - verify syntact at tlpd.org (by default, += handles var as string)
+    done: n=$((n+1)) is faster then let n++
+
+>>>TODO: if $filecontent==ASCII text then ==> if $filecontent==ASCII text || $filecontent == data then (due to Content-Encoding making text as data)
+
+traceCBA.sh
+Bugfix: two types of timestamps existing
+traceEP.sh:
+Bugfix: SIP message filter correction: |SIP|.*|FileName=sip/
+
+traceMEGA.sh:
+BugFix: complete_sipmsg exclue >>>>>>>
+Enhancement: vsyslog=43 TFS logtype
+
+traceXT.sh + traceCU360.sh:
+Bugfix: calculate $rec correctly, ignore sent/recv H323 lines
+
+traceMCU.sh:
+Bugfix: sipmsec with cut results in garbage, replaced cut with awk
+
+TODO: traceMCU.sh does not process MCU_LOG_*.log files, due to SIP msg does not start with MSGBUILDER
+
+TODO: strip off whitespaces from end of $sipword
+
+TODO: avg SIP msg rate, total time siplength
+
+TODO: detect .tgz input file as valid traceSM file and refer user to turn to 'traceSM" with this file
+
+TODO: traceCM accept .gz or tar.gz input
+done
+TODO: accept CM logfile, extrace MST like 'logmst' does
+done
+
+TODO: accept input folder instead of filename
+
+TODO: error: file Wo*.log was not found. ==> error:: no files found matching to Wo*.log
+
+TODO: when executing traceXXX.sh Ucc*, it can also input the newly created Ucc*.log.asm files.  Recognize if input is a .asm file.
+
+TODO: find call with "caller ANI", eg allow -F number.  Find a SIP call with ANI and print on result: Found call with ANI at timestamp, callID=traceXXX
+
+TODO: Task started: ==> \tTask started:
+
+TODO:         First msg: REGISTER 01/24/2023 11:40:40:406      Last msg: 481 Call/Transaction Does Not Exist 01/24/2023 11:41:55:978
+if length(firstmsg) > 45 || lastmsg > 45 then echo \tfirstmsg; echo \tlastmsg else echo \tfist msg\tlastmsg; fi
+
+DONE: trace96x1.sh: when syslog extraction from PCAP, add to SED filtering: replace &lt;/&gt; with <>
++ vsyslog == 0 | error==3 && vsyslog != 11 --> unknown format
+
+DONE: trace96x1.sh: extracting syslog from PCAP, vsyslog=11 --> vsyslog=2
+
+>>> TODO: do the same for traceVDIC.sh
+
+
+TODO: from 96x1 syslog, extract PPMMESSAGE: from syslog & http, stick split Parts, convert &lt;/&gt; to '<>'
+
+TODO: from WP logs, extract PPMMESSAGE and convert to readable format eg. &lt;&gt;
+
+TODO: from VDIC logfolder/zip, extract PPMMESSAGE
+
+TODO: doc on CM8.x+ or SM8.x+, ./traceXXX.sh gets permission deined.  Solution: bash traceXXX.show
+
+TODO: implement conversion of syslog SIP for AURORA/SBCE. Need to collect syslog text and pcap from SBC r8.1.3 or later
+    AURORA-25491 Enable Syslog Feed into Enhanced SIP Tracer tool (AS-229 addon)
+    AURORA-25492 Configuring syslog for traceSBC SIP and PPM
+    AURORA-25493 syslog SIP and PPM traffic based on the configuration 
+
+TODO: accept DataDog input for traceSBC
+
+TODO: enhance SIP statistics similar to Wireshark Telephony->SIP->Create state
+
+TODO: provide log config related hint if no SIP msg found in input file
+				echo "Possible that debug/verbose diagnostic mode was not enabled."
+				echo ''; egrep -m 1 "SET LOG_VERBOSITY" "$file"
+
+TODO: for traceAAFD.sh, noticed for H323 logreport: AvayaAgentLogs 13 January 2023.zip, it included both LogsFromDefaultDir.zip and LogsFromUserDir.zip - is this the case for SIP?  which .zip includes the SIP logs? both?
+
+TODO: traceVDIC.sh: from Finanz, Germany, VDI log shows date with non-Ascii, four letter month
+<166>MăÄr 02 11:32:12 0.0.0.0 SIPMESSAGE: +01:00 2023 923 1 .TEL | 0 Outbound SIP message to 17.237.195.19:5061
+problem is with egrep, it considers such file as binary
+need to execute grep/egrep with -a option.  But then <166>MăÄr becomes <166>Mr where
+0000000 030474 033066 046476 142343 005162
+0000012
+drgyl@LABVM530:~/cygwin/traces/szalay/FI-callhistipaddr$ od -c <<< $sampy
+0000000   <   1   6   6   >   M 343 304   r  \n
+0000012
+
+TODO: general - Firstmsg/Lastmsg, if it is 200OK, should show Cseq worked (200OK Cseq:: X INFO)
+TODO: general - when creating $newfile or $ctarget, if file exists then move to bak instead of remove
+TODO: general - support bzip2 compressed input, eg iGEL testLogs.tar.bzip2
+$ file testLogs.tar.bz2
+testLogs.tar.bz2: bzip2 compressed data, block size = 900k
+cygwinubuntu: $ bzip2
+bzip2: I won't write compressed data to a terminal.
+bzip2: For help, type: `bzip2 --help'.
+
+TODO: traceWP.sh: for ACW, what if no UCCLog*.log were found - shall we look up "*UccLog.*log" ??
+3f04e5d6-c9b0-44d6-a653-63d91fd34ba4UccLog.2023-03-04.1.log
+52c7731e-4728-48cc-a2ba-e829c683d2d1UccLog
+
+TODO: traceMEGA.sh: accept new logfile format TFS - see MEGA2023*.log
+
+TODO: create real temp files using mktemp/mktemp -d
+
+TODO: when executing traceXXX.sh MST*, ignore input if file is a text format, filename ends with "*.asm"  and first line starts with "# This file had been created by"
+
+TODO: file -Z illegal on SM8.0.1 - has to check -z instead and adjust in all scripts...
+
+TODO: sarai new Cygwin, traceWP.sh shows grep warnings upon converting UccLog.log file
+    grep: warning: stray \ before white spaceby
+    grep: warning: stray \ before -
+    his Grep version 3.10 -> enyem 3.1
+    his Bash version 5.2.15(3) -> enyem 4.4.19(1)
+
+TODO: traceWP.sh with the input: 'Logs 2023-05-16 13-53-23-300.zip'
+
+TODO: traceWP.sh accept logs from testapp & testrunner
+
+TODO: traceATTD: can extract local IP address and use in vouput=3 scenario
+2023-04-04 09:13:00.760 [13044] Debug Socket (4500)'s local IP address: tls://10.39.88.150:60534
+
+TODO: ASM native logfile as input - see ASM-51542v4-CM51284.log
+
+TODO: on SM Release: 8.0.1.2.801204, using voutput=3, eg traceCM and traceIPO, traceSM v3.31 shows only first SIP msg.  wrkaround: use "-f 1"
+8.0.1.2.801204 /traceSM V3.31 is bad, Release: 8.0.1.0.801007 / traceSM V3.31 is good
+
+TODO: https://jira.forge.avaya.com/browse/AURORA-25491
+Today, when we need to troubleshoot a SIP call, we have to collect logs from the various applications that the SIP call traverses, i.e. SBC, SM, CM, etc. Our goal is to create a single tool that will aggregate the SIP messages from all the various applications, and normalize it into a common SIP trace, and then present it in a ladder diagram.
+There is a JIRA being worked right now in the Aura Solution side, AS-229, for this tool. There is a requirement that all ASBCEs sent their SIP traffic to this centralized repository, which is the scope of this Feature. The first phase of this tool will include feeds from CM, SM and ASBCE
+https://jira.forge.avaya.com/browse/AURASOLTN-229
+Trace SM/SIP Tracer Merge (Comprehensive SIP Troubleshooting tool)
+
+TODO: ls -ctr PPM* sorts files in creation order under cygwin fine, but sorting is different on Mobaxterm - check in other trace*.sh where -A is supported, how does sorting work in Mobaxterm
+
+SM10.1 tshark:
+TShark (Wireshark) 2.6.2 (v2.6.2)
+
+TODO: how to extract http from pcap using tshark
+option1: tshark -r ade_test1_8811101.pcapng -S=== -2Y "xml" -t ad -T fields -E separator="#" -e http.file_data | sed 's/<SOAP-ENV:Envelope/\n\n\<SOAP-ENV:Envelope/g' | sed 's/<soapenv:Envelope/\n\n\<soapenv:Envelope/g' | se d 's/&gt;&lt;/\>\n\</g' | sed 's/&lt;/\</g' | sed 's/&gt;/\>/g' | sed 's/^&lt;/\</g' | sed 's/&gt;$/\>/g' |  sed 's/\\r\\n/\n/g' >ade-xml.txt 
+almost good, except it does not include packet data from "Continuation" frames from HTTP stream
+tshark -r ade_test1_8811101.pcapng -S=== -2Y "xml" -t ad -T fields -E separator="#" -e http.file_data | sed 's/&gt;&lt;/\>\n\</g' | sed 's/&lt;/\</g' | sed 's/&gt;/\>/g' | sed 's/^&lt;/\</g' | sed 's/&gt;$/\>/g' |
+sed 's/\\r\\n/\n/g' >ade-xml.txt
+
+Follow tcp/http stream:
+google says: "tcpfollow" - but not included in Wireshark r4.0.2 installation on Windows
+
+tshark -q -r ../ade_test1_8811101.pcapng -S=== -2Y "http" -z "follow,http,ascii,135.105.129.244:51648,10.134. 117.194:80" >ade-z2.txt 
+tshark -q -r ../ade_test1_8811101.pcapng -S=== -2Y "http" -z "follow,http,ascii,6" >ade-z1.txt 
+tshark -q -r ../ade_test1_8811101.pcapng -z "follow,http,ascii,6" >ade-z6.txt
+
+to find out http stream index:
+
+tshark -r ../ade_test1_8811101.pcapng -2Y "http" -T fields -e tcp.stream | sort -u
+
+or
+
+for stream in tshark -r followtcp.pcap -R "ip.addr eq 127.0.0.1 and tcp.port eq 5678" -T fields -e tcp .stream | sort -n -u; do echo Stream: $stream; tshark -r followtcp.pcap -q -z follow,tcp,raw,$stream; done
+
+for stream in 'tshark -r "$filename" -2 -R "tcp and (http.request or http.response)" -T fields -e tcp.stream | sort -n | uniq'; do
+    tshark -q -r "$filename" -z follow,tcp,ascii,$stream;
+done;
+
+or
+
+https://github.com/simsong/tcpflow
+
+A common use of tcpflow is to reveal the contents of HTTP sessions. Using tcpflow you can reconstruct web pages downloaded over HTTP. You can even extract malware delivered as 'drive-by downloads.'
+debian/Ubuntu:          sudo apt-get install tcpflow
+Fedore/RedHat/CentOS:   sudo dnf install tcpflow
+
+Cygwin:
+ tcpflow -v
+C:\Program Files\Wireshark\tcpflow.exe: TCPFLOW version 1.4.4
+pcap_fake.cpp:pcap_lookupdev: tcpflow was compiled without LIBPCAP. Will not live capture.
+C:\Program Files\Wireshark\tcpflow.exe:  ÷§☻
+
+Ubuntu:
+tcpflow: TCPFLOW version 1.4.5
+tcpflow: eth0: socket: Invalid argument
+
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following additional packages will be installed:
+  libcairo2 libhttp-parser2.1 libpixman-1-0 libxcb-render0 libxcb-shm0
+The following NEW packages will be installed:
+  libcairo2 libhttp-parser2.1 libpixman-1-0 libxcb-render0 libxcb-shm0 tcpflow
+0 upgraded, 6 newly installed, 0 to remove and 74 not upgraded.
+Need to get 1,066 kB of archives.
+After this operation, 2,934 kB of additional disk space will be used
+
+Get:1 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libhttp-parser2.1 amd64 2.1-2 [18.2 kB]
+Get:2 http://archive.ubuntu.com/ubuntu xenial/main amd64 libpixman-1-0 amd64 0.33.6-1 [231 kB]
+Get:3 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-render0 amd64 1.11.1-1ubuntu1 [11.4 kB]
+Get:4 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-shm0 amd64 1.11.1-1ubuntu1 [5,588 B]
+Get:5 http://archive.ubuntu.com/ubuntu xenial/main amd64 libcairo2 amd64 1.14.6-1 [555 kB]
+Get:6 http://archive.ubuntu.com/ubuntu xenial-updates/universe amd64 tcpflow amd64 1.4.5+repack1-1ubuntu0.1 [244 kB]
+Fetched 1,066 kB in 13s (78.9 kB/s)
+Selecting previously unselected package libhttp-parser2.1:amd64.
+(Reading database ... 30217 files and directories currently installed.)
+Preparing to unpack .../libhttp-parser2.1_2.1-2_amd64.deb ...
+Unpacking libhttp-parser2.1:amd64 (2.1-2) ...
+Selecting previously unselected package libpixman-1-0:amd64.
+Preparing to unpack .../libpixman-1-0_0.33.6-1_amd64.deb ...
+Unpacking libpixman-1-0:amd64 (0.33.6-1) ...
+Selecting previously unselected package libxcb-render0:amd64.
+Preparing to unpack .../libxcb-render0_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb-render0:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package libxcb-shm0:amd64.
+Preparing to unpack .../libxcb-shm0_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb-shm0:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package libcairo2:amd64.
+Preparing to unpack .../libcairo2_1.14.6-1_amd64.deb ...
+Unpacking libcairo2:amd64 (1.14.6-1) ...
+Selecting previously unselected package tcpflow.
+Preparing to unpack .../tcpflow_1.4.5+repack1-1ubuntu0.1_amd64.deb ...
+Unpacking tcpflow (1.4.5+repack1-1ubuntu0.1) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up libhttp-parser2.1:amd64 (2.1-2) ...
+Setting up libpixman-1-0:amd64 (0.33.6-1) ...
+Setting up libxcb-render0:amd64 (1.11.1-1ubuntu1) ...
+Setting up libxcb-shm0:amd64 (1.11.1-1ubuntu1) ...
+Setting up libcairo2:amd64 (1.14.6-1) ...
+Setting up tcpflow (1.4.5+repack1-1ubuntu0.1) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+
+https://calhoun.nps.edu/handle/10945/36026
+
+or
+
+https://noahdavids.org/self_published/tshark-follow-stream.html
+
+===================================================================
+Follow: http,ascii
+Filter: tcp.stream eq 6
+Node 0: 135.105.129.244:51648
+Node 1: 10.134.117.194:80
+325
+POST /axis/services/PPM HTTP/1.1^M
+Host: 10.134.117.194^M
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0) AVAYA/J189-4.0.10.2.2 (MAC:c81feacf7591)^M
+Accept: */*^M
+SOAPAction: getHomeServer^M
+Content-type: text/xml; charset="UTF-8"^M
+Accept-Language: en^M
+Pragma: no-cache^M
+Cache-Control: no-cache^M
+Expires: 0^M
+Content-Length: 442^M
+^M
+
+442
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/">^M
+<soapenv:Body>^M
+<ns1:getHomeServer xmlns:ns1="http://xml.avaya.com/service/ProfileManagement/112004">^M
+<handle>8811101@lab.bud.avaya.com</handle>^M
+</ns1:getHomeServer>^M
+</soapenv:Body>^M
+</soapenv:Envelope>^M
+
+        712
+HTTP/1.1 401 Unauthorized^M
+Server: web^M
+Date: Fri, 11 Feb 2022 14:57:20 GMT^M
+Content-Type: text/xml;charset=utf-8^M
+Content-Length: 305^M
+Connection: keep-alive^M
+Accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2^M
+WWW-Authenticate: Digest realm="lab.bud.avaya.com", qop="auth", nonce="MTA2NTE5MDQyMjQ6ZjkzNTI2NmZjNGUyZjFmMzE4ZWI3YjI5MjM3YzkyNzQ=", algorithm=MD5^M
+SOAPAction: "getHomeServer"^M
+
+https://www.wireshark.org/docs/man-pages/tshark.html
+
+-z follow,prot,mode,filter[,range]
+
+    Displays the contents of a TCP or UDP stream between two nodes. The data sent by the second node is prefixed with a tab to differentiate it from the data sent by the first node.
+
+    prot specifies the transport protocol. It can be one of:
+
+    tcp   TCP
+    udp   UDP
+    dccp  DCCP
+    tls   TLS or SSL
+    http  HTTP streams
+    http2 HTTP/2 streams
+    quic  QUIC streams
+
+    Note
+    	While the usage help presents sip as an option, the proper stream filters are not implemented so SIP calls cannot be followed in TShark, only in Wireshark.
+
+    mode specifies the output mode. It can be one of:
+
+    ascii  ASCII output with dots for non-printable characters
+    ebcdic EBCDIC output with dots for non-printable characters
+    hex    Hexadecimal and ASCII data with offsets
+    raw    Hexadecimal data
+    yaml   YAML format
+
+    Since the output in ascii or ebcdic mode may contain newlines, the length of each section of output plus a newline precedes each section of output.
+
+    filter specifies the stream to be displayed. There are three formats:
+
+    ip-addr0:port0,ip-addr1:port1
+    stream-index
+    stream-index,substream-index
+
+    The first format specifies IP addresses and TCP, UDP, or DCCP port pairs. (TCP ports are used for TLS, HTTP, and HTTP2; QUIC does not support address and port matching because of connection migration.)
+
+    The second format specifies stream indices, and is used for TCP, UDP, DCCP, TLS, and HTTP. (TLS and HTTP use TCP stream indices.)
+
+    The third format, specifying streams and substreams, is used for HTTP/2 and QUIC due to their use of multiplexing. (TCP stream and HTTP/2 stream indices for HTTP/2, QUIC connection number and stream ID for QUIC.)
+
+    range optionally specifies which "chunks" of the stream should be displayed.
+
+    Example: -z "follow,tcp,hex,1" will display the contents of the second TCP stream (the first is stream 0) in "hex" format.
+    Example: -z "follow,tcp,ascii,200.57.7.197:32891,200.57.7.198:2906" will display the contents of a TCP stream between 200.57.7.197 port 32891 and 200.57.7.98 port 2906.
+    Example: -z "follow,http2,hex,0,1" will display the contents of a HTTP/2 stream on the first TCP session (index 0) with HTTP/2 Stream ID 1.
+
+
++++++++  file command investigation ++++++++++
+      Release: 8.0.1.2.801204
+[craft@ovirtasm1 Servando]$ bash --version
+GNU bash, version 4.2.46(2)-release (x86_64-redhat-linux-gnu)
+Copyright (C) 2011 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later http://gnu.org/licenses/gpl.html
+
+[craft@ovirtasm1 Servando]$ traceSM -h
+traceSM V3.31
+
+
+[craft@ovirtasm1 Servando]$ bash traceCM.sh laszlo_MST1_Test-18Ene2023a.m
+file: invalid option -- 'Z'_MST1_Test-18Ene2023a.m... stand by
+Usage: file [-bchikLlNnprsvz0] [--apple] [--mime-encoding] [--mime-type]
+            [-e testname] [-F separator] [-f namefile] [-m magicfiles] file ...
+       file -C [-m magicfiles]
+       file [--help]
+
+[craft@ovirtasm1 Servando]$ file --help
+Usage: file [OPTION...] [FILE...]
+Determine type of FILEs.
+
+      --help                 display this help and exit
+  -v, --version              output version information and exit
+  -m, --magic-file LIST      use LIST as a colon-separated list of magic
+                               number files
+  -z, --uncompress           try to look inside compressed files
+  -b, --brief                do not prepend filenames to output lines
+  -c, --checking-printout    print the parsed form of the magic file, use in
+                               conjunction with -m to debug a new magic file
+                               before installing it
+  -e, --exclude TEST         exclude TEST from the list of test to be
+                               performed for file. Valid tests are:
+                               ascii, apptype, compress, elf, soft, tar, tokens, troff
+  -f, --files-from FILE      read the filenames to be examined from FILE
+  -F, --separator STRING     use string as separator instead of `:'
+  -i, --mime                 output MIME type strings (--mime-type and
+                               --mime-encoding)
+      --apple                output the Apple CREATOR/TYPE
+      --mime-type            output the MIME type
+      --mime-encoding        output the MIME encoding
+  -k, --keep-going           don't stop at the first match
+  -l, --list                 list magic strength
+ -L, --dereference          follow symlinks (default)
+  -h, --no-dereference       don't follow symlinks
+  -n, --no-buffer            do not buffer output
+  -N, --no-pad               do not pad output
+  -0, --print0               terminate filenames with ASCII NUL
+  -p, --preserve-date        preserve access times on files
+  -r, --raw                  don't translate unprintable chars to \ooo
+  -s, --special-files        treat special (block/char devices) files as
+                             ordinary ones
+  -C, --compile              compile file specified by -m
+  -d, --debug                print debugging messages
+
+Cygwin:
+$ file -Z
+Usage: file [-bcEhikLlNnprsvzZ0] [--apple] [--extension] [--mime-encoding] [--mime-type]
+            [-e testname] [-F separator] [-f namefile] [-m magicfiles] file ...
+       file -C [-m magicfiles]
+       file [--help]
+  -z, --uncompress           try to look inside compressed files
+  -Z, --uncompress-noreport  only print the contents of compressed files
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

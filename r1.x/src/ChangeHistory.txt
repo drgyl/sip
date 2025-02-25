@@ -1,0 +1,23 @@
+11/09/2022 - r1.0.2 had been released to Public with following collection of scripts:
+
+trace11xx.sh   traceADA.sh   traceBREEZE.sh  traceEP.sh     traceMX.sh      traceVDIC.sh
+trace1XCES.sh  traceAMS.sh   traceBRIA.sh    traceIPO.sh    tracePCAP.sh    traceWP.sh
+trace96x1.sh   traceASM.sh   traceCBA.sh     traceIVIEW.sh  tracePhoner.sh  traceXT.sh
+traceAAC.sh    traceATTD.sh  traceCC.sh      traceIXM.sh    traceRC.sh
+traceAAFD.sh   traceB169.sh  traceCIE.sh     traceK1xx.sh   traceSBC.sh
+traceAAM.sh    traceB179.sh  traceCM.sh      traceMCU.sh    traceSES.sh
+traceAAWG.sh   traceB199.sh  traceCU360.sh   traceMEGA.sh   traceSIPP.sh
+
+11/10/2022 - r1.0.2.1
+
+- some linux environment includes 'base64' program which does not accept "--version" option
+    1-liner added to workaround this with existing '-b' option
+- fixing traceAMS.sh    
+    - missing [ in start_sipmsg()]    
+    - date/time conversion was omitted for vsyslog=20 scenario
+    - direction was not identified for vsyslog=19 scenario
+    - improved conversion logic with re-written semaphore states
+    - new enhancement: handle compressed logfiles (eg sipmcDebug.txt.gz)
+.
+
+

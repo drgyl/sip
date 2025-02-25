@@ -1,0 +1,12 @@
+11/09/2022 - r1.0.2
+
+Refer to README for detailed description of this tool.
+
+Advisement:
+
+- to be able to convert ZIP files, may need to deploy 'unzip' package 
+- to be able to convert PCAP files, may need to deploy 'tshark' package 
+
+Knonw issues:
+
+- traceVDIC.sh has known issues processing compressed (zip) files
